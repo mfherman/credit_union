@@ -9,7 +9,7 @@ fdic_sod <- read_csv("./data/fdic_sod_2017.csv", col_types = cols(.default = "c"
 atlanta_msa <- c("Fulton", "DeKalb", "Gwinnett", "Cobb", "Clayton",
                  "Coweta", "Douglas", "Fayette", "Henry")
 
-# clean up, filter atl banks, convert to sf
+# clean up names, filter atl banks, select vars, convert to sf
 fdic_clean <- fdic_sod %>%
   clean_names() %>%
   filter(cntynamb %in% atlanta_msa & stalpbr == "GA") %>%
@@ -23,8 +23,12 @@ fdic_clean <- fdic_sod %>%
     agr = "constant",
     crs = 4326,
     stringsAsFactors = TRUE,
-    remove = FALSE
+    remove = FALSE,
+    na.fail = TRUE
     )
+
+# beware, some of these lat/longs are not great
+# probably should geocode address as well
 
 # write geojson and csv
 st_write(fdic_clean, "./output/fdic_clean.geojson")
