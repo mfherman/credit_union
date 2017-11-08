@@ -74,6 +74,14 @@ tm_shape(atl_tract_stat) +
     style = "jenks"
     )
 
-# write to geojson and shp
+# write to geojson
 st_write(atl_tract_stat, "./output/atl_tract.geojson", delete_dsn = TRUE)
-st_write(atl_tract_stat, "./output/atl_tract.shp", delete_dsn = TRUE)
+
+# write to shp
+dir.create("./output/atl_tract")
+st_write(atl_tract_stat, "./output/atl_tract/atl_tract.shp")
+
+# zip up shp files
+atl_shp <- dir("./output/atl_tract", full.names = TRUE)
+zip(zipfile = "./output/atl_tract.zip", files = atl_shp)
+unlink("./output/atl_tract", recursive = TRUE)
