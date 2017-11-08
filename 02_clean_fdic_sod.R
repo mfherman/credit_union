@@ -2,11 +2,14 @@ library(tidyverse)
 library(janitor)
 library(sf)
 
+# read in fdic sod - from https://www5.fdic.gov/sod/download/ALL_2017_10032017.ZIP
 fdic_sod <- read_csv("./data/fdic_sod_2017.csv", col_types = cols(.default = "c"))
 
+# define atlanta counties
 atlanta_msa <- c("Fulton", "DeKalb", "Gwinnett", "Cobb", "Clayton",
                  "Coweta", "Douglas", "Fayette", "Henry")
 
+# clean up, filter atl banks, convert to sf
 fdic_clean <- fdic_sod %>%
   clean_names() %>%
   filter(cntynamb %in% atlanta_msa & stalpbr == "GA") %>%
@@ -23,6 +26,7 @@ fdic_clean <- fdic_sod %>%
     remove = FALSE
     )
 
+# write geojson and csv
 st_write(fdic_clean, "./output/fdic_clean.geojson")
 st_write(fdic_clean, "./output/fdic_clean.csv")
 
