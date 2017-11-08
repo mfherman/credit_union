@@ -2,6 +2,7 @@ library(tidyverse)
 library(tidycensus)
 library(sf)
 library(tmap)
+
 options(tigris_use_cache = TRUE)
 
 # total population B01001_001
@@ -62,7 +63,8 @@ atl_tract_stat <- atlanta_tract %>%
     gini = B19083_001E,
     med_rburd = B25071_001E,
     white_pct:rent_pct
-  )
+  ) %>%
+  st_transform(4326)
 
 # check out a simple map
 tm_shape(atl_tract_stat) +
