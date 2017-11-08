@@ -2,7 +2,6 @@ library(tidyverse)
 library(tidycensus)
 library(sf)
 library(tmap)
-library(zip)
 options(tigris_use_cache = TRUE)
 
 # total population B01001_001
