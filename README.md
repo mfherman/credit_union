@@ -6,3 +6,6 @@ Hi, this is our project for the Social Applications of GIS course at Hunter Coll
 * Elliot Frank
 * Matt Herman
 * Pert Peksen
+
+### Downloads
+* Maybe you want to download the [entire repo](https://github.com/mfherman/credit_union/archive/master.zip).
