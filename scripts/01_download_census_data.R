@@ -2,6 +2,7 @@ library(tidyverse)
 library(tidycensus)
 library(sf)
 library(tmap)
+library(zip)
 options(tigris_use_cache = TRUE)
 
 # total population B01001_001
@@ -72,5 +73,6 @@ tm_shape(atl_tract_stat) +
     style = "jenks"
     )
 
-# write to geojson
-st_write(atl_tract_stat, "./output/atl_tract1.geojson", delete_dsn = TRUE)
+# write to geojson and shp
+st_write(atl_tract_stat, "./output/atl_tract.geojson", delete_dsn = TRUE)
+st_write(atl_tract_stat, "./output/atl_tract.shp", delete_dsn = TRUE)
