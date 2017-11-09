@@ -4,12 +4,14 @@ library(sf)
 library(ggmap)
 library(mapview)
 
-# download and read in fdic sod
+# download, unzip, rename fdic bank file
 download.file("https://www5.fdic.gov/sod/download/ALL_2017_10032017.ZIP",
               "./data/fdic_sod.zip")
 unzip("./data/fdic_sod.zip", files = "ALL_2017.csv", exdir = "./data")
 file.rename("./data/ALL_2017.csv", "./data/fdic_sod_2017.csv")
 file.remove("./data/fdic_sod.zip")
+
+# read in fdic
 fdic_sod <- read_csv("./data/fdic_sod_2017.csv", col_types = cols(.default = "c"))
 
 # define atlanta counties
