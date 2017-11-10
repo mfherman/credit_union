@@ -1,0 +1,64 @@
+cu_number,cycle_date,cu_name,site_type_name,main_office,physical_address_line_1,physical_address_city,physical_address_state_code,physical_address_postal_code,physical_address_county_name,low_income_designated,minority_designated,minority_asian_american,minority_african_american,minority_hispanic_american,minority_native_american,cdcu,cdfi,juntos_avanzamos,unsecured_credit_card_loans,all_other_unsecured_loans_lines_of_credit,payday_alternative_loans_pal_loans_fc_us_only,non_federally_guaranteed_student_loans,new_vehicle_loans,used_vehicle_loans,x_1_st_mortgage_real_estate_loans_lines_of_credit,other_real_estate_loans_lines_of_credit,addr_long,lon,lat
+151,42735,JUSTICE,Branch Office,No,959 E Confederate Ave SE,Atlanta,GA,30316,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"959 E Confederate Ave SE, Atlanta, GA 30316",-84.3553237,33.7257076
+359,42735,POWERCO,Branch Office,No,30 Ivan Allen Jr Blvd NW,Atlanta,GA,30308,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"30 Ivan Allen Jr Blvd NW, Atlanta, GA 30308",-84.388259,33.76432
+359,42735,POWERCO,Corporate Office,Yes,241 Ralph McGill Blvd NE,Atlanta,GA,30308-3374,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"241 Ralph McGill Blvd NE, Atlanta, GA 30308-3374",-84.3805994,33.7635744
+383,42735,ON THE GRID FINANCIAL,Corporate Office,Yes,5901 Peachtree Dunwoody Rd Ste A275,Atlanta,GA,30328-7173,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"5901 Peachtree Dunwoody Rd Ste A275, Atlanta, GA 30328-7173",-84.3495098,33.9164751
+5536,42735,NAVY FEDERAL CREDIT UNION,Branch Office,No,2470 Briarcliff Rd NE,Atlanta,GA,30329,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"2470 Briarcliff Rd NE, Atlanta, GA 30329",-84.3325482,33.8268623
+6053,42735,CDC,Branch Office,No,1600 Clifton Rd NE,Atlanta,GA,30329-4018,Dekalb,,,,,,,,,,,1,,,1,1,1,1,"1600 Clifton Rd NE, Atlanta, GA 30329-4018",-84.3286728,33.7992368
+6053,42735,CDC,Corporate Office,Yes,2301 Parklake Dr NE,Atlanta,GA,30345-2912,Dekalb,,,,,,,,,,,1,,,1,1,1,1,"2301 Parklake Dr NE, Atlanta, GA 30345-2912",-84.2484766,33.8529558
+7825,42735,EXCEL,Branch Office,No,61 Forsyth St SW Ste 8B-70,Atlanta,GA,30303-8931,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"61 Forsyth St SW Ste 8B-70, Atlanta, GA 30303-8931",-84.3932062,33.7534949
+7825,42735,EXCEL,Branch Office,No,1718 Peachtree St NW Ste 153,Atlanta,GA,30309-2409,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"1718 Peachtree St NW Ste 153, Atlanta, GA 30309-2409",-84.3932496,33.8010002
+12490,42735,ATLANTA,Corporate Office,Yes,3075 SYLVAN RD,ATLANTA,GA,30354,Fulton,1,,,,,,,,,1,1,1,,1,1,1,1,"3075 SYLVAN RD, ATLANTA, GA 30354",-84.4192842,33.6711629
+17017,42735,COCA-COLA,Corporate Office,Yes,1 Coca Cola Plz NW,Atlanta,GA,30313-2420,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1 Coca Cola Plz NW, Atlanta, GA 30313-2420",-84.3968072,33.7708472
+20410,42735,NORTHSIDE,Corporate Office,Yes,980 Johnson Ferry Rd,Atlanta,GA,30342,Fulton,,,,,,,,,,,1,,,1,1,,,"980 Johnson Ferry Rd, Atlanta, GA 30342",-84.3554287,33.9082539
+20974,42735,B.O.N.D. COMMUNITY,Corporate Office,Yes,433 Moreland Ave NE,Atlanta,GA,30307-1562,Dekalb,1,,,,,,1,,,1,1,,,1,1,1,1,"433 Moreland Ave NE, Atlanta, GA 30307-1562",-84.3488938,33.7661733
+24442,42735,PIEDMONT PLUS,Corporate Office,Yes,2727 Paces Ferry Rd SE Ste 370,Atlanta,GA,30339,Cobb,1,,,,,,,,,1,1,,,1,1,,,"2727 Paces Ferry Rd SE Ste 370, Atlanta, GA 30339",-84.4746082,33.8662414
+24442,42735,PIEDMONT PLUS,Branch Office,No,1968 Peachtree Rd NW,Atlanta,GA,30309,Fulton,1,,,,,,,,,1,1,,,1,1,,,"1968 Peachtree Rd NW, Atlanta, GA 30309",-84.3944183,33.8088286
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,61 Forsyth St SW Ste 8B65,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"61 Forsyth St SW Ste 8B65, Atlanta, GA 30303",-84.3932062,33.7534949
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,6205 Peachtree Dunwoody Rd,Atlanta,GA,30328-4524,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"6205 Peachtree Dunwoody Rd, Atlanta, GA 30328-4524",-84.350702,33.9246124
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,401 W Peachtree St NE Ste 300,Atlanta,GA,30308-3519,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"401 W Peachtree St NE Ste 300, Atlanta, GA 30308-3519",-84.3875192,33.7652007
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,190 Marietta St NW,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"190 Marietta St NW, Atlanta, GA 30303",-84.3944292,33.7577156
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,1050 Techwood Dr NW,Atlanta,GA,30318,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"1050 Techwood Dr NW, Atlanta, GA 30318",-84.3933801,33.7829981
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,123 Thorne Avenue,Atlanta,GA,30310,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"123 Thorne Avenue, Atlanta, GA 30310",-84.4287498,33.7079739
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,2455 Paces Ferry Rd SE Bldg D,Atlanta,GA,30339,Cobb,,,,,,,,,,1,1,,1,1,1,1,1,"2455 Paces Ferry Rd SE Bldg D, Atlanta, GA 30339",-84.4815367,33.8654179
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,2250 N Druid Hills Rd NE Ste 144,Atlanta,GA,30329-3118,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"2250 N Druid Hills Rd NE Ste 144, Atlanta, GA 30329-3118",-84.3310504,33.8294114
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,223 Perimeter Center Pkwy NE,Atlanta,GA,30346-1301,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"223 Perimeter Center Pkwy NE, Atlanta, GA 30346-1301",-84.3464568,33.9224901
+66357,42735,DELTA COMMUNITY,Branch Office,No,3250 Riverwood Pkwy SE,Atlanta,GA,30339-6419,Cobb,,,,,,,,,,1,1,,,1,1,1,1,"3250 Riverwood Pkwy SE, Atlanta, GA 30339-6419",-84.4601761,33.8770753
+66357,42735,DELTA COMMUNITY,Corporate Office,Yes,1025 Virginia Ave,Atlanta,GA,30354-1319,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1025 Virginia Ave, Atlanta, GA 30354-1319",-84.4233487,33.659376
+66357,42735,DELTA COMMUNITY,Branch Office,No,1775 M H Jackson Service Rd,Atlanta,GA,30354-3743,Clayton,,,,,,,,,,1,1,,,1,1,1,1,"1775 M H Jackson Service Rd, Atlanta, GA 30354-3743",-84.414078,33.6427747
+66357,42735,DELTA COMMUNITY,Branch Office,No,80 Peachtree Cir NE,Atlanta,GA,30309-3529,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"80 Peachtree Cir NE, Atlanta, GA 30309-3529",-84.3832373,33.7910394
+66357,42735,DELTA COMMUNITY,Branch Office,No,1050 Delta Blvd,Atlanta,GA,30354-1989,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1050 Delta Blvd, Atlanta, GA 30354-1989",-84.4222196,33.6558754
+66357,42735,DELTA COMMUNITY,Branch Office,No,1025 Virginia Ave,Atlanta,GA,30354-1319,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1025 Virginia Ave, Atlanta, GA 30354-1319",-84.4233487,33.659376
+67353,42735,MEAD EMPLOYEES',Corporate Office,Yes,1105 HERNDON ST NW,ATLANTA,GA,30318-5272,Fulton,,,,,,,,,,,1,,,1,1,,,"1105 HERNDON ST NW, ATLANTA, GA 30318-5272",-84.422246,33.7836292
+67382,42735,GENUINE PARTS,Corporate Office,No,2999 Circle 75 Pkwy SE,Atlanta,GA,30339,Cobb,,,,,,,,,,,1,,,1,1,,,"2999 Circle 75 Pkwy SE, Atlanta, GA 30339",-84.4700141,33.895204
+67388,42735,MUTUAL SAVINGS,Corporate Office,Yes,10 Peachtree Pl NE,Atlanta,GA,30309,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"10 Peachtree Pl NE, Atlanta, GA 30309",-84.387112,33.7809085
+67389,42735,ATLANTA POSTAL,Branch Office,No,3916 Tradeport Blvd,Atlanta,GA,30354,Clayton,,,,,,,,,,1,1,,,1,1,1,1,"3916 Tradeport Blvd, Atlanta, GA 30354",-84.3950185,33.6447744
+67389,42735,ATLANTA POSTAL,Branch Office,No,400 Tradeport Blvd Ste 401,Atlanta,GA,30354-2911,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"400 Tradeport Blvd Ste 401, Atlanta, GA 30354-2911",-84.3938873,33.6487658
+67389,42735,ATLANTA POSTAL,Branch Office,No,1800 James Jackson Pkwy NW,Atlanta,GA,30369-1100,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1800 James Jackson Pkwy NW, Atlanta, GA 30369-1100",-84.4795396,33.8033238
+67389,42735,ATLANTA POSTAL,Branch Office,No,501 Pulliam St SW Ste 350,Atlanta,GA,30312-2750,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"501 Pulliam St SW Ste 350, Atlanta, GA 30312-2750",-84.392672,33.7411116
+67389,42735,ATLANTA POSTAL,Corporate Office,Yes,3900 Crown Rd SW,Atlanta,GA,30304-0001,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"3900 Crown Rd SW, Atlanta, GA 30304-0001",-84.3921476,33.6518727
+67389,42735,ATLANTA POSTAL,Branch Office,No,101 Marietta St NW Ste 140,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"101 Marietta St NW Ste 140, Atlanta, GA 30303",-84.3921521,33.7568927
+67390,42735,GEORGIA'S OWN,Branch Office,No,133 Peachtree St,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"133 Peachtree St, Atlanta, GA 30303",-84.3876024,33.7579987
+67390,42735,GEORGIA'S OWN,Branch Office,No,1117 Perimeter Ctr,Atlanta,GA,30338-5451,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"1117 Perimeter Ctr, Atlanta, GA 30338-5451",-84.3523838,33.9309539
+67390,42735,GEORGIA'S OWN,Branch Office,No,2200 Century Pkwy NE Ste 4,Atlanta,GA,30345-3103,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"2200 Century Pkwy NE Ste 4, Atlanta, GA 30345-3103",-84.3066849,33.8462567
+67390,42735,GEORGIA'S OWN,Corporate Office,Yes,1155 Peachtree St NE Ste 400,Atlanta,GA,30309-3600,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"1155 Peachtree St NE Ste 400, Atlanta, GA 30309-3600",-84.3826077,33.7860645
+67390,42735,GEORGIA'S OWN,Branch Office,No,1155 Peachtree St NE,Atlanta,GA,30309-7629,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"1155 Peachtree St NE, Atlanta, GA 30309-7629",-84.3826077,33.7860645
+67390,42735,GEORGIA'S OWN,Branch Office,No,675 W Peachtree St NE,Atlanta,GA,30308-1989,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"675 W Peachtree St NE, Atlanta, GA 30308-1989",-84.386559,33.7728054
+67390,42735,GEORGIA'S OWN,Branch Office,No,575 Morosgo Dr NE,Atlanta,GA,30324-3300,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"575 Morosgo Dr NE, Atlanta, GA 30324-3300",-84.368702,33.8230401
+67538,42735,MEMBERSFIRST,Branch Office,No,303 Parkway Dr NE,Atlanta,GA,30312-1212,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"303 Parkway Dr NE, Atlanta, GA 30312-1212",-84.3729609,33.7629065
+67632,42735,PINNACLE,Corporate Office,Yes,536 North Ave NE,Atlanta,GA,30308-2713,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"536 North Ave NE, Atlanta, GA 30308-2713",-84.369302,33.771463
+67706,42735,FORT MCPHERSON,Corporate Office,Yes,1732 WALKER AVE SW,ATLANTA,GA,30310,Fulton,,,,,,,,,,,1,,,1,1,1,,"1732 WALKER AVE SW, ATLANTA, GA 30310",-84.4329284,33.7115498
+68215,42735,CORPORATE AMERICA FAMILY,Branch Office,No,115 Perimeter Center Pl NE Ste 187,Atlanta,GA,30346-1238,Dekalb,,,,,,,,,,1,1,,,1,1,1,1,"115 Perimeter Center Pl NE Ste 187, Atlanta, GA 30346-1238",-84.3398667,33.928497
+68573,42735,EMORY ALLIANCE,Branch Office,No,605 Asbury Circle,Atlanta,GA,30322,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"605 Asbury Circle, Atlanta, GA 30322",-84.3233711,33.7935595
+68573,42735,EMORY ALLIANCE,Branch Office,No,478 Peachtree St NE Ste 101A,Atlanta,GA,30308,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"478 Peachtree St NE Ste 101A, Atlanta, GA 30308",-84.3856933,33.7675594
+68607,42735,GEORGIA UNITED,Branch Office,No,600 W Peachtree St NW Ste 401,Atlanta,GA,30308,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"600 W Peachtree St NW Ste 401, Atlanta, GA 30308",-84.3879266,33.7708778
+68607,42735,GEORGIA UNITED,Branch Office,No,2 Martin Luther King JR DR SE Ste 460,Atlanta,GA,30334,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"2 Martin Luther King JR DR SE Ste 460, Atlanta, GA 30334",-84.3867777,33.7489745
+68607,42735,GEORGIA UNITED,Branch Office,No,4448 Tilly Mill Rd,Atlanta,GA,30360-2165,Dekalb,,,,,,,,,,1,1,,,1,1,1,1,"4448 Tilly Mill Rd, Atlanta, GA 30360-2165",-84.28294,33.9251529
+68607,42735,GEORGIA UNITED,Branch Office,No,400 Whitehall St SW,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"400 Whitehall St SW, Atlanta, GA 30303",-84.3999225,33.7451654
+68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,6303 Barfield Rd,Atlanta,GA,30328-4233,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"6303 Barfield Rd, Atlanta, GA 30328-4233",-84.3593553,33.927992
+68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,3200 Windy Hill Rd SE,Atlanta,GA,30339-5640,Cobb,1,,,,,,,,,1,1,,,1,1,1,1,"3200 Windy Hill Rd SE, Atlanta, GA 30339-5640",-84.4611194,33.9137231
+68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,61 Forsyth St SW STE 8B-45,Atlanta,GA,30303-8931,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"61 Forsyth St SW STE 8B-45, Atlanta, GA 30303-8931",-84.3932062,33.7534949
+24546,42735,BIG BETHEL A.M.E. CHURCH,Corporate Office,Yes,206 Auburn Ave NE,Atlanta,GA,30303-2602,Fulton,1,1,,MINORITY- AFRICAN AMERICAN,,,,,,,1,,,,1,,,"206 Auburn Ave NE, Atlanta, GA 30303-2602",-84.3810542,33.7556379
+67383,42735,CREDIT UNION OF ATLANTA,Branch Office,No,245 Pryor St SW,Atlanta,GA,30303,Fulton,,1,,MINORITY- AFRICAN AMERICAN,,,1,,,1,1,,,1,1,1,1,"245 Pryor St SW, Atlanta, GA 30303",-84.393607,33.7483156
+67383,42735,CREDIT UNION OF ATLANTA,Corporate Office,Yes,670 Metropolitan Pkwy SW,Atlanta,GA,30310,Fulton,,1,,MINORITY- AFRICAN AMERICAN,,,1,,,1,1,,,1,1,1,1,"670 Metropolitan Pkwy SW, Atlanta, GA 30310",-84.4078033,33.7376493
+67505,42735,1ST CHOICE,Corporate Office,Yes,315 Auburn Ave NE,Atlanta,GA,30303-2603,Fulton,1,1,,MINORITY- AFRICAN AMERICAN,,,1,1,,1,1,,,1,1,1,1,"315 Auburn Ave NE, Atlanta, GA 30303-2603",-84.3773379,33.755307
