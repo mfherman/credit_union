@@ -54,6 +54,7 @@ atl_tract_stat <- atlanta_tract %>%
     own_pct = B07013_002E / B07013_001E * 100,
     rent_pct = B07013_003E / B07013_001E * 100
   ) %>%
+  mutate_at(vars(ends_with("pct")), funs(signif(., 3))) %>%
   select(
     geoid = GEOID,
     name = NAME,
