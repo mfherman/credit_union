@@ -6,7 +6,7 @@ library(ggmap)
 library(mapview)
 
 # read in credit union data
-atl_cu <- read_excel("./data/atlanta_cu.xlsx", col_types = "text")
+atl_cu <- read_excel("./data/atlanta_cu_updated.xlsx", col_types = "text")
 
 # clean up and geocode
 atl_cu_clean <- atl_cu %>%
@@ -17,6 +17,7 @@ atl_cu_clean <- atl_cu %>%
                             physical_address_postal_code
                             )
          ) %>%
+  mutate_at(vars(contains("avg")), as.integer) %>%
   mutate_geocode(addr_long)
 
 # make it into a sf
@@ -25,7 +26,7 @@ atl_cu_sf <- atl_cu_clean %>%
     coords = c("lon", "lat"),
     agr = "constant",
     crs = 4326,
-    stringsAsFactors = TRUE,
+    stringsAsFactors = FALSE,
     remove = FALSE,
     na.fail = TRUE
   )

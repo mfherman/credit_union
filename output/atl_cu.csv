@@ -1,64 +1,2326 @@
-cu_number,cycle_date,cu_name,site_type_name,main_office,physical_address_line_1,physical_address_city,physical_address_state_code,physical_address_postal_code,physical_address_county_name,low_income_designated,minority_designated,minority_asian_american,minority_african_american,minority_hispanic_american,minority_native_american,cdcu,cdfi,juntos_avanzamos,unsecured_credit_card_loans,all_other_unsecured_loans_lines_of_credit,payday_alternative_loans_pal_loans_fc_us_only,non_federally_guaranteed_student_loans,new_vehicle_loans,used_vehicle_loans,x_1_st_mortgage_real_estate_loans_lines_of_credit,other_real_estate_loans_lines_of_credit,addr_long,lon,lat
-151,42735,JUSTICE,Branch Office,No,959 E Confederate Ave SE,Atlanta,GA,30316,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"959 E Confederate Ave SE, Atlanta, GA 30316",-84.3553237,33.7257076
-359,42735,POWERCO,Branch Office,No,30 Ivan Allen Jr Blvd NW,Atlanta,GA,30308,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"30 Ivan Allen Jr Blvd NW, Atlanta, GA 30308",-84.388259,33.76432
-359,42735,POWERCO,Corporate Office,Yes,241 Ralph McGill Blvd NE,Atlanta,GA,30308-3374,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"241 Ralph McGill Blvd NE, Atlanta, GA 30308-3374",-84.3805994,33.7635744
-383,42735,ON THE GRID FINANCIAL,Corporate Office,Yes,5901 Peachtree Dunwoody Rd Ste A275,Atlanta,GA,30328-7173,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"5901 Peachtree Dunwoody Rd Ste A275, Atlanta, GA 30328-7173",-84.3495098,33.9164751
-5536,42735,NAVY FEDERAL CREDIT UNION,Branch Office,No,2470 Briarcliff Rd NE,Atlanta,GA,30329,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"2470 Briarcliff Rd NE, Atlanta, GA 30329",-84.3325482,33.8268623
-6053,42735,CDC,Branch Office,No,1600 Clifton Rd NE,Atlanta,GA,30329-4018,Dekalb,,,,,,,,,,,1,,,1,1,1,1,"1600 Clifton Rd NE, Atlanta, GA 30329-4018",-84.3286728,33.7992368
-6053,42735,CDC,Corporate Office,Yes,2301 Parklake Dr NE,Atlanta,GA,30345-2912,Dekalb,,,,,,,,,,,1,,,1,1,1,1,"2301 Parklake Dr NE, Atlanta, GA 30345-2912",-84.2484766,33.8529558
-7825,42735,EXCEL,Branch Office,No,61 Forsyth St SW Ste 8B-70,Atlanta,GA,30303-8931,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"61 Forsyth St SW Ste 8B-70, Atlanta, GA 30303-8931",-84.3932062,33.7534949
-7825,42735,EXCEL,Branch Office,No,1718 Peachtree St NW Ste 153,Atlanta,GA,30309-2409,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"1718 Peachtree St NW Ste 153, Atlanta, GA 30309-2409",-84.3932496,33.8010002
-12490,42735,ATLANTA,Corporate Office,Yes,3075 SYLVAN RD,ATLANTA,GA,30354,Fulton,1,,,,,,,,,1,1,1,,1,1,1,1,"3075 SYLVAN RD, ATLANTA, GA 30354",-84.4192842,33.6711629
-17017,42735,COCA-COLA,Corporate Office,Yes,1 Coca Cola Plz NW,Atlanta,GA,30313-2420,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1 Coca Cola Plz NW, Atlanta, GA 30313-2420",-84.3968072,33.7708472
-20410,42735,NORTHSIDE,Corporate Office,Yes,980 Johnson Ferry Rd,Atlanta,GA,30342,Fulton,,,,,,,,,,,1,,,1,1,,,"980 Johnson Ferry Rd, Atlanta, GA 30342",-84.3554287,33.9082539
-20974,42735,B.O.N.D. COMMUNITY,Corporate Office,Yes,433 Moreland Ave NE,Atlanta,GA,30307-1562,Dekalb,1,,,,,,1,,,1,1,,,1,1,1,1,"433 Moreland Ave NE, Atlanta, GA 30307-1562",-84.3488938,33.7661733
-24442,42735,PIEDMONT PLUS,Corporate Office,Yes,2727 Paces Ferry Rd SE Ste 370,Atlanta,GA,30339,Cobb,1,,,,,,,,,1,1,,,1,1,,,"2727 Paces Ferry Rd SE Ste 370, Atlanta, GA 30339",-84.4746082,33.8662414
-24442,42735,PIEDMONT PLUS,Branch Office,No,1968 Peachtree Rd NW,Atlanta,GA,30309,Fulton,1,,,,,,,,,1,1,,,1,1,,,"1968 Peachtree Rd NW, Atlanta, GA 30309",-84.3944183,33.8088286
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,61 Forsyth St SW Ste 8B65,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"61 Forsyth St SW Ste 8B65, Atlanta, GA 30303",-84.3932062,33.7534949
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,6205 Peachtree Dunwoody Rd,Atlanta,GA,30328-4524,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"6205 Peachtree Dunwoody Rd, Atlanta, GA 30328-4524",-84.350702,33.9246124
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,401 W Peachtree St NE Ste 300,Atlanta,GA,30308-3519,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"401 W Peachtree St NE Ste 300, Atlanta, GA 30308-3519",-84.3875192,33.7652007
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,190 Marietta St NW,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"190 Marietta St NW, Atlanta, GA 30303",-84.3944292,33.7577156
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,1050 Techwood Dr NW,Atlanta,GA,30318,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"1050 Techwood Dr NW, Atlanta, GA 30318",-84.3933801,33.7829981
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,123 Thorne Avenue,Atlanta,GA,30310,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"123 Thorne Avenue, Atlanta, GA 30310",-84.4287498,33.7079739
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,2455 Paces Ferry Rd SE Bldg D,Atlanta,GA,30339,Cobb,,,,,,,,,,1,1,,1,1,1,1,1,"2455 Paces Ferry Rd SE Bldg D, Atlanta, GA 30339",-84.4815367,33.8654179
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,2250 N Druid Hills Rd NE Ste 144,Atlanta,GA,30329-3118,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"2250 N Druid Hills Rd NE Ste 144, Atlanta, GA 30329-3118",-84.3310504,33.8294114
-60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,223 Perimeter Center Pkwy NE,Atlanta,GA,30346-1301,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"223 Perimeter Center Pkwy NE, Atlanta, GA 30346-1301",-84.3464568,33.9224901
-66357,42735,DELTA COMMUNITY,Branch Office,No,3250 Riverwood Pkwy SE,Atlanta,GA,30339-6419,Cobb,,,,,,,,,,1,1,,,1,1,1,1,"3250 Riverwood Pkwy SE, Atlanta, GA 30339-6419",-84.4601761,33.8770753
-66357,42735,DELTA COMMUNITY,Corporate Office,Yes,1025 Virginia Ave,Atlanta,GA,30354-1319,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1025 Virginia Ave, Atlanta, GA 30354-1319",-84.4233487,33.659376
-66357,42735,DELTA COMMUNITY,Branch Office,No,1775 M H Jackson Service Rd,Atlanta,GA,30354-3743,Clayton,,,,,,,,,,1,1,,,1,1,1,1,"1775 M H Jackson Service Rd, Atlanta, GA 30354-3743",-84.414078,33.6427747
-66357,42735,DELTA COMMUNITY,Branch Office,No,80 Peachtree Cir NE,Atlanta,GA,30309-3529,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"80 Peachtree Cir NE, Atlanta, GA 30309-3529",-84.3832373,33.7910394
-66357,42735,DELTA COMMUNITY,Branch Office,No,1050 Delta Blvd,Atlanta,GA,30354-1989,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1050 Delta Blvd, Atlanta, GA 30354-1989",-84.4222196,33.6558754
-66357,42735,DELTA COMMUNITY,Branch Office,No,1025 Virginia Ave,Atlanta,GA,30354-1319,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1025 Virginia Ave, Atlanta, GA 30354-1319",-84.4233487,33.659376
-67353,42735,MEAD EMPLOYEES',Corporate Office,Yes,1105 HERNDON ST NW,ATLANTA,GA,30318-5272,Fulton,,,,,,,,,,,1,,,1,1,,,"1105 HERNDON ST NW, ATLANTA, GA 30318-5272",-84.422246,33.7836292
-67382,42735,GENUINE PARTS,Corporate Office,No,2999 Circle 75 Pkwy SE,Atlanta,GA,30339,Cobb,,,,,,,,,,,1,,,1,1,,,"2999 Circle 75 Pkwy SE, Atlanta, GA 30339",-84.4700141,33.895204
-67388,42735,MUTUAL SAVINGS,Corporate Office,Yes,10 Peachtree Pl NE,Atlanta,GA,30309,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"10 Peachtree Pl NE, Atlanta, GA 30309",-84.387112,33.7809085
-67389,42735,ATLANTA POSTAL,Branch Office,No,3916 Tradeport Blvd,Atlanta,GA,30354,Clayton,,,,,,,,,,1,1,,,1,1,1,1,"3916 Tradeport Blvd, Atlanta, GA 30354",-84.3950185,33.6447744
-67389,42735,ATLANTA POSTAL,Branch Office,No,400 Tradeport Blvd Ste 401,Atlanta,GA,30354-2911,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"400 Tradeport Blvd Ste 401, Atlanta, GA 30354-2911",-84.3938873,33.6487658
-67389,42735,ATLANTA POSTAL,Branch Office,No,1800 James Jackson Pkwy NW,Atlanta,GA,30369-1100,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"1800 James Jackson Pkwy NW, Atlanta, GA 30369-1100",-84.4795396,33.8033238
-67389,42735,ATLANTA POSTAL,Branch Office,No,501 Pulliam St SW Ste 350,Atlanta,GA,30312-2750,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"501 Pulliam St SW Ste 350, Atlanta, GA 30312-2750",-84.392672,33.7411116
-67389,42735,ATLANTA POSTAL,Corporate Office,Yes,3900 Crown Rd SW,Atlanta,GA,30304-0001,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"3900 Crown Rd SW, Atlanta, GA 30304-0001",-84.3921476,33.6518727
-67389,42735,ATLANTA POSTAL,Branch Office,No,101 Marietta St NW Ste 140,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"101 Marietta St NW Ste 140, Atlanta, GA 30303",-84.3921521,33.7568927
-67390,42735,GEORGIA'S OWN,Branch Office,No,133 Peachtree St,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"133 Peachtree St, Atlanta, GA 30303",-84.3876024,33.7579987
-67390,42735,GEORGIA'S OWN,Branch Office,No,1117 Perimeter Ctr,Atlanta,GA,30338-5451,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"1117 Perimeter Ctr, Atlanta, GA 30338-5451",-84.3523838,33.9309539
-67390,42735,GEORGIA'S OWN,Branch Office,No,2200 Century Pkwy NE Ste 4,Atlanta,GA,30345-3103,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"2200 Century Pkwy NE Ste 4, Atlanta, GA 30345-3103",-84.3066849,33.8462567
-67390,42735,GEORGIA'S OWN,Corporate Office,Yes,1155 Peachtree St NE Ste 400,Atlanta,GA,30309-3600,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"1155 Peachtree St NE Ste 400, Atlanta, GA 30309-3600",-84.3826077,33.7860645
-67390,42735,GEORGIA'S OWN,Branch Office,No,1155 Peachtree St NE,Atlanta,GA,30309-7629,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"1155 Peachtree St NE, Atlanta, GA 30309-7629",-84.3826077,33.7860645
-67390,42735,GEORGIA'S OWN,Branch Office,No,675 W Peachtree St NE,Atlanta,GA,30308-1989,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"675 W Peachtree St NE, Atlanta, GA 30308-1989",-84.386559,33.7728054
-67390,42735,GEORGIA'S OWN,Branch Office,No,575 Morosgo Dr NE,Atlanta,GA,30324-3300,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"575 Morosgo Dr NE, Atlanta, GA 30324-3300",-84.368702,33.8230401
-67538,42735,MEMBERSFIRST,Branch Office,No,303 Parkway Dr NE,Atlanta,GA,30312-1212,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"303 Parkway Dr NE, Atlanta, GA 30312-1212",-84.3729609,33.7629065
-67632,42735,PINNACLE,Corporate Office,Yes,536 North Ave NE,Atlanta,GA,30308-2713,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"536 North Ave NE, Atlanta, GA 30308-2713",-84.369302,33.771463
-67706,42735,FORT MCPHERSON,Corporate Office,Yes,1732 WALKER AVE SW,ATLANTA,GA,30310,Fulton,,,,,,,,,,,1,,,1,1,1,,"1732 WALKER AVE SW, ATLANTA, GA 30310",-84.4329284,33.7115498
-68215,42735,CORPORATE AMERICA FAMILY,Branch Office,No,115 Perimeter Center Pl NE Ste 187,Atlanta,GA,30346-1238,Dekalb,,,,,,,,,,1,1,,,1,1,1,1,"115 Perimeter Center Pl NE Ste 187, Atlanta, GA 30346-1238",-84.3398667,33.928497
-68573,42735,EMORY ALLIANCE,Branch Office,No,605 Asbury Circle,Atlanta,GA,30322,Dekalb,,,,,,,,,,1,1,,1,1,1,1,1,"605 Asbury Circle, Atlanta, GA 30322",-84.3233711,33.7935595
-68573,42735,EMORY ALLIANCE,Branch Office,No,478 Peachtree St NE Ste 101A,Atlanta,GA,30308,Fulton,,,,,,,,,,1,1,,1,1,1,1,1,"478 Peachtree St NE Ste 101A, Atlanta, GA 30308",-84.3856933,33.7675594
-68607,42735,GEORGIA UNITED,Branch Office,No,600 W Peachtree St NW Ste 401,Atlanta,GA,30308,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"600 W Peachtree St NW Ste 401, Atlanta, GA 30308",-84.3879266,33.7708778
-68607,42735,GEORGIA UNITED,Branch Office,No,2 Martin Luther King JR DR SE Ste 460,Atlanta,GA,30334,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"2 Martin Luther King JR DR SE Ste 460, Atlanta, GA 30334",-84.3867777,33.7489745
-68607,42735,GEORGIA UNITED,Branch Office,No,4448 Tilly Mill Rd,Atlanta,GA,30360-2165,Dekalb,,,,,,,,,,1,1,,,1,1,1,1,"4448 Tilly Mill Rd, Atlanta, GA 30360-2165",-84.28294,33.9251529
-68607,42735,GEORGIA UNITED,Branch Office,No,400 Whitehall St SW,Atlanta,GA,30303,Fulton,,,,,,,,,,1,1,,,1,1,1,1,"400 Whitehall St SW, Atlanta, GA 30303",-84.3999225,33.7451654
-68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,6303 Barfield Rd,Atlanta,GA,30328-4233,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"6303 Barfield Rd, Atlanta, GA 30328-4233",-84.3593553,33.927992
-68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,3200 Windy Hill Rd SE,Atlanta,GA,30339-5640,Cobb,1,,,,,,,,,1,1,,,1,1,1,1,"3200 Windy Hill Rd SE, Atlanta, GA 30339-5640",-84.4611194,33.9137231
-68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,61 Forsyth St SW STE 8B-45,Atlanta,GA,30303-8931,Fulton,1,,,,,,,,,1,1,,,1,1,1,1,"61 Forsyth St SW STE 8B-45, Atlanta, GA 30303-8931",-84.3932062,33.7534949
-24546,42735,BIG BETHEL A.M.E. CHURCH,Corporate Office,Yes,206 Auburn Ave NE,Atlanta,GA,30303-2602,Fulton,1,1,,MINORITY- AFRICAN AMERICAN,,,,,,,1,,,,1,,,"206 Auburn Ave NE, Atlanta, GA 30303-2602",-84.3810542,33.7556379
-67383,42735,CREDIT UNION OF ATLANTA,Branch Office,No,245 Pryor St SW,Atlanta,GA,30303,Fulton,,1,,MINORITY- AFRICAN AMERICAN,,,1,,,1,1,,,1,1,1,1,"245 Pryor St SW, Atlanta, GA 30303",-84.393607,33.7483156
-67383,42735,CREDIT UNION OF ATLANTA,Corporate Office,Yes,670 Metropolitan Pkwy SW,Atlanta,GA,30310,Fulton,,1,,MINORITY- AFRICAN AMERICAN,,,1,,,1,1,,,1,1,1,1,"670 Metropolitan Pkwy SW, Atlanta, GA 30310",-84.4078033,33.7376493
-67505,42735,1ST CHOICE,Corporate Office,Yes,315 Auburn Ave NE,Atlanta,GA,30303-2603,Fulton,1,1,,MINORITY- AFRICAN AMERICAN,,,1,1,,1,1,,,1,1,1,1,"315 Auburn Ave NE, Atlanta, GA 30303-2603",-84.3773379,33.755307
+cu_number,cycle_date,cu_name,site_type_name,main_office,physical_address_line_1,physical_address_city,physical_address_state_code,physical_address_postal_code,physical_address_county_name,x_1,x_2,type_of_membership,low_income_designated,minority_designated,minority_asian_american,minority_african_american,minority_hispanic_american,minority_native_american,cdcu,cdfi,juntos_avanzamos,x_3,unsecured_credit_card_loans,all_other_unsecured_loans_lines_of_credit,payday_alternative_loans_pal_loans_fc_us_only,non_federally_guaranteed_student_loans,new_vehicle_loans,used_vehicle_loans,x_1_st_mortgage_real_estate_loans_lines_of_credit,other_real_estate_loans_lines_of_credit,avg_assets_branch,avg_shares_and_deposits_branch,avg_loans_branch,avg_members_branch,addr_long,lon,lat
+151,42735,JUSTICE,Branch Office,No,959 E Confederate Ave SE,Atlanta,GA,30316,Fulton,Employment,"Employees, retirees and family members of the following entities are eligible to join Justice Federal Credit Union:
+
+Department of Justice
+Department of Homeland Security
+United States Courts
+Georgia Department of Public Safety
+
+Georgia Bureau of Investigation
+
+National Capital Planning Commission
+
+National Crime Prevention Council
+
+Law Enforcement Associations
+Government Contracting Companies
+Companies
+City of Bridgeport, WV Employees and Retirees
+
+Retirees of Eligible Groups
+
+Family Members of Eligible Members","Multiple common bond – primary federal, state, local government",,,,,,,,,,,1,1,,,1,1,1,1,27509775,22122133,6600011,2214,"959 E Confederate Ave SE, Atlanta, GA 30316",-84.3553237,33.7257076
+359,42735,POWERCO,Branch Office,No,30 Ivan Allen Jr Blvd NW,Atlanta,GA,30308,Fulton,Employment,"Powerco is exclusively for the employees of the following companies:
+Georgia Power Company
+The Southern Company
+Southern Company Services, Inc.
+Southern Nuclear
+Southern Company Energy Solutions
+GenOn Energy, Inc. 
+Mississippi Power Company
+Southern LINC
+Select Employee Groups
+Persons Retired from Any of the Above
+Family Members of any Powerco Federal Credit Union Member!",Multiple common bond – primary communications and utilities,,,,,,,,,,,1,1,,,1,1,1,1,22081499,19219025,4655859,2495,"30 Ivan Allen Jr Blvd NW, Atlanta, GA 30308",-84.388259,33.76432
+359,42735,POWERCO,Corporate Office,Yes,241 Ralph McGill Blvd NE,Atlanta,GA,30308-3374,Fulton,Employment,"Powerco is exclusively for the employees of the following companies:
+Georgia Power Company
+The Southern Company
+Southern Company Services, Inc.
+Southern Nuclear
+Southern Company Energy Solutions
+GenOn Energy, Inc. 
+Mississippi Power Company
+Southern LINC
+Select Employee Groups
+Persons Retired from Any of the Above
+Family Members of any Powerco Federal Credit Union Member!",Multiple common bond – primary communications and utilities,,,,,,,,,,,1,1,,,1,1,1,1,22081499,19219025,4655859,2495,"241 Ralph McGill Blvd NE, Atlanta, GA 30308-3374",-84.3805994,33.7635744
+383,42735,ON THE GRID FINANCIAL,Corporate Office,Yes,5901 Peachtree Dunwoody Rd Ste A275,Atlanta,GA,30328-7173,Fulton,Employment,https://www.cuonthegrid.com/on-the-grid-financial/our-membership/,Service – communications and utilities,1,,,,,,,,,,1,1,,,1,1,1,1,38001574,32291683,5953233,5669,"5901 Peachtree Dunwoody Rd Ste A275, Atlanta, GA 30328-7173",-84.3495098,33.9164751
+5536,42735,NAVY FEDERAL CREDIT UNION,Branch Office,No,2470 Briarcliff Rd NE,Atlanta,GA,30329,Dekalb,Military,"Eligibility
+
+Active Duty members of the Army, Air Force, Marine Corps, Coast Guard and Navy
+Army and Air National Guard
+Delayed Entry Program (DEP)
+DoD Officer Candidate/ROTC
+DoD Reservists
+Veterans, retirees and annuitants
+DoD civilian employees
+U.S. Government employees assigned to DoD installations
+DoD contractors assigned to U.S. Government installations
+DoD civilian retirees and annuitants
+Immediate family members of current members and those who are eligible for membership. Immediate family includes:
+
+Grandparents
+Parents
+Spouses
+Siblings
+Children (including adopted and stepchildren)
+Grandchildren
+Household members",Military,,,,,,,,,,,1,1,,1,1,1,1,1,268604921,188161321,158027556,22953,"2470 Briarcliff Rd NE, Atlanta, GA 30329",-84.3325482,33.8268623
+6053,42735,CDC,Branch Office,No,1600 Clifton Rd NE,Atlanta,GA,30329-4018,Dekalb,Employment/Geographic,"You can apply for membership at CDC Federal Credit Union if you meet any of the following eligibility requirements:
+
+If you live, work, worship, attend school, or volunteer in portions of DeKalb, Fulton, or Gwinnett Counties.
+You are a present employee (or family member of an employee) of: The Centers for Disease Control and Prevention, its subsidiaries, affiliates or contractors.
+Your current employer is one of over 100 Select Employee Groups such as American Cancer Society, Children’s Healthcare of Atlanta or Whole Foods grocery stores","Multiple common bond – primary federal, state, local government",,,,,,,,,,,,1,,,1,1,1,1,97169188,88949177,24328225,6110,"1600 Clifton Rd NE, Atlanta, GA 30329-4018",-84.3286728,33.7992368
+6053,42735,CDC,Corporate Office,Yes,2301 Parklake Dr NE,Atlanta,GA,30345-2912,Dekalb,Employment/Geographic,"You can apply for membership at CDC Federal Credit Union if you meet any of the following eligibility requirements:
+
+If you live, work, worship, attend school, or volunteer in portions of DeKalb, Fulton, or Gwinnett Counties.
+You are a present employee (or family member of an employee) of: The Centers for Disease Control and Prevention, its subsidiaries, affiliates or contractors.
+Your current employer is one of over 100 Select Employee Groups such as American Cancer Society, Children’s Healthcare of Atlanta or Whole Foods grocery stores","Multiple common bond – primary federal, state, local government",,,,,,,,,,,,1,,,1,1,1,1,97169188,88949177,24328225,6110,"2301 Parklake Dr NE, Atlanta, GA 30345-2912",-84.2484766,33.8529558
+7825,42735,EXCEL,Branch Office,No,61 Forsyth St SW Ste 8B-70,Atlanta,GA,30303-8931,Fulton,Employment,"XCEL Federal Credit Union serves employees and members of the following companies and organizations – and extends membership to all of their immediate family members:
+Achieve Test Prep
+American Consumer Council
+Anthem Institute – Students and Employees
+Antique Automobile Club of America
+Bloomfield College
+BMW Car Club of America – Delaware Valley Chapter
+Chrill Care
+City of Jersey City
+Clifton Mill Community
+Concordia Learning Center at St. Joseph’s School for the Blind
+Corvette Club Council
+Cory Companies, Inc. – Secaucus NJ
+Dance to My Rhythm
+Designtex
+Diversified Global Graphics (DG3)
+Doral
+Edison Properties
+Essex City Electricians Association
+Executive Women’s Golf Association – NATIONAL
+Executive Women’s Golf Association of Northern NJ
+Executive Women’s Golf Association of Westchester, NY
+FEMA
+Franklin St. John Church
+Generazio Associates, Inc.
+Hudson County Chamber of Commerce
+Hudson County Government Employees
+Institute for Behavioral Health and Developmental Disabilities Inc
+International College of Health Sciences
+Internal Intelligence
+Iron Workers – Local 40
+Iron Workers – Local 361
+Iron Workers – Local 417
+Jersey City Free Public Library
+Jersey City Housing Authority
+Jersey City Incinerator Authority
+Jersey City Municipal Utilities Authority
+Jersey City Parking Authority
+Manischewitz
+Meadowlands Regional Chamber of Commerce
+Mercedes-Benz Club of America – Connecticut/Westchester Section
+Mercedes-Benz Club of America – Northern NJ Section
+Motorcycle Mall Motorcycle Club
+Motorcycle Mall – Belleville NJ
+Mulligan Motors
+National Council of Corvette Clubs
+National Treasury Employees #269
+New Jersey Institute of Ultrasound
+Nicholas F. Stabile
+Nutley Family Chiropractic
+Ocean Running Club
+Porsche Club of America – National
+Porsche Club of America – Northern New Jersey Region
+Port Authority of NY & NJ
+Rolls-Royce Owners Club
+S & M Transport, Inc., Edison NJ
+Secaucus Municipal Utilities Authority
+SERVPRO
+St. Thomas the Apostle Church – Parishioners, Faculty, and Staff
+Staten Island USBC
+Suburban Essex Chamber
+The American Consumer Council
+The Audi Club North America
+The Bordentown Firefighters
+US Army Corps of Engineers
+US Department of Education
+US Department of Agriculture
+US Department of Homeland Security
+US Department of Housing and Urban Development
+US Department of Justice
+US Department of Labor
+US Department of Health & Human Services
+US District Court
+US Environmental Protection Agency
+US Food & Drug Administration
+US General Services Administration
+US Small Business Administration
+US Social Security Administration
+Volvo Club of America
+WFS Services, Inc.
+Wharton Club of New Jersey
+Windsor Learning Center and Schools","Multiple common bond – primary federal, state, local government",1,,,,,,,,,,1,1,,,1,1,1,1,33894668,26982879,7170134,4661,"61 Forsyth St SW Ste 8B-70, Atlanta, GA 30303-8931",-84.3932062,33.7534949
+7825,42735,EXCEL,Branch Office,No,1718 Peachtree St NW Ste 153,Atlanta,GA,30309-2409,Fulton,Employment,"XCEL Federal Credit Union serves employees and members of the following companies and organizations – and extends membership to all of their immediate family members:
+Achieve Test Prep
+American Consumer Council
+Anthem Institute – Students and Employees
+Antique Automobile Club of America
+Bloomfield College
+BMW Car Club of America – Delaware Valley Chapter
+Chrill Care
+City of Jersey City
+Clifton Mill Community
+Concordia Learning Center at St. Joseph’s School for the Blind
+Corvette Club Council
+Cory Companies, Inc. – Secaucus NJ
+Dance to My Rhythm
+Designtex
+Diversified Global Graphics (DG3)
+Doral
+Edison Properties
+Essex City Electricians Association
+Executive Women’s Golf Association – NATIONAL
+Executive Women’s Golf Association of Northern NJ
+Executive Women’s Golf Association of Westchester, NY
+FEMA
+Franklin St. John Church
+Generazio Associates, Inc.
+Hudson County Chamber of Commerce
+Hudson County Government Employees
+Institute for Behavioral Health and Developmental Disabilities Inc
+International College of Health Sciences
+Internal Intelligence
+Iron Workers – Local 40
+Iron Workers – Local 361
+Iron Workers – Local 417
+Jersey City Free Public Library
+Jersey City Housing Authority
+Jersey City Incinerator Authority
+Jersey City Municipal Utilities Authority
+Jersey City Parking Authority
+Manischewitz
+Meadowlands Regional Chamber of Commerce
+Mercedes-Benz Club of America – Connecticut/Westchester Section
+Mercedes-Benz Club of America – Northern NJ Section
+Motorcycle Mall Motorcycle Club
+Motorcycle Mall – Belleville NJ
+Mulligan Motors
+National Council of Corvette Clubs
+National Treasury Employees #269
+New Jersey Institute of Ultrasound
+Nicholas F. Stabile
+Nutley Family Chiropractic
+Ocean Running Club
+Porsche Club of America – National
+Porsche Club of America – Northern New Jersey Region
+Port Authority of NY & NJ
+Rolls-Royce Owners Club
+S & M Transport, Inc., Edison NJ
+Secaucus Municipal Utilities Authority
+SERVPRO
+St. Thomas the Apostle Church – Parishioners, Faculty, and Staff
+Staten Island USBC
+Suburban Essex Chamber
+The American Consumer Council
+The Audi Club North America
+The Bordentown Firefighters
+US Army Corps of Engineers
+US Department of Education
+US Department of Agriculture
+US Department of Homeland Security
+US Department of Housing and Urban Development
+US Department of Justice
+US Department of Labor
+US Department of Health & Human Services
+US District Court
+US Environmental Protection Agency
+US Food & Drug Administration
+US General Services Administration
+US Small Business Administration
+US Social Security Administration
+Volvo Club of America
+WFS Services, Inc.
+Wharton Club of New Jersey
+Windsor Learning Center and Schools","Multiple common bond – primary federal, state, local government",1,,,,,,,,,,1,1,,,1,1,1,1,33894668,26982879,7170134,4661,"1718 Peachtree St NW Ste 153, Atlanta, GA 30309-2409",-84.3932496,33.8010002
+12490,42735,ATLANTA,Corporate Office,Yes,3075 SYLVAN RD,Atlanta,GA,30354,Fulton,Employment,"Not clear---Any active or retired employee of a company listed in our Charter
+Your children
+Your parents
+Mother or Father In-law
+Grandparents
+Grandchildren
+Brothers
+Sisters
+Individuals living in the same household maintaining a single family economic unit",Multiple common bond – primary other manufacturing,1,,,,,,,,,,1,1,1,,1,1,1,1,9355130,7455694,1807549,2361,"3075 SYLVAN RD, Atlanta, GA 30354",-84.4192842,33.6711629
+17017,42735,COCA-COLA,Corporate Office,Yes,1 Coca Cola Plz NW,Atlanta,GA,30313-2420,Fulton,Employment,"If you fulfill any one of the requirements below, we welcome you to apply for lifetime membership*:
+
+ Employees of The Coca-Cola Company and its subsidiaries** (List of subsidiaries).
+Contingent and contract workers who provide support to The Coca-Cola Company.
+Immediate family members of existing members, including spouses, children, parents, siblings, grandparents, grandchildren, step-relationships and any of those relationships when created by legal adoption.
+Household domestic partnerships qualify if the existing member lives in the same residence and maintains a single economic unit with someone. This would include, for example, domestic or same-sex partners of existing CCCU members.
+https://creditunion.coca-cola.com/membership/become-a-member/",Manufacturing – all other,,,,,,,,,,,1,1,,,1,1,1,1,182042632,164143628,53975270,14115,"1 Coca Cola Plz NW, Atlanta, GA 30313-2420",-84.3968072,33.7708472
+20410,42735,NORTHSIDE,Corporate Office,Yes,980 Johnson Ferry Rd,Atlanta,GA,30342,Fulton,Employment,Membership in Northside FCU is an ongoing benefit to employees of Northside Hospita,Service – health care,,,,,,,,,,,,1,,,1,1,,,15244189,13783775,6699603,5836,"980 Johnson Ferry Rd, Atlanta, GA 30342",-84.3554762,33.9082281
+20974,42735,B.O.N.D. COMMUNITY,Corporate Office,Yes,433 Moreland Ave NE,Atlanta,GA,30307-1562,Dekalb,Geographic,"You can become a member of BOND Community FCU if any of the following applies to you:
+
+A) You live, work, worship, or volunteer in our Field of Membership (defined by these neighborhoods*):
+
+Little 5 Points & surrounding Atlanta neighborhoods:
+Decatur Community Coalition:
+ 
+ 
+ 
+Benteen Park
+Grant Park/SAND
+College Heights
+Boulevard Heights
+Inman Park
+Green-Mead
+Cabbagetown
+Kirkwood
+Midway Woods
+Candler Park
+Lake Claire
+Oakhurst
+Custer/McDonough Guice
+Old Fourth Ward
+Winnona Park
+Druid Hills (south of Ponce)
+Ormewood Park
+ 
+East Atlanta
+Poncey-Highland
+ 
+East Lake (north of Memorial)
+Reynoldstown
+ 
+Edgewood
+Woodland Hills
+https://www.bondcu.com/about-us/become-a-member.html",Community credit union,1,,,,,,1,,,,1,1,,,1,1,1,1,20765710,18929751,2898832,1836,"433 Moreland Ave NE, Atlanta, GA 30307-1562",-84.3488938,33.7661733
+24442,42735,PIEDMONT PLUS,Corporate Office,Yes,2727 Paces Ferry Rd SE Ste 370,Atlanta,GA,30339,Cobb,Employment,"Any person employed by Piedmont Healthcare, Piedmont Atlanta Hospital, Piedmont Fayette Hospital, Piedmont Mountain Side Hospital, Piedmont Newnan Hospital, Piedmont Henry Hospital, Shepherd Center, or an approved medical group located near one of our hospitals and/or branches, and other non-medical business located at 2727 Paces Ferry Road SE. Members of an employee's immediate family are also eligible to join (spouse, children, parents, siblings and grandparents).",Multiple common bond – primary health care,1,,,,,,,,,,1,1,,,1,1,,,8359365,7140170,1544651,2203,"2727 Paces Ferry Rd SE Ste 370, Atlanta, GA 30339",-84.4741362,33.8662574
+24442,42735,PIEDMONT PLUS,Branch Office,No,1968 Peachtree Rd NW,Atlanta,GA,30309,Fulton,Employment,"Any person employed by Piedmont Healthcare, Piedmont Atlanta Hospital, Piedmont Fayette Hospital, Piedmont Mountain Side Hospital, Piedmont Newnan Hospital, Piedmont Henry Hospital, Shepherd Center, or an approved medical group located near one of our hospitals and/or branches, and other non-medical business located at 2727 Paces Ferry Road SE. Members of an employee's immediate family are also eligible to join (spouse, children, parents, siblings and grandparents).",Multiple common bond – primary health care,1,,,,,,,,,,1,1,,,1,1,,,8359365,7140170,1544651,2203,"1968 Peachtree Rd NW, Atlanta, GA 30309",-84.3944183,33.8088286
+24546,42735,BIG BETHEL A.M.E. CHURCH,Corporate Office,Yes,61 Forsyth St SW Ste 8B65,Atlanta,GA,30303-2602,Fulton,Religoius,N/A,Associational – faith based,1,1,,1,,,,,,,,1,,,,1,,,309937,276718,31587,300,"61 Forsyth St SW Ste 8B65, Atlanta, GA 30303-2602",-84.3932062,33.7534949
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,6205 Peachtree Dunwoody Rd,Atlanta,GA,30303,Fulton,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"6205 Peachtree Dunwoody Rd, Atlanta, GA 30303",-84.350702,33.9246124
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,401 W Peachtree St NE Ste 300,Atlanta,GA,30328-4524,Fulton,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"401 W Peachtree St NE Ste 300, Atlanta, GA 30328-4524",-84.38458,33.7651747
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,190 Marietta St NW,Atlanta,GA,30308-3519,Fulton,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"190 Marietta St NW, Atlanta, GA 30308-3519",-84.3945649,33.7581619
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,1050 Techwood Dr NW,Atlanta,GA,30303,Fulton,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"1050 Techwood Dr NW, Atlanta, GA 30303",-84.3933801,33.7829981
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,123 Thorne Avenue,Atlanta,GA,30318,Fulton,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"123 Thorne Avenue, Atlanta, GA 30318",-84.4287498,33.7079739
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,2455 Paces Ferry Rd SE Bldg D,Atlanta,GA,30310,Fulton,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"2455 Paces Ferry Rd SE Bldg D, Atlanta, GA 30310",-84.4815367,33.8654179
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,2250 N Druid Hills Rd NE Ste 144,Atlanta,GA,30339,Cobb,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"2250 N Druid Hills Rd NE Ste 144, Atlanta, GA 30339",-84.3310504,33.8294114
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,223 Perimeter Center Pkwy NE,Atlanta,GA,30329-3118,Dekalb,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"223 Perimeter Center Pkwy NE, Atlanta, GA 30329-3118",-84.3464568,33.9224901
+60484,42735,ASSOCIATED CREDIT UNION,Branch Office,No,3250 Riverwood Pkwy SE,Atlanta,GA,30346-1301,Dekalb,Geographic,Not clear- open to everyone in GA? https://www.acuonline.org/home/membership/advantages,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,58640623,50953926,19248968,6398,"3250 Riverwood Pkwy SE, Atlanta, GA 30346-1301",-84.4601761,33.8770753
+66357,42735,DELTA COMMUNITY,Branch Office,No,1025 Virginia Ave,Atlanta,GA,30339-6419,Cobb,Geographic,"Anyone Living or Working in:
+
+Cherokee County, GA
+Clayton County, GA
+Cobb County, GA
+Coweta County, GA
+DeKalb County, GA
+Fayette County, GA
+Forsyth County, GA
+Fulton County, GA
+Gwinnett County, GA
+Hall County, GA
+Henry County, GA
+Any Current, Former, or Retired Employee of:
+
+A Hand to Hold, Inc. (formerly Atlanta In-Home Senior Care, Inc.)
+Aaron’s, Inc. (formerly Aaron Rents, Inc.)
+ABM Facility Services, Inc. (formerly Linc Facility Services)
+Affiliated Computer Services, Inc.
+Air Serv Corporation
+Allgood Pest Solutions
+All(n)1 Security Services, Inc.
+Amerifleet Transportation
+Andersen, Tate & Carr
+Atlanta Airlines Terminal Corporation
+Atlanta History Center
+Atlanta Commercial Tire, Inc.
+Atlanta Petroleum Equipment Company, Inc.
+Atlanta Plastic Surgery
+Atlanta Refrigeration Service
+Bauerfeind USA, Inc.
+BCD Travel (formerly WorldTravel BTI)
+Bellamy Strickland
+Better Business Bureau
+Business Innovations Worldwide
+Cadillac Jack
+Carvana
+Chick-fil-A, Inc.
+City of College Park, GA
+City of East Point, GA
+City of Hapeville, GA
+City of Suwanee, GA
+City of Union City, GA
+Clayton State University
+Community Christian School
+Compass Airlines
+Computer Mainstream, Corp.
+Cooper-Global Chauffeured Transportation, Inc. (formerly Cooper-Atlanta Transportation Services)
+Corporate Services Management America
+Costello Industries, Inc.
+Covenant Services Group
+Crane Safety
+Crew Outfitters/Flight Station
+CUNA Mutual Group-Southeast Marketing Division
+Delta Global Staffing (DGS)
+Delta Air Lines, Inc.
+Delta Family-Care Savings Trust
+Delta Private Jets
+Digital Insight
+DitchWitch
+Double Tree Club Hotel - Atlanta Airport
+Drew, Eckl & Farnham
+DS Services of America, Inc. (formerly DS Waters of America, Inc.)
+Dwarf House, Inc.
+Eagle Recognition
+Eagle Rock Distributing Company
+Eagle's Landing Christian Academy
+e-Health Partners, Inc.
+Elite Line Services, Inc.
+Enterprise Rent-A-Car
+Endeavor Air
+Environmental Engineering & Geotechnics, Inc.
+EPI-USE America, Inc.
+Esparza's Restaurante
+Express Jet Airlines (pre-merger Atlantic Southeast Airlines, Inc.)
+Flight Safety International
+The Fox Theatre
+Fussell Manufacturing
+Gardner Denver Nash (formerly Gardner Denver Engineered Products Division)
+Gateway One Lending and Finance
+Georgia Commerce Club
+Georgia Credit Union Affiliates
+General Paper Goods Company
+Georgia Parent Support Network
+Georgia Tire Dealers & Retreaders Association
+Gerresheimer
+Graham-Field Health Products
+Grizzard Communications
+Gwinnett Braves
+Gwinnett Center
+Gwinnett County Public Library
+Hartman, Simons, Spielman & Wood, LLP
+Harvey Watt Insurance
+Henry County Public Library System
+Herzing University
+HJG Dwarf House, Inc.
+HouseSold Realtors
+The IceBox
+Independent Chick-fil-A Operator
+Independent Chick-fil-A Operator (Team member)
+Innovative Administrative Services
+Integrated Care Management
+International Component Repair
+J. Smith Lanier and Co.
+J93.3 FM
+JAMCO Properties, Inc.
+Jewish Home Life Communities
+Kids R Kids
+Koppers Performance Chemicals, Inc. (formerly Osmose, Inc.)
+Lendmark Financial Services
+Level 5
+LogistiCare
+Low Temp Industries
+Maxxis International USA (formerly Maxxis Wheel Company)
+Moog, Inc. (formerly Videolarm)
+Murata Electronics North America
+Nestle Purina PetCare Company
+New South Construction
+Newell Recycling LLC
+Northern Kentucky University (Employees and Students)
+OmniVue Business Solutions, LLC
+Osmose Utilities Services
+Panasonic Automotive Systems of America
+PetSmart
+Plasmet, LLP
+Point University (formerly Atlanta Christian College)
+Porex
+Precision Avionics & Instruments
+Precision Heliparts
+Primerica
+PS Energy Group
+RaceTrac Petroleum, Inc.
+Randall-Paulson Architects
+Rinnai America Corporation
+RSUI, Inc.
+Robert A. Deyton Detention Facility
+Rollins, Inc.
+Shepard Exposition
+Shuttle America
+SITA
+Skip Barber Racing School
+SkyWest Airlines
+Southeastrans, Inc.
+Spelman College
+Star Packaging
+Stewart Enterprises, Inc.
+Synthetic Turf Council
+TAB Services, Inc
+Taylor English Duma, LLP
+Team Dwarf House, Inc.
+TDK Components USA
+The Burks Companies, Inc.
+The Family Health Centers of Georgia, Inc. (formerly West End Medical Centers, Inc.)
+The Joseph Sams School
+Toyota of Newnan
+TRX, Inc.
+TSi Logistics
+United Parcel Service (UPS)
+UP Entertainment (formerly Gospel Music Channel)
+Williamsburg Travel - American Express
+WinPak
+World Changers Church International
+Yamaha Motor Manufacturing Corporation of America
+Yokogawa Corporation of America
+Zoo Atlanta
+Any Member of the Following Associations:
+
+Atlanta Air Cargo Association Members
+Constitutional Officers Association of Georgia
+Creflo Dollar Ministerial Association (CDMA)
+Georgia Society of Rheumatology
+Georgia Tank & Environmental Contractors Association
+Independent Freight Forwarders and Customs House Brokers Association
+Morehouse College National Alumni Association
+Northern Kentucky Alumni Association
+Physicians' Alliance, Inc.
+PIAG (Printing and Imaging Association of GA)
+Universal Retail Wholesale Association
+Universal Trucking Benefits Association
+Any active, full-time Delta Air Lines, Inc. employee who is a non-U.S. citizen and currently living in either the Bahamas, Canada, Puerto Rico or the U.S. Virgin Islands.
+
+Any person related by blood, adoption or marriage to a member (except relatives of members who have been expelled from the Credit Union.) For example, if your spouse becomes a member, all of your spouse's eligible relatives could also become members of Delta Community Credit Union.
+
+Eligible Relatives Include:
+
+Spouse or Domestic Partner*
+Grandchildren
+Parents
+Aunts and uncles
+Brothers and sisters
+Nieces and nephews
+Children
+Cousins
+Grandparents
+Step Relatives
+In-Laws
+Membership Eligibility - Foreign Citizens
+
+Any active, full-time Delta Air Lines, Inc. employee who is a non-US citizen and is currently living in one of the foreign countries listed below. Foreign membership applies to the employee only and is limited to a Savings Account. Family members (including spouses or domestic partner*) of non-US citizen employees are not eligible for Credit Union membership.
+
+Argentina
+Belgium
+Bermuda
+Cayman Is.
+Colombia
+Costa Rica
+El Salvador
+Finland
+France
+Germany
+Greece
+Guatemala
+Italy
+Mexico
+Panama
+Peru
+Singapore
+Spain
+Sweden
+Switzerland
+United Kingdom
+Venezuela
+https://www.deltacommunitycu.com/personal/eligibility.aspx",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,203634666,177387364,90496322,13460,"1025 Virginia Ave, Atlanta, GA 30339-6419",-84.4233487,33.659376
+66357,42735,DELTA COMMUNITY,Corporate Office,Yes,1775 M H Jackson Service Rd,Atlanta,GA,30354-1319,Fulton,Employment/Geographic,"Anyone Living or Working in:
+
+Cherokee County, GA
+Clayton County, GA
+Cobb County, GA
+Coweta County, GA
+DeKalb County, GA
+Fayette County, GA
+Forsyth County, GA
+Fulton County, GA
+Gwinnett County, GA
+Hall County, GA
+Henry County, GA
+Any Current, Former, or Retired Employee of:
+
+A Hand to Hold, Inc. (formerly Atlanta In-Home Senior Care, Inc.)
+Aaron’s, Inc. (formerly Aaron Rents, Inc.)
+ABM Facility Services, Inc. (formerly Linc Facility Services)
+Affiliated Computer Services, Inc.
+Air Serv Corporation
+Allgood Pest Solutions
+All(n)1 Security Services, Inc.
+Amerifleet Transportation
+Andersen, Tate & Carr
+Atlanta Airlines Terminal Corporation
+Atlanta History Center
+Atlanta Commercial Tire, Inc.
+Atlanta Petroleum Equipment Company, Inc.
+Atlanta Plastic Surgery
+Atlanta Refrigeration Service
+Bauerfeind USA, Inc.
+BCD Travel (formerly WorldTravel BTI)
+Bellamy Strickland
+Better Business Bureau
+Business Innovations Worldwide
+Cadillac Jack
+Carvana
+Chick-fil-A, Inc.
+City of College Park, GA
+City of East Point, GA
+City of Hapeville, GA
+City of Suwanee, GA
+City of Union City, GA
+Clayton State University
+Community Christian School
+Compass Airlines
+Computer Mainstream, Corp.
+Cooper-Global Chauffeured Transportation, Inc. (formerly Cooper-Atlanta Transportation Services)
+Corporate Services Management America
+Costello Industries, Inc.
+Covenant Services Group
+Crane Safety
+Crew Outfitters/Flight Station
+CUNA Mutual Group-Southeast Marketing Division
+Delta Global Staffing (DGS)
+Delta Air Lines, Inc.
+Delta Family-Care Savings Trust
+Delta Private Jets
+Digital Insight
+DitchWitch
+Double Tree Club Hotel - Atlanta Airport
+Drew, Eckl & Farnham
+DS Services of America, Inc. (formerly DS Waters of America, Inc.)
+Dwarf House, Inc.
+Eagle Recognition
+Eagle Rock Distributing Company
+Eagle's Landing Christian Academy
+e-Health Partners, Inc.
+Elite Line Services, Inc.
+Enterprise Rent-A-Car
+Endeavor Air
+Environmental Engineering & Geotechnics, Inc.
+EPI-USE America, Inc.
+Esparza's Restaurante
+Express Jet Airlines (pre-merger Atlantic Southeast Airlines, Inc.)
+Flight Safety International
+The Fox Theatre
+Fussell Manufacturing
+Gardner Denver Nash (formerly Gardner Denver Engineered Products Division)
+Gateway One Lending and Finance
+Georgia Commerce Club
+Georgia Credit Union Affiliates
+General Paper Goods Company
+Georgia Parent Support Network
+Georgia Tire Dealers & Retreaders Association
+Gerresheimer
+Graham-Field Health Products
+Grizzard Communications
+Gwinnett Braves
+Gwinnett Center
+Gwinnett County Public Library
+Hartman, Simons, Spielman & Wood, LLP
+Harvey Watt Insurance
+Henry County Public Library System
+Herzing University
+HJG Dwarf House, Inc.
+HouseSold Realtors
+The IceBox
+Independent Chick-fil-A Operator
+Independent Chick-fil-A Operator (Team member)
+Innovative Administrative Services
+Integrated Care Management
+International Component Repair
+J. Smith Lanier and Co.
+J93.3 FM
+JAMCO Properties, Inc.
+Jewish Home Life Communities
+Kids R Kids
+Koppers Performance Chemicals, Inc. (formerly Osmose, Inc.)
+Lendmark Financial Services
+Level 5
+LogistiCare
+Low Temp Industries
+Maxxis International USA (formerly Maxxis Wheel Company)
+Moog, Inc. (formerly Videolarm)
+Murata Electronics North America
+Nestle Purina PetCare Company
+New South Construction
+Newell Recycling LLC
+Northern Kentucky University (Employees and Students)
+OmniVue Business Solutions, LLC
+Osmose Utilities Services
+Panasonic Automotive Systems of America
+PetSmart
+Plasmet, LLP
+Point University (formerly Atlanta Christian College)
+Porex
+Precision Avionics & Instruments
+Precision Heliparts
+Primerica
+PS Energy Group
+RaceTrac Petroleum, Inc.
+Randall-Paulson Architects
+Rinnai America Corporation
+RSUI, Inc.
+Robert A. Deyton Detention Facility
+Rollins, Inc.
+Shepard Exposition
+Shuttle America
+SITA
+Skip Barber Racing School
+SkyWest Airlines
+Southeastrans, Inc.
+Spelman College
+Star Packaging
+Stewart Enterprises, Inc.
+Synthetic Turf Council
+TAB Services, Inc
+Taylor English Duma, LLP
+Team Dwarf House, Inc.
+TDK Components USA
+The Burks Companies, Inc.
+The Family Health Centers of Georgia, Inc. (formerly West End Medical Centers, Inc.)
+The Joseph Sams School
+Toyota of Newnan
+TRX, Inc.
+TSi Logistics
+United Parcel Service (UPS)
+UP Entertainment (formerly Gospel Music Channel)
+Williamsburg Travel - American Express
+WinPak
+World Changers Church International
+Yamaha Motor Manufacturing Corporation of America
+Yokogawa Corporation of America
+Zoo Atlanta
+Any Member of the Following Associations:
+
+Atlanta Air Cargo Association Members
+Constitutional Officers Association of Georgia
+Creflo Dollar Ministerial Association (CDMA)
+Georgia Society of Rheumatology
+Georgia Tank & Environmental Contractors Association
+Independent Freight Forwarders and Customs House Brokers Association
+Morehouse College National Alumni Association
+Northern Kentucky Alumni Association
+Physicians' Alliance, Inc.
+PIAG (Printing and Imaging Association of GA)
+Universal Retail Wholesale Association
+Universal Trucking Benefits Association
+Any active, full-time Delta Air Lines, Inc. employee who is a non-U.S. citizen and currently living in either the Bahamas, Canada, Puerto Rico or the U.S. Virgin Islands.
+
+Any person related by blood, adoption or marriage to a member (except relatives of members who have been expelled from the Credit Union.) For example, if your spouse becomes a member, all of your spouse's eligible relatives could also become members of Delta Community Credit Union.
+
+Eligible Relatives Include:
+
+Spouse or Domestic Partner*
+Grandchildren
+Parents
+Aunts and uncles
+Brothers and sisters
+Nieces and nephews
+Children
+Cousins
+Grandparents
+Step Relatives
+In-Laws
+Membership Eligibility - Foreign Citizens
+
+Any active, full-time Delta Air Lines, Inc. employee who is a non-US citizen and is currently living in one of the foreign countries listed below. Foreign membership applies to the employee only and is limited to a Savings Account. Family members (including spouses or domestic partner*) of non-US citizen employees are not eligible for Credit Union membership.
+
+Argentina
+Belgium
+Bermuda
+Cayman Is.
+Colombia
+Costa Rica
+El Salvador
+Finland
+France
+Germany
+Greece
+Guatemala
+Italy
+Mexico
+Panama
+Peru
+Singapore
+Spain
+Sweden
+Switzerland
+United Kingdom
+Venezuela
+https://www.deltacommunitycu.com/personal/eligibility.aspx",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,203634666,177387364,90496322,13460,"1775 M H Jackson Service Rd, Atlanta, GA 30354-1319",-84.414078,33.6427747
+66357,42735,DELTA COMMUNITY,Branch Office,No,80 Peachtree Cir NE,Atlanta,GA,30354-3743,Clayton,Employment/Geographic,,State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,203634666,177387364,90496322,13460,"80 Peachtree Cir NE, Atlanta, GA 30354-3743",-84.3832373,33.7910394
+66357,42735,DELTA COMMUNITY,Branch Office,No,1050 Delta Blvd,Atlanta,GA,30309-3529,Fulton,Employment/Geographic,"Anyone Living or Working in:
+
+Cherokee County, GA
+Clayton County, GA
+Cobb County, GA
+Coweta County, GA
+DeKalb County, GA
+Fayette County, GA
+Forsyth County, GA
+Fulton County, GA
+Gwinnett County, GA
+Hall County, GA
+Henry County, GA
+Any Current, Former, or Retired Employee of:
+
+A Hand to Hold, Inc. (formerly Atlanta In-Home Senior Care, Inc.)
+Aaron’s, Inc. (formerly Aaron Rents, Inc.)
+ABM Facility Services, Inc. (formerly Linc Facility Services)
+Affiliated Computer Services, Inc.
+Air Serv Corporation
+Allgood Pest Solutions
+All(n)1 Security Services, Inc.
+Amerifleet Transportation
+Andersen, Tate & Carr
+Atlanta Airlines Terminal Corporation
+Atlanta History Center
+Atlanta Commercial Tire, Inc.
+Atlanta Petroleum Equipment Company, Inc.
+Atlanta Plastic Surgery
+Atlanta Refrigeration Service
+Bauerfeind USA, Inc.
+BCD Travel (formerly WorldTravel BTI)
+Bellamy Strickland
+Better Business Bureau
+Business Innovations Worldwide
+Cadillac Jack
+Carvana
+Chick-fil-A, Inc.
+City of College Park, GA
+City of East Point, GA
+City of Hapeville, GA
+City of Suwanee, GA
+City of Union City, GA
+Clayton State University
+Community Christian School
+Compass Airlines
+Computer Mainstream, Corp.
+Cooper-Global Chauffeured Transportation, Inc. (formerly Cooper-Atlanta Transportation Services)
+Corporate Services Management America
+Costello Industries, Inc.
+Covenant Services Group
+Crane Safety
+Crew Outfitters/Flight Station
+CUNA Mutual Group-Southeast Marketing Division
+Delta Global Staffing (DGS)
+Delta Air Lines, Inc.
+Delta Family-Care Savings Trust
+Delta Private Jets
+Digital Insight
+DitchWitch
+Double Tree Club Hotel - Atlanta Airport
+Drew, Eckl & Farnham
+DS Services of America, Inc. (formerly DS Waters of America, Inc.)
+Dwarf House, Inc.
+Eagle Recognition
+Eagle Rock Distributing Company
+Eagle's Landing Christian Academy
+e-Health Partners, Inc.
+Elite Line Services, Inc.
+Enterprise Rent-A-Car
+Endeavor Air
+Environmental Engineering & Geotechnics, Inc.
+EPI-USE America, Inc.
+Esparza's Restaurante
+Express Jet Airlines (pre-merger Atlantic Southeast Airlines, Inc.)
+Flight Safety International
+The Fox Theatre
+Fussell Manufacturing
+Gardner Denver Nash (formerly Gardner Denver Engineered Products Division)
+Gateway One Lending and Finance
+Georgia Commerce Club
+Georgia Credit Union Affiliates
+General Paper Goods Company
+Georgia Parent Support Network
+Georgia Tire Dealers & Retreaders Association
+Gerresheimer
+Graham-Field Health Products
+Grizzard Communications
+Gwinnett Braves
+Gwinnett Center
+Gwinnett County Public Library
+Hartman, Simons, Spielman & Wood, LLP
+Harvey Watt Insurance
+Henry County Public Library System
+Herzing University
+HJG Dwarf House, Inc.
+HouseSold Realtors
+The IceBox
+Independent Chick-fil-A Operator
+Independent Chick-fil-A Operator (Team member)
+Innovative Administrative Services
+Integrated Care Management
+International Component Repair
+J. Smith Lanier and Co.
+J93.3 FM
+JAMCO Properties, Inc.
+Jewish Home Life Communities
+Kids R Kids
+Koppers Performance Chemicals, Inc. (formerly Osmose, Inc.)
+Lendmark Financial Services
+Level 5
+LogistiCare
+Low Temp Industries
+Maxxis International USA (formerly Maxxis Wheel Company)
+Moog, Inc. (formerly Videolarm)
+Murata Electronics North America
+Nestle Purina PetCare Company
+New South Construction
+Newell Recycling LLC
+Northern Kentucky University (Employees and Students)
+OmniVue Business Solutions, LLC
+Osmose Utilities Services
+Panasonic Automotive Systems of America
+PetSmart
+Plasmet, LLP
+Point University (formerly Atlanta Christian College)
+Porex
+Precision Avionics & Instruments
+Precision Heliparts
+Primerica
+PS Energy Group
+RaceTrac Petroleum, Inc.
+Randall-Paulson Architects
+Rinnai America Corporation
+RSUI, Inc.
+Robert A. Deyton Detention Facility
+Rollins, Inc.
+Shepard Exposition
+Shuttle America
+SITA
+Skip Barber Racing School
+SkyWest Airlines
+Southeastrans, Inc.
+Spelman College
+Star Packaging
+Stewart Enterprises, Inc.
+Synthetic Turf Council
+TAB Services, Inc
+Taylor English Duma, LLP
+Team Dwarf House, Inc.
+TDK Components USA
+The Burks Companies, Inc.
+The Family Health Centers of Georgia, Inc. (formerly West End Medical Centers, Inc.)
+The Joseph Sams School
+Toyota of Newnan
+TRX, Inc.
+TSi Logistics
+United Parcel Service (UPS)
+UP Entertainment (formerly Gospel Music Channel)
+Williamsburg Travel - American Express
+WinPak
+World Changers Church International
+Yamaha Motor Manufacturing Corporation of America
+Yokogawa Corporation of America
+Zoo Atlanta
+Any Member of the Following Associations:
+
+Atlanta Air Cargo Association Members
+Constitutional Officers Association of Georgia
+Creflo Dollar Ministerial Association (CDMA)
+Georgia Society of Rheumatology
+Georgia Tank & Environmental Contractors Association
+Independent Freight Forwarders and Customs House Brokers Association
+Morehouse College National Alumni Association
+Northern Kentucky Alumni Association
+Physicians' Alliance, Inc.
+PIAG (Printing and Imaging Association of GA)
+Universal Retail Wholesale Association
+Universal Trucking Benefits Association
+Any active, full-time Delta Air Lines, Inc. employee who is a non-U.S. citizen and currently living in either the Bahamas, Canada, Puerto Rico or the U.S. Virgin Islands.
+
+Any person related by blood, adoption or marriage to a member (except relatives of members who have been expelled from the Credit Union.) For example, if your spouse becomes a member, all of your spouse's eligible relatives could also become members of Delta Community Credit Union.
+
+Eligible Relatives Include:
+
+Spouse or Domestic Partner*
+Grandchildren
+Parents
+Aunts and uncles
+Brothers and sisters
+Nieces and nephews
+Children
+Cousins
+Grandparents
+Step Relatives
+In-Laws
+Membership Eligibility - Foreign Citizens
+
+Any active, full-time Delta Air Lines, Inc. employee who is a non-US citizen and is currently living in one of the foreign countries listed below. Foreign membership applies to the employee only and is limited to a Savings Account. Family members (including spouses or domestic partner*) of non-US citizen employees are not eligible for Credit Union membership.
+
+Argentina
+Belgium
+Bermuda
+Cayman Is.
+Colombia
+Costa Rica
+El Salvador
+Finland
+France
+Germany
+Greece
+Guatemala
+Italy
+Mexico
+Panama
+Peru
+Singapore
+Spain
+Sweden
+Switzerland
+United Kingdom
+Venezuela
+https://www.deltacommunitycu.com/personal/eligibility.aspx",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,203634666,177387364,90496322,13460,"1050 Delta Blvd, Atlanta, GA 30309-3529",-84.4222196,33.6558754
+66357,42735,DELTA COMMUNITY,Branch Office,No,1025 Virginia Ave,Atlanta,GA,30354-1989,Fulton,Employment/Geographic,"Anyone Living or Working in:
+
+Cherokee County, GA
+Clayton County, GA
+Cobb County, GA
+Coweta County, GA
+DeKalb County, GA
+Fayette County, GA
+Forsyth County, GA
+Fulton County, GA
+Gwinnett County, GA
+Hall County, GA
+Henry County, GA
+Any Current, Former, or Retired Employee of:
+
+A Hand to Hold, Inc. (formerly Atlanta In-Home Senior Care, Inc.)
+Aaron’s, Inc. (formerly Aaron Rents, Inc.)
+ABM Facility Services, Inc. (formerly Linc Facility Services)
+Affiliated Computer Services, Inc.
+Air Serv Corporation
+Allgood Pest Solutions
+All(n)1 Security Services, Inc.
+Amerifleet Transportation
+Andersen, Tate & Carr
+Atlanta Airlines Terminal Corporation
+Atlanta History Center
+Atlanta Commercial Tire, Inc.
+Atlanta Petroleum Equipment Company, Inc.
+Atlanta Plastic Surgery
+Atlanta Refrigeration Service
+Bauerfeind USA, Inc.
+BCD Travel (formerly WorldTravel BTI)
+Bellamy Strickland
+Better Business Bureau
+Business Innovations Worldwide
+Cadillac Jack
+Carvana
+Chick-fil-A, Inc.
+City of College Park, GA
+City of East Point, GA
+City of Hapeville, GA
+City of Suwanee, GA
+City of Union City, GA
+Clayton State University
+Community Christian School
+Compass Airlines
+Computer Mainstream, Corp.
+Cooper-Global Chauffeured Transportation, Inc. (formerly Cooper-Atlanta Transportation Services)
+Corporate Services Management America
+Costello Industries, Inc.
+Covenant Services Group
+Crane Safety
+Crew Outfitters/Flight Station
+CUNA Mutual Group-Southeast Marketing Division
+Delta Global Staffing (DGS)
+Delta Air Lines, Inc.
+Delta Family-Care Savings Trust
+Delta Private Jets
+Digital Insight
+DitchWitch
+Double Tree Club Hotel - Atlanta Airport
+Drew, Eckl & Farnham
+DS Services of America, Inc. (formerly DS Waters of America, Inc.)
+Dwarf House, Inc.
+Eagle Recognition
+Eagle Rock Distributing Company
+Eagle's Landing Christian Academy
+e-Health Partners, Inc.
+Elite Line Services, Inc.
+Enterprise Rent-A-Car
+Endeavor Air
+Environmental Engineering & Geotechnics, Inc.
+EPI-USE America, Inc.
+Esparza's Restaurante
+Express Jet Airlines (pre-merger Atlantic Southeast Airlines, Inc.)
+Flight Safety International
+The Fox Theatre
+Fussell Manufacturing
+Gardner Denver Nash (formerly Gardner Denver Engineered Products Division)
+Gateway One Lending and Finance
+Georgia Commerce Club
+Georgia Credit Union Affiliates
+General Paper Goods Company
+Georgia Parent Support Network
+Georgia Tire Dealers & Retreaders Association
+Gerresheimer
+Graham-Field Health Products
+Grizzard Communications
+Gwinnett Braves
+Gwinnett Center
+Gwinnett County Public Library
+Hartman, Simons, Spielman & Wood, LLP
+Harvey Watt Insurance
+Henry County Public Library System
+Herzing University
+HJG Dwarf House, Inc.
+HouseSold Realtors
+The IceBox
+Independent Chick-fil-A Operator
+Independent Chick-fil-A Operator (Team member)
+Innovative Administrative Services
+Integrated Care Management
+International Component Repair
+J. Smith Lanier and Co.
+J93.3 FM
+JAMCO Properties, Inc.
+Jewish Home Life Communities
+Kids R Kids
+Koppers Performance Chemicals, Inc. (formerly Osmose, Inc.)
+Lendmark Financial Services
+Level 5
+LogistiCare
+Low Temp Industries
+Maxxis International USA (formerly Maxxis Wheel Company)
+Moog, Inc. (formerly Videolarm)
+Murata Electronics North America
+Nestle Purina PetCare Company
+New South Construction
+Newell Recycling LLC
+Northern Kentucky University (Employees and Students)
+OmniVue Business Solutions, LLC
+Osmose Utilities Services
+Panasonic Automotive Systems of America
+PetSmart
+Plasmet, LLP
+Point University (formerly Atlanta Christian College)
+Porex
+Precision Avionics & Instruments
+Precision Heliparts
+Primerica
+PS Energy Group
+RaceTrac Petroleum, Inc.
+Randall-Paulson Architects
+Rinnai America Corporation
+RSUI, Inc.
+Robert A. Deyton Detention Facility
+Rollins, Inc.
+Shepard Exposition
+Shuttle America
+SITA
+Skip Barber Racing School
+SkyWest Airlines
+Southeastrans, Inc.
+Spelman College
+Star Packaging
+Stewart Enterprises, Inc.
+Synthetic Turf Council
+TAB Services, Inc
+Taylor English Duma, LLP
+Team Dwarf House, Inc.
+TDK Components USA
+The Burks Companies, Inc.
+The Family Health Centers of Georgia, Inc. (formerly West End Medical Centers, Inc.)
+The Joseph Sams School
+Toyota of Newnan
+TRX, Inc.
+TSi Logistics
+United Parcel Service (UPS)
+UP Entertainment (formerly Gospel Music Channel)
+Williamsburg Travel - American Express
+WinPak
+World Changers Church International
+Yamaha Motor Manufacturing Corporation of America
+Yokogawa Corporation of America
+Zoo Atlanta
+Any Member of the Following Associations:
+
+Atlanta Air Cargo Association Members
+Constitutional Officers Association of Georgia
+Creflo Dollar Ministerial Association (CDMA)
+Georgia Society of Rheumatology
+Georgia Tank & Environmental Contractors Association
+Independent Freight Forwarders and Customs House Brokers Association
+Morehouse College National Alumni Association
+Northern Kentucky Alumni Association
+Physicians' Alliance, Inc.
+PIAG (Printing and Imaging Association of GA)
+Universal Retail Wholesale Association
+Universal Trucking Benefits Association
+Any active, full-time Delta Air Lines, Inc. employee who is a non-U.S. citizen and currently living in either the Bahamas, Canada, Puerto Rico or the U.S. Virgin Islands.
+
+Any person related by blood, adoption or marriage to a member (except relatives of members who have been expelled from the Credit Union.) For example, if your spouse becomes a member, all of your spouse's eligible relatives could also become members of Delta Community Credit Union.
+
+Eligible Relatives Include:
+
+Spouse or Domestic Partner*
+Grandchildren
+Parents
+Aunts and uncles
+Brothers and sisters
+Nieces and nephews
+Children
+Cousins
+Grandparents
+Step Relatives
+In-Laws
+Membership Eligibility - Foreign Citizens
+
+Any active, full-time Delta Air Lines, Inc. employee who is a non-US citizen and is currently living in one of the foreign countries listed below. Foreign membership applies to the employee only and is limited to a Savings Account. Family members (including spouses or domestic partner*) of non-US citizen employees are not eligible for Credit Union membership.
+
+Argentina
+Belgium
+Bermuda
+Cayman Is.
+Colombia
+Costa Rica
+El Salvador
+Finland
+France
+Germany
+Greece
+Guatemala
+Italy
+Mexico
+Panama
+Peru
+Singapore
+Spain
+Sweden
+Switzerland
+United Kingdom
+Venezuela
+https://www.deltacommunitycu.com/personal/eligibility.aspx",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,203634666,177387364,90496322,13460,"1025 Virginia Ave, Atlanta, GA 30354-1989",-84.4233487,33.659376
+66357,42735,DELTA COMMUNITY,Branch Office,No,1105 HERNDON ST NW,Atlanta,GA,30354-1319,Fulton,Employment/Geographic,"Anyone Living or Working in:
+
+Cherokee County, GA
+Clayton County, GA
+Cobb County, GA
+Coweta County, GA
+DeKalb County, GA
+Fayette County, GA
+Forsyth County, GA
+Fulton County, GA
+Gwinnett County, GA
+Hall County, GA
+Henry County, GA
+Any Current, Former, or Retired Employee of:
+
+A Hand to Hold, Inc. (formerly Atlanta In-Home Senior Care, Inc.)
+Aaron’s, Inc. (formerly Aaron Rents, Inc.)
+ABM Facility Services, Inc. (formerly Linc Facility Services)
+Affiliated Computer Services, Inc.
+Air Serv Corporation
+Allgood Pest Solutions
+All(n)1 Security Services, Inc.
+Amerifleet Transportation
+Andersen, Tate & Carr
+Atlanta Airlines Terminal Corporation
+Atlanta History Center
+Atlanta Commercial Tire, Inc.
+Atlanta Petroleum Equipment Company, Inc.
+Atlanta Plastic Surgery
+Atlanta Refrigeration Service
+Bauerfeind USA, Inc.
+BCD Travel (formerly WorldTravel BTI)
+Bellamy Strickland
+Better Business Bureau
+Business Innovations Worldwide
+Cadillac Jack
+Carvana
+Chick-fil-A, Inc.
+City of College Park, GA
+City of East Point, GA
+City of Hapeville, GA
+City of Suwanee, GA
+City of Union City, GA
+Clayton State University
+Community Christian School
+Compass Airlines
+Computer Mainstream, Corp.
+Cooper-Global Chauffeured Transportation, Inc. (formerly Cooper-Atlanta Transportation Services)
+Corporate Services Management America
+Costello Industries, Inc.
+Covenant Services Group
+Crane Safety
+Crew Outfitters/Flight Station
+CUNA Mutual Group-Southeast Marketing Division
+Delta Global Staffing (DGS)
+Delta Air Lines, Inc.
+Delta Family-Care Savings Trust
+Delta Private Jets
+Digital Insight
+DitchWitch
+Double Tree Club Hotel - Atlanta Airport
+Drew, Eckl & Farnham
+DS Services of America, Inc. (formerly DS Waters of America, Inc.)
+Dwarf House, Inc.
+Eagle Recognition
+Eagle Rock Distributing Company
+Eagle's Landing Christian Academy
+e-Health Partners, Inc.
+Elite Line Services, Inc.
+Enterprise Rent-A-Car
+Endeavor Air
+Environmental Engineering & Geotechnics, Inc.
+EPI-USE America, Inc.
+Esparza's Restaurante
+Express Jet Airlines (pre-merger Atlantic Southeast Airlines, Inc.)
+Flight Safety International
+The Fox Theatre
+Fussell Manufacturing
+Gardner Denver Nash (formerly Gardner Denver Engineered Products Division)
+Gateway One Lending and Finance
+Georgia Commerce Club
+Georgia Credit Union Affiliates
+General Paper Goods Company
+Georgia Parent Support Network
+Georgia Tire Dealers & Retreaders Association
+Gerresheimer
+Graham-Field Health Products
+Grizzard Communications
+Gwinnett Braves
+Gwinnett Center
+Gwinnett County Public Library
+Hartman, Simons, Spielman & Wood, LLP
+Harvey Watt Insurance
+Henry County Public Library System
+Herzing University
+HJG Dwarf House, Inc.
+HouseSold Realtors
+The IceBox
+Independent Chick-fil-A Operator
+Independent Chick-fil-A Operator (Team member)
+Innovative Administrative Services
+Integrated Care Management
+International Component Repair
+J. Smith Lanier and Co.
+J93.3 FM
+JAMCO Properties, Inc.
+Jewish Home Life Communities
+Kids R Kids
+Koppers Performance Chemicals, Inc. (formerly Osmose, Inc.)
+Lendmark Financial Services
+Level 5
+LogistiCare
+Low Temp Industries
+Maxxis International USA (formerly Maxxis Wheel Company)
+Moog, Inc. (formerly Videolarm)
+Murata Electronics North America
+Nestle Purina PetCare Company
+New South Construction
+Newell Recycling LLC
+Northern Kentucky University (Employees and Students)
+OmniVue Business Solutions, LLC
+Osmose Utilities Services
+Panasonic Automotive Systems of America
+PetSmart
+Plasmet, LLP
+Point University (formerly Atlanta Christian College)
+Porex
+Precision Avionics & Instruments
+Precision Heliparts
+Primerica
+PS Energy Group
+RaceTrac Petroleum, Inc.
+Randall-Paulson Architects
+Rinnai America Corporation
+RSUI, Inc.
+Robert A. Deyton Detention Facility
+Rollins, Inc.
+Shepard Exposition
+Shuttle America
+SITA
+Skip Barber Racing School
+SkyWest Airlines
+Southeastrans, Inc.
+Spelman College
+Star Packaging
+Stewart Enterprises, Inc.
+Synthetic Turf Council
+TAB Services, Inc
+Taylor English Duma, LLP
+Team Dwarf House, Inc.
+TDK Components USA
+The Burks Companies, Inc.
+The Family Health Centers of Georgia, Inc. (formerly West End Medical Centers, Inc.)
+The Joseph Sams School
+Toyota of Newnan
+TRX, Inc.
+TSi Logistics
+United Parcel Service (UPS)
+UP Entertainment (formerly Gospel Music Channel)
+Williamsburg Travel - American Express
+WinPak
+World Changers Church International
+Yamaha Motor Manufacturing Corporation of America
+Yokogawa Corporation of America
+Zoo Atlanta
+Any Member of the Following Associations:
+
+Atlanta Air Cargo Association Members
+Constitutional Officers Association of Georgia
+Creflo Dollar Ministerial Association (CDMA)
+Georgia Society of Rheumatology
+Georgia Tank & Environmental Contractors Association
+Independent Freight Forwarders and Customs House Brokers Association
+Morehouse College National Alumni Association
+Northern Kentucky Alumni Association
+Physicians' Alliance, Inc.
+PIAG (Printing and Imaging Association of GA)
+Universal Retail Wholesale Association
+Universal Trucking Benefits Association
+Any active, full-time Delta Air Lines, Inc. employee who is a non-U.S. citizen and currently living in either the Bahamas, Canada, Puerto Rico or the U.S. Virgin Islands.
+
+Any person related by blood, adoption or marriage to a member (except relatives of members who have been expelled from the Credit Union.) For example, if your spouse becomes a member, all of your spouse's eligible relatives could also become members of Delta Community Credit Union.
+
+Eligible Relatives Include:
+
+Spouse or Domestic Partner*
+Grandchildren
+Parents
+Aunts and uncles
+Brothers and sisters
+Nieces and nephews
+Children
+Cousins
+Grandparents
+Step Relatives
+In-Laws
+Membership Eligibility - Foreign Citizens
+
+Any active, full-time Delta Air Lines, Inc. employee who is a non-US citizen and is currently living in one of the foreign countries listed below. Foreign membership applies to the employee only and is limited to a Savings Account. Family members (including spouses or domestic partner*) of non-US citizen employees are not eligible for Credit Union membership.
+
+Argentina
+Belgium
+Bermuda
+Cayman Is.
+Colombia
+Costa Rica
+El Salvador
+Finland
+France
+Germany
+Greece
+Guatemala
+Italy
+Mexico
+Panama
+Peru
+Singapore
+Spain
+Sweden
+Switzerland
+United Kingdom
+Venezuela
+https://www.deltacommunitycu.com/personal/eligibility.aspx",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,203634666,177387364,90496322,13460,"1105 HERNDON ST NW, Atlanta, GA 30354-1319",-84.422246,33.7836292
+67353,42735,MEAD EMPLOYEES',Corporate Office,Yes,2999 Circle 75 Pkwy SE,Atlanta,GA,30318-5272,Fulton,Employment,Not clear,State chartered natural person credit union,,,,,,,,,,,,1,,,1,1,,,4559000,3093038,1101518,721,"2999 Circle 75 Pkwy SE, Atlanta, GA 30318-5272",-84.4699872,33.895226
+67382,42735,GENUINE PARTS,Corporate Office,No,10 Peachtree Pl NE,Atlanta,GA,30339,Cobb,Employment,"Membership in Genuine Parts Credit Union is available to all employees of Genuine Parts Company and its subsidiaries who have completed three months of service if full-time and six months of service if part-time.
+
+An Early Warning check is completed for all applicants.
+
+Only employees can be members of the credit union.  However, members can grant either unlimited or restricted access to spouses and other family members by providing written instructions to the credit union.",State chartered natural person credit union,,,,,,,,,,,,1,,,1,1,,,9204742,6562459,1652285,1060,"10 Peachtree Pl NE, Atlanta, GA 30339",-84.387112,33.7809085
+67383,42735,CREDIT UNION OF ATLANTA,Branch Office,No,3916 Tradeport Blvd,Atlanta,GA,30303,Fulton,Employment,"Employees of the City of Atlanta and all Agencies, Authorities and organizations, that are affiliated with the City of Atlanta
+Zoo Atlanta, Inc.
+Atlanta Public Schools
+Atlanta Fulton County Emergency Management Agency
+Fulton County Government; Enterprise Car Sales of Georgia
+Atlanta Development Authority
+Mt. Nebo Baptist Church
+Victory Tabernacle Missionary Baptist Church
+Employees of Credit Union of Atlanta and their immediate families
+Persons retired as pensioners or annuitants from the above employment
+Persons related by blood, adoption, or marriage to or living in the same household with a person within such common bond; surviving spouses of deceased members; and organizations of such persons.
+Members and employees of the Wheat Street Baptist Church in Atlanta, Georgia
+Residents of or person who works in Wheat Street Gardens, Wheat Street Towers, or Wheat Street Shopping Center (located on the property of and owned by the above church)
+Members and employees of the Calvary Baptist Church in Madison, Georgia limited to a maximum of 2,500 members
+Members and employees of the Cathedral of Faith Church of God In Christ in Atlanta, Georgia, limited to a maximum of 2,500 members
+The Spouse of a person who dies while within the field of membership of this credit union
+Persons retired as pensioners or annuitants from the above employment
+Organizations of such persons, and Cathedral of Faith Church of God In Christ.",State chartered natural person credit union,,1,,1,,,1,,,,1,1,,,1,1,1,1,20531447,18238982,4270894,5922,"3916 Tradeport Blvd, Atlanta, GA 30303",-84.3950185,33.6447744
+67383,42735,CREDIT UNION OF ATLANTA,Corporate Office,Yes,400 Tradeport Blvd Ste 401,Atlanta,GA,30310,Fulton,Employment,"Employees of the City of Atlanta and all Agencies, Authorities and organizations, that are affiliated with the City of Atlanta
+Zoo Atlanta, Inc.
+Atlanta Public Schools
+Atlanta Fulton County Emergency Management Agency
+Fulton County Government; Enterprise Car Sales of Georgia
+Atlanta Development Authority
+Mt. Nebo Baptist Church
+Victory Tabernacle Missionary Baptist Church
+Employees of Credit Union of Atlanta and their immediate families
+Persons retired as pensioners or annuitants from the above employment
+Persons related by blood, adoption, or marriage to or living in the same household with a person within such common bond; surviving spouses of deceased members; and organizations of such persons.
+Members and employees of the Wheat Street Baptist Church in Atlanta, Georgia
+Residents of or person who works in Wheat Street Gardens, Wheat Street Towers, or Wheat Street Shopping Center (located on the property of and owned by the above church)
+Members and employees of the Calvary Baptist Church in Madison, Georgia limited to a maximum of 2,500 members
+Members and employees of the Cathedral of Faith Church of God In Christ in Atlanta, Georgia, limited to a maximum of 2,500 members
+The Spouse of a person who dies while within the field of membership of this credit union
+Persons retired as pensioners or annuitants from the above employment
+Organizations of such persons, and Cathedral of Faith Church of God In Christ.",State chartered natural person credit union,,1,,1,,,1,,,,1,1,,,1,1,1,1,20531447,18238982,4270894,5922,"400 Tradeport Blvd Ste 401, Atlanta, GA 30310",-84.3938873,33.6487658
+67388,42735,MUTUAL SAVINGS,Corporate Office,Yes,1800 James Jackson Pkwy NW,Atlanta,GA,30309,Fulton,Employment/Geographic,"
+Employed by a Mutual Savings sponsor group.
+Those who live, work, worship or attend school within the following Alabama counties:
+• Autauga
+• Bibb
+• Blount
+• Chilton
+• Clay
+• Coosa
+• Dallas
+• Jefferson
+• Shelby
+• St. Clair
+• Talladega
+• Tuscaloosa
+• Walker
+Live, work, worship or attend school within a 50-mile radius of Alexander City.
+Family members of an existing member of Mutual Savings.
+",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,76574654,67193180,16215952,6266,"1800 James Jackson Pkwy NW, Atlanta, GA 30309",-84.4795396,33.8033238
+67389,42735,ATLANTA POSTAL,Branch Office,No,501 Pulliam St SW Ste 350,Atlanta,GA,30354,Clayton,Employment,"Membership is open to any family members who are related by blood, marriage, or adoption to active or retired employees of the below listed eligible You are eligible to join APCU if you are employed by or retired from one of the companies, organizations, associations, or a resident of the Georgia counties listed below:
+
+The United States Postal Service or others who are paid by contract or salary under the authority of the Postmaster General
+National Rural Letter Carriers
+National League of Postmasters
+National Association of Retired Postal Inspectors
+Association of United States Postal Lessors
+Any legally chartered organization made up of postal employees
+Department of Human Services and other units, retirees of, and all Georgia state employees or retirees of any Georgia State agency, department, authority, bureau, board, commission, college, university, and elected officials
+Employees of the Federal government (civilian and military) who live within the State of Georgia
+Greater Atlanta Postal Customer Council (GAPCC) - All employees and family members of individuals and businesses, who are members of the GAPCC and who live in Georgia.
+US Veterans Administration employees employed in or paid from Tuskegee, AL
+West Central Georgia Regional Hospital employees
+Employees of Smith and Sons Food, Inc.
+Employees of Atlanta Postal Credit Union
+Employees of the school system in Harris, Talbot, Meriweather, Marion and Chattahoochee Counties in Georgia
+Employees of the Columbus, GA Conventions and Visitors Bureau
+Employees of Columbus State University, Columbus, Georgia
+Members of the Columbus State University Alumni Association in the United States
+Any firm or business that has a business relationship with the Credit Union
+Residents of Bibb County Georgia
+City of Forsyth employees
+IBEW Local 613 members and employees of contractors currently working under a working agreement with IBEW Local 613, retired members of IBEW Local 613, employees of IBEW Local 613, employees of the Joint Apprenticeship Training Committee, indentured apprentices currently enrolled in the JATC Program.
+Anyone working in the IBEW Local 613 building at 501 Pulliam Street, Atlanta, Georgia
+Bridge Structural, Ornamental, and Reinforcing Iron Workers Union Local #387
+Plumbers, Pipefitters, and Service Technicians Local Union 72
+Operative Plasterers' and Cement Masons' Union Local 148
+American Federation of State, County and Municipal Employees Local 1644
+Employees of the following companies who work in or are paid from Columbus, Georgia:
+AAA Plumbing
+Accredited Court Reporters
+A-Com Enterprises, Inc
+Bi-City Service Company
+Buck Industries, Inc
+Burnham Service Corporation
+Columbus Foundries, Inc
+D.G. Apparel Manufacturing Co
+Dan Parker Realty
+Easter I.T.S. Inc
+GFA Compressors, Inc
+Goodwill Industries
+Goolsby Foods, Inc
+Hisaw Motor Lines, Inc
+Holt Service Company
+Kersey & Luttrell Architects, PC
+Lewis Broadcasting Corp/WLTZ-TV 38
+Mead Coated Board (Southern Wood Products Division)
+Pasco
+Paws Humane, Inc
+Phone Doctor, Inc
+Sidewinder, Inc DBA Wild Bills Party Shop
+Sharoan Enterprises, Inc DBA Wild Bills Jewelry and Pawn
+Steinhaus Printing Service
+Swift Spinning Mills, Inc
+Temporary Alternative, Inc
+The Bibb Company
+The Bradley Center, Inc
+The Concrete Company
+The Jordan Bradley Company
+W.C. Bradley, Inc
+Whites Growing Room, Inc
+WRBL-TV
+Employees of Douglas & Lomason who work in or are paid from Columbus, Georgia or Phenix City, Alabama
+Members of Christian Churches Credit Union
+Atlanta Graphic Communications Local Union 148
+1st American Appraisals
+4 Spine
+ADVO System, Inc.
+Alexander Gallo Holdings LLC
+Amalgamated Transit Union Local 732
+Association of Conflict Resolution
+AstenJohnson, Inc. (formerly Atlanta Wire Works, Inc.; Drytex, Inc. and Atlanta Felt Company, Inc.) who work in Clayton County, Georgia
+AV Data Systems, Inc.
+Best Net Solutions
+Bill Rogers Engineering, Inc.
+D&E The Power Group
+Dig It Tees
+East-West Express
+Employees of Macon Water Works
+Enterprise Car Sales of Atlanta
+Freeman Forms and Supplies, Inc.
+Georgia Central Credit Union
+Georgia Credit Union Affiliates
+Hampton Inn, Downtown Atlanta
+Hands on Atlanta
+International Association of Financial Crimes Investigators
+Jack Nadel, Inc. of Atlanta, Georgia
+Jackson Oats Shaw Commercial Real Estate
+Lawrence Printing
+Manufactured Assemblies Corporation workers employed in Georgia
+MOMA Architecture, Inc.
+Morris Hardwick Schneider AKA Land Castle Titles
+Peer 1 Internet Infrastructure Solution
+Residents of Floyd County Georgia
+Residents of Fulton County Georgia
+Residents of Muscogee County Georgia
+Rexam Beverage Can (formerly American Can Company) of Forest Park, Georgia
+Southeast Bankcard Association
+Thompson, OBrien, Kemp and Nasuti
+Tap It Inc.
+Top Turf
+Ultima Realty organizations or associations. This means the following individuals are welcome to join: spouses, siblings, parents, children, grandchildren, grandparents, aunts, uncles, nieces, nephews, and in-laws of eligible members. Furthermore, the employee or retiree you are related to or residing with need not be a member of the Credit Union in order for you to join.
+",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,161040111,141709295,48453054,8588,"501 Pulliam St SW Ste 350, Atlanta, GA 30354",-84.3926962,33.741122
+67389,42735,ATLANTA POSTAL,Branch Office,No,3900 Crown Rd SW,Atlanta,GA,30354-2911,Fulton,Employment,"Membership is open to any family members who are related by blood, marriage, or adoption to active or retired employees of the below listed eligible You are eligible to join APCU if you are employed by or retired from one of the companies, organizations, associations, or a resident of the Georgia counties listed below:
+
+The United States Postal Service or others who are paid by contract or salary under the authority of the Postmaster General
+National Rural Letter Carriers
+National League of Postmasters
+National Association of Retired Postal Inspectors
+Association of United States Postal Lessors
+Any legally chartered organization made up of postal employees
+Department of Human Services and other units, retirees of, and all Georgia state employees or retirees of any Georgia State agency, department, authority, bureau, board, commission, college, university, and elected officials
+Employees of the Federal government (civilian and military) who live within the State of Georgia
+Greater Atlanta Postal Customer Council (GAPCC) - All employees and family members of individuals and businesses, who are members of the GAPCC and who live in Georgia.
+US Veterans Administration employees employed in or paid from Tuskegee, AL
+West Central Georgia Regional Hospital employees
+Employees of Smith and Sons Food, Inc.
+Employees of Atlanta Postal Credit Union
+Employees of the school system in Harris, Talbot, Meriweather, Marion and Chattahoochee Counties in Georgia
+Employees of the Columbus, GA Conventions and Visitors Bureau
+Employees of Columbus State University, Columbus, Georgia
+Members of the Columbus State University Alumni Association in the United States
+Any firm or business that has a business relationship with the Credit Union
+Residents of Bibb County Georgia
+City of Forsyth employees
+IBEW Local 613 members and employees of contractors currently working under a working agreement with IBEW Local 613, retired members of IBEW Local 613, employees of IBEW Local 613, employees of the Joint Apprenticeship Training Committee, indentured apprentices currently enrolled in the JATC Program.
+Anyone working in the IBEW Local 613 building at 501 Pulliam Street, Atlanta, Georgia
+Bridge Structural, Ornamental, and Reinforcing Iron Workers Union Local #387
+Plumbers, Pipefitters, and Service Technicians Local Union 72
+Operative Plasterers' and Cement Masons' Union Local 148
+American Federation of State, County and Municipal Employees Local 1644
+Employees of the following companies who work in or are paid from Columbus, Georgia:
+AAA Plumbing
+Accredited Court Reporters
+A-Com Enterprises, Inc
+Bi-City Service Company
+Buck Industries, Inc
+Burnham Service Corporation
+Columbus Foundries, Inc
+D.G. Apparel Manufacturing Co
+Dan Parker Realty
+Easter I.T.S. Inc
+GFA Compressors, Inc
+Goodwill Industries
+Goolsby Foods, Inc
+Hisaw Motor Lines, Inc
+Holt Service Company
+Kersey & Luttrell Architects, PC
+Lewis Broadcasting Corp/WLTZ-TV 38
+Mead Coated Board (Southern Wood Products Division)
+Pasco
+Paws Humane, Inc
+Phone Doctor, Inc
+Sidewinder, Inc DBA Wild Bills Party Shop
+Sharoan Enterprises, Inc DBA Wild Bills Jewelry and Pawn
+Steinhaus Printing Service
+Swift Spinning Mills, Inc
+Temporary Alternative, Inc
+The Bibb Company
+The Bradley Center, Inc
+The Concrete Company
+The Jordan Bradley Company
+W.C. Bradley, Inc
+Whites Growing Room, Inc
+WRBL-TV
+Employees of Douglas & Lomason who work in or are paid from Columbus, Georgia or Phenix City, Alabama
+Members of Christian Churches Credit Union
+Atlanta Graphic Communications Local Union 148
+1st American Appraisals
+4 Spine
+ADVO System, Inc.
+Alexander Gallo Holdings LLC
+Amalgamated Transit Union Local 732
+Association of Conflict Resolution
+AstenJohnson, Inc. (formerly Atlanta Wire Works, Inc.; Drytex, Inc. and Atlanta Felt Company, Inc.) who work in Clayton County, Georgia
+AV Data Systems, Inc.
+Best Net Solutions
+Bill Rogers Engineering, Inc.
+D&E The Power Group
+Dig It Tees
+East-West Express
+Employees of Macon Water Works
+Enterprise Car Sales of Atlanta
+Freeman Forms and Supplies, Inc.
+Georgia Central Credit Union
+Georgia Credit Union Affiliates
+Hampton Inn, Downtown Atlanta
+Hands on Atlanta
+International Association of Financial Crimes Investigators
+Jack Nadel, Inc. of Atlanta, Georgia
+Jackson Oats Shaw Commercial Real Estate
+Lawrence Printing
+Manufactured Assemblies Corporation workers employed in Georgia
+MOMA Architecture, Inc.
+Morris Hardwick Schneider AKA Land Castle Titles
+Peer 1 Internet Infrastructure Solution
+Residents of Floyd County Georgia
+Residents of Fulton County Georgia
+Residents of Muscogee County Georgia
+Rexam Beverage Can (formerly American Can Company) of Forest Park, Georgia
+Southeast Bankcard Association
+Thompson, OBrien, Kemp and Nasuti
+Tap It Inc.
+Top Turf
+Ultima Realty organizations or associations. This means the following individuals are welcome to join: spouses, siblings, parents, children, grandchildren, grandparents, aunts, uncles, nieces, nephews, and in-laws of eligible members. Furthermore, the employee or retiree you are related to or residing with need not be a member of the Credit Union in order for you to join.
+",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,161040111,141709295,48453054,8588,"3900 Crown Rd SW, Atlanta, GA 30354-2911",-84.3921476,33.6518727
+67389,42735,ATLANTA POSTAL,Branch Office,No,101 Marietta St NW Ste 140,Atlanta,GA,30369-1100,Fulton,Employment,,State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,161040111,141709295,48453054,8588,"101 Marietta St NW Ste 140, Atlanta, GA 30369-1100",-84.3921521,33.7568927
+67389,42735,ATLANTA POSTAL,Branch Office,No,133 Peachtree St,Atlanta,GA,30312-2750,Fulton,Employment,"Membership is open to any family members who are related by blood, marriage, or adoption to active or retired employees of the below listed eligible You are eligible to join APCU if you are employed by or retired from one of the companies, organizations, associations, or a resident of the Georgia counties listed below:
+
+The United States Postal Service or others who are paid by contract or salary under the authority of the Postmaster General
+National Rural Letter Carriers
+National League of Postmasters
+National Association of Retired Postal Inspectors
+Association of United States Postal Lessors
+Any legally chartered organization made up of postal employees
+Department of Human Services and other units, retirees of, and all Georgia state employees or retirees of any Georgia State agency, department, authority, bureau, board, commission, college, university, and elected officials
+Employees of the Federal government (civilian and military) who live within the State of Georgia
+Greater Atlanta Postal Customer Council (GAPCC) - All employees and family members of individuals and businesses, who are members of the GAPCC and who live in Georgia.
+US Veterans Administration employees employed in or paid from Tuskegee, AL
+West Central Georgia Regional Hospital employees
+Employees of Smith and Sons Food, Inc.
+Employees of Atlanta Postal Credit Union
+Employees of the school system in Harris, Talbot, Meriweather, Marion and Chattahoochee Counties in Georgia
+Employees of the Columbus, GA Conventions and Visitors Bureau
+Employees of Columbus State University, Columbus, Georgia
+Members of the Columbus State University Alumni Association in the United States
+Any firm or business that has a business relationship with the Credit Union
+Residents of Bibb County Georgia
+City of Forsyth employees
+IBEW Local 613 members and employees of contractors currently working under a working agreement with IBEW Local 613, retired members of IBEW Local 613, employees of IBEW Local 613, employees of the Joint Apprenticeship Training Committee, indentured apprentices currently enrolled in the JATC Program.
+Anyone working in the IBEW Local 613 building at 501 Pulliam Street, Atlanta, Georgia
+Bridge Structural, Ornamental, and Reinforcing Iron Workers Union Local #387
+Plumbers, Pipefitters, and Service Technicians Local Union 72
+Operative Plasterers' and Cement Masons' Union Local 148
+American Federation of State, County and Municipal Employees Local 1644
+Employees of the following companies who work in or are paid from Columbus, Georgia:
+AAA Plumbing
+Accredited Court Reporters
+A-Com Enterprises, Inc
+Bi-City Service Company
+Buck Industries, Inc
+Burnham Service Corporation
+Columbus Foundries, Inc
+D.G. Apparel Manufacturing Co
+Dan Parker Realty
+Easter I.T.S. Inc
+GFA Compressors, Inc
+Goodwill Industries
+Goolsby Foods, Inc
+Hisaw Motor Lines, Inc
+Holt Service Company
+Kersey & Luttrell Architects, PC
+Lewis Broadcasting Corp/WLTZ-TV 38
+Mead Coated Board (Southern Wood Products Division)
+Pasco
+Paws Humane, Inc
+Phone Doctor, Inc
+Sidewinder, Inc DBA Wild Bills Party Shop
+Sharoan Enterprises, Inc DBA Wild Bills Jewelry and Pawn
+Steinhaus Printing Service
+Swift Spinning Mills, Inc
+Temporary Alternative, Inc
+The Bibb Company
+The Bradley Center, Inc
+The Concrete Company
+The Jordan Bradley Company
+W.C. Bradley, Inc
+Whites Growing Room, Inc
+WRBL-TV
+Employees of Douglas & Lomason who work in or are paid from Columbus, Georgia or Phenix City, Alabama
+Members of Christian Churches Credit Union
+Atlanta Graphic Communications Local Union 148
+1st American Appraisals
+4 Spine
+ADVO System, Inc.
+Alexander Gallo Holdings LLC
+Amalgamated Transit Union Local 732
+Association of Conflict Resolution
+AstenJohnson, Inc. (formerly Atlanta Wire Works, Inc.; Drytex, Inc. and Atlanta Felt Company, Inc.) who work in Clayton County, Georgia
+AV Data Systems, Inc.
+Best Net Solutions
+Bill Rogers Engineering, Inc.
+D&E The Power Group
+Dig It Tees
+East-West Express
+Employees of Macon Water Works
+Enterprise Car Sales of Atlanta
+Freeman Forms and Supplies, Inc.
+Georgia Central Credit Union
+Georgia Credit Union Affiliates
+Hampton Inn, Downtown Atlanta
+Hands on Atlanta
+International Association of Financial Crimes Investigators
+Jack Nadel, Inc. of Atlanta, Georgia
+Jackson Oats Shaw Commercial Real Estate
+Lawrence Printing
+Manufactured Assemblies Corporation workers employed in Georgia
+MOMA Architecture, Inc.
+Morris Hardwick Schneider AKA Land Castle Titles
+Peer 1 Internet Infrastructure Solution
+Residents of Floyd County Georgia
+Residents of Fulton County Georgia
+Residents of Muscogee County Georgia
+Rexam Beverage Can (formerly American Can Company) of Forest Park, Georgia
+Southeast Bankcard Association
+Thompson, OBrien, Kemp and Nasuti
+Tap It Inc.
+Top Turf
+Ultima Realty organizations or associations. This means the following individuals are welcome to join: spouses, siblings, parents, children, grandchildren, grandparents, aunts, uncles, nieces, nephews, and in-laws of eligible members. Furthermore, the employee or retiree you are related to or residing with need not be a member of the Credit Union in order for you to join.
+",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,161040111,141709295,48453054,8588,"133 Peachtree St, Atlanta, GA 30312-2750",-84.3868212,33.7574679
+67389,42735,ATLANTA POSTAL,Corporate Office,Yes,1117 Perimeter Ctr,Atlanta,GA,30304-0001,Fulton,Employment,"Membership is open to any family members who are related by blood, marriage, or adoption to active or retired employees of the below listed eligible You are eligible to join APCU if you are employed by or retired from one of the companies, organizations, associations, or a resident of the Georgia counties listed below:
+
+The United States Postal Service or others who are paid by contract or salary under the authority of the Postmaster General
+National Rural Letter Carriers
+National League of Postmasters
+National Association of Retired Postal Inspectors
+Association of United States Postal Lessors
+Any legally chartered organization made up of postal employees
+Department of Human Services and other units, retirees of, and all Georgia state employees or retirees of any Georgia State agency, department, authority, bureau, board, commission, college, university, and elected officials
+Employees of the Federal government (civilian and military) who live within the State of Georgia
+Greater Atlanta Postal Customer Council (GAPCC) - All employees and family members of individuals and businesses, who are members of the GAPCC and who live in Georgia.
+US Veterans Administration employees employed in or paid from Tuskegee, AL
+West Central Georgia Regional Hospital employees
+Employees of Smith and Sons Food, Inc.
+Employees of Atlanta Postal Credit Union
+Employees of the school system in Harris, Talbot, Meriweather, Marion and Chattahoochee Counties in Georgia
+Employees of the Columbus, GA Conventions and Visitors Bureau
+Employees of Columbus State University, Columbus, Georgia
+Members of the Columbus State University Alumni Association in the United States
+Any firm or business that has a business relationship with the Credit Union
+Residents of Bibb County Georgia
+City of Forsyth employees
+IBEW Local 613 members and employees of contractors currently working under a working agreement with IBEW Local 613, retired members of IBEW Local 613, employees of IBEW Local 613, employees of the Joint Apprenticeship Training Committee, indentured apprentices currently enrolled in the JATC Program.
+Anyone working in the IBEW Local 613 building at 501 Pulliam Street, Atlanta, Georgia
+Bridge Structural, Ornamental, and Reinforcing Iron Workers Union Local #387
+Plumbers, Pipefitters, and Service Technicians Local Union 72
+Operative Plasterers' and Cement Masons' Union Local 148
+American Federation of State, County and Municipal Employees Local 1644
+Employees of the following companies who work in or are paid from Columbus, Georgia:
+AAA Plumbing
+Accredited Court Reporters
+A-Com Enterprises, Inc
+Bi-City Service Company
+Buck Industries, Inc
+Burnham Service Corporation
+Columbus Foundries, Inc
+D.G. Apparel Manufacturing Co
+Dan Parker Realty
+Easter I.T.S. Inc
+GFA Compressors, Inc
+Goodwill Industries
+Goolsby Foods, Inc
+Hisaw Motor Lines, Inc
+Holt Service Company
+Kersey & Luttrell Architects, PC
+Lewis Broadcasting Corp/WLTZ-TV 38
+Mead Coated Board (Southern Wood Products Division)
+Pasco
+Paws Humane, Inc
+Phone Doctor, Inc
+Sidewinder, Inc DBA Wild Bills Party Shop
+Sharoan Enterprises, Inc DBA Wild Bills Jewelry and Pawn
+Steinhaus Printing Service
+Swift Spinning Mills, Inc
+Temporary Alternative, Inc
+The Bibb Company
+The Bradley Center, Inc
+The Concrete Company
+The Jordan Bradley Company
+W.C. Bradley, Inc
+Whites Growing Room, Inc
+WRBL-TV
+Employees of Douglas & Lomason who work in or are paid from Columbus, Georgia or Phenix City, Alabama
+Members of Christian Churches Credit Union
+Atlanta Graphic Communications Local Union 148
+1st American Appraisals
+4 Spine
+ADVO System, Inc.
+Alexander Gallo Holdings LLC
+Amalgamated Transit Union Local 732
+Association of Conflict Resolution
+AstenJohnson, Inc. (formerly Atlanta Wire Works, Inc.; Drytex, Inc. and Atlanta Felt Company, Inc.) who work in Clayton County, Georgia
+AV Data Systems, Inc.
+Best Net Solutions
+Bill Rogers Engineering, Inc.
+D&E The Power Group
+Dig It Tees
+East-West Express
+Employees of Macon Water Works
+Enterprise Car Sales of Atlanta
+Freeman Forms and Supplies, Inc.
+Georgia Central Credit Union
+Georgia Credit Union Affiliates
+Hampton Inn, Downtown Atlanta
+Hands on Atlanta
+International Association of Financial Crimes Investigators
+Jack Nadel, Inc. of Atlanta, Georgia
+Jackson Oats Shaw Commercial Real Estate
+Lawrence Printing
+Manufactured Assemblies Corporation workers employed in Georgia
+MOMA Architecture, Inc.
+Morris Hardwick Schneider AKA Land Castle Titles
+Peer 1 Internet Infrastructure Solution
+Residents of Floyd County Georgia
+Residents of Fulton County Georgia
+Residents of Muscogee County Georgia
+Rexam Beverage Can (formerly American Can Company) of Forest Park, Georgia
+Southeast Bankcard Association
+Thompson, OBrien, Kemp and Nasuti
+Tap It Inc.
+Top Turf
+Ultima Realty organizations or associations. This means the following individuals are welcome to join: spouses, siblings, parents, children, grandchildren, grandparents, aunts, uncles, nieces, nephews, and in-laws of eligible members. Furthermore, the employee or retiree you are related to or residing with need not be a member of the Credit Union in order for you to join.
+",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,161040111,141709295,48453054,8588,"1117 Perimeter Ctr, Atlanta, GA 30304-0001",-84.3524029,33.931047
+67389,42735,ATLANTA POSTAL,Branch Office,No,2200 Century Pkwy NE Ste 4,Atlanta,GA,30303,Fulton,Employment,"Membership is open to any family members who are related by blood, marriage, or adoption to active or retired employees of the below listed eligible You are eligible to join APCU if you are employed by or retired from one of the companies, organizations, associations, or a resident of the Georgia counties listed below:
+
+The United States Postal Service or others who are paid by contract or salary under the authority of the Postmaster General
+National Rural Letter Carriers
+National League of Postmasters
+National Association of Retired Postal Inspectors
+Association of United States Postal Lessors
+Any legally chartered organization made up of postal employees
+Department of Human Services and other units, retirees of, and all Georgia state employees or retirees of any Georgia State agency, department, authority, bureau, board, commission, college, university, and elected officials
+Employees of the Federal government (civilian and military) who live within the State of Georgia
+Greater Atlanta Postal Customer Council (GAPCC) - All employees and family members of individuals and businesses, who are members of the GAPCC and who live in Georgia.
+US Veterans Administration employees employed in or paid from Tuskegee, AL
+West Central Georgia Regional Hospital employees
+Employees of Smith and Sons Food, Inc.
+Employees of Atlanta Postal Credit Union
+Employees of the school system in Harris, Talbot, Meriweather, Marion and Chattahoochee Counties in Georgia
+Employees of the Columbus, GA Conventions and Visitors Bureau
+Employees of Columbus State University, Columbus, Georgia
+Members of the Columbus State University Alumni Association in the United States
+Any firm or business that has a business relationship with the Credit Union
+Residents of Bibb County Georgia
+City of Forsyth employees
+IBEW Local 613 members and employees of contractors currently working under a working agreement with IBEW Local 613, retired members of IBEW Local 613, employees of IBEW Local 613, employees of the Joint Apprenticeship Training Committee, indentured apprentices currently enrolled in the JATC Program.
+Anyone working in the IBEW Local 613 building at 501 Pulliam Street, Atlanta, Georgia
+Bridge Structural, Ornamental, and Reinforcing Iron Workers Union Local #387
+Plumbers, Pipefitters, and Service Technicians Local Union 72
+Operative Plasterers' and Cement Masons' Union Local 148
+American Federation of State, County and Municipal Employees Local 1644
+Employees of the following companies who work in or are paid from Columbus, Georgia:
+AAA Plumbing
+Accredited Court Reporters
+A-Com Enterprises, Inc
+Bi-City Service Company
+Buck Industries, Inc
+Burnham Service Corporation
+Columbus Foundries, Inc
+D.G. Apparel Manufacturing Co
+Dan Parker Realty
+Easter I.T.S. Inc
+GFA Compressors, Inc
+Goodwill Industries
+Goolsby Foods, Inc
+Hisaw Motor Lines, Inc
+Holt Service Company
+Kersey & Luttrell Architects, PC
+Lewis Broadcasting Corp/WLTZ-TV 38
+Mead Coated Board (Southern Wood Products Division)
+Pasco
+Paws Humane, Inc
+Phone Doctor, Inc
+Sidewinder, Inc DBA Wild Bills Party Shop
+Sharoan Enterprises, Inc DBA Wild Bills Jewelry and Pawn
+Steinhaus Printing Service
+Swift Spinning Mills, Inc
+Temporary Alternative, Inc
+The Bibb Company
+The Bradley Center, Inc
+The Concrete Company
+The Jordan Bradley Company
+W.C. Bradley, Inc
+Whites Growing Room, Inc
+WRBL-TV
+Employees of Douglas & Lomason who work in or are paid from Columbus, Georgia or Phenix City, Alabama
+Members of Christian Churches Credit Union
+Atlanta Graphic Communications Local Union 148
+1st American Appraisals
+4 Spine
+ADVO System, Inc.
+Alexander Gallo Holdings LLC
+Amalgamated Transit Union Local 732
+Association of Conflict Resolution
+AstenJohnson, Inc. (formerly Atlanta Wire Works, Inc.; Drytex, Inc. and Atlanta Felt Company, Inc.) who work in Clayton County, Georgia
+AV Data Systems, Inc.
+Best Net Solutions
+Bill Rogers Engineering, Inc.
+D&E The Power Group
+Dig It Tees
+East-West Express
+Employees of Macon Water Works
+Enterprise Car Sales of Atlanta
+Freeman Forms and Supplies, Inc.
+Georgia Central Credit Union
+Georgia Credit Union Affiliates
+Hampton Inn, Downtown Atlanta
+Hands on Atlanta
+International Association of Financial Crimes Investigators
+Jack Nadel, Inc. of Atlanta, Georgia
+Jackson Oats Shaw Commercial Real Estate
+Lawrence Printing
+Manufactured Assemblies Corporation workers employed in Georgia
+MOMA Architecture, Inc.
+Morris Hardwick Schneider AKA Land Castle Titles
+Peer 1 Internet Infrastructure Solution
+Residents of Floyd County Georgia
+Residents of Fulton County Georgia
+Residents of Muscogee County Georgia
+Rexam Beverage Can (formerly American Can Company) of Forest Park, Georgia
+Southeast Bankcard Association
+Thompson, OBrien, Kemp and Nasuti
+Tap It Inc.
+Top Turf
+Ultima Realty organizations or associations. This means the following individuals are welcome to join: spouses, siblings, parents, children, grandchildren, grandparents, aunts, uncles, nieces, nephews, and in-laws of eligible members. Furthermore, the employee or retiree you are related to or residing with need not be a member of the Credit Union in order for you to join.
+",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,161040111,141709295,48453054,8588,"2200 Century Pkwy NE Ste 4, Atlanta, GA 30303",-84.3066849,33.8462567
+67390,42735,GEORGIA'S OWN,Branch Office,No,1155 Peachtree St NE Ste 400,Atlanta,GA,30303,Fulton,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"1155 Peachtree St NE Ste 400, Atlanta, GA 30303",-84.3849974,33.7712828
+67390,42735,GEORGIA'S OWN,Branch Office,No,1155 Peachtree St NE,Atlanta,GA,30338-5451,Dekalb,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"1155 Peachtree St NE, Atlanta, GA 30338-5451",-84.3849974,33.7712828
+67390,42735,GEORGIA'S OWN,Branch Office,No,675 W Peachtree St NE,Atlanta,GA,30345-3103,Dekalb,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"675 W Peachtree St NE, Atlanta, GA 30345-3103",-84.3878075,33.7866867
+67390,42735,GEORGIA'S OWN,Corporate Office,Yes,575 Morosgo Dr NE,Atlanta,GA,30309-3600,Fulton,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"575 Morosgo Dr NE, Atlanta, GA 30309-3600",-84.368702,33.8230401
+67390,42735,GEORGIA'S OWN,Branch Office,No,303 Parkway Dr NE,Atlanta,GA,30309-7629,Fulton,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"303 Parkway Dr NE, Atlanta, GA 30309-7629",-84.3729609,33.7629065
+67390,42735,GEORGIA'S OWN,Branch Office,No,536 North Ave NE,Atlanta,GA,30308-1989,Fulton,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"536 North Ave NE, Atlanta, GA 30308-1989",-84.3693411,33.771485
+67390,42735,GEORGIA'S OWN,Branch Office,No,1732 WALKER AVE SW,Atlanta,GA,30324-3300,Fulton,Employment/Geographic,"1. COUNTY RESIDENT
+Be a resident of one of the following counties: Barrow, Bartow, Chatham, Cherokee, Clarke, Clayton, Cobb, Columbia, Dekalb, Douglas, Effingham, Fayette, Forsyth, Fulton, Gwinnett, Hall, Henry, Newton, Paulding, Richmond, Rockdale, or Walton
+2. GETTING AHEAD ASSOCIATION
+If you are a member of the Getting Ahead Association (GAA), you are also eligible for membership in Georgia’s Own Credit Union. GAA is designed to help you gain access to the information that you need to improve your quality of life and reduce the cost of living. Membership is eligible to any individual who is committed to improving their financial well-being. If you are not a member of GAA, a Georgia’s Own Credit Union Representative can help you get started.
+3. GEORGIA STATE UNIVERSITY PARTNERSHIP
+Be a current student, faculty or staff employee, retiree or alumni of Georgia State University.
+To get started, simply complete our easy online application process. Once approved, a minimum deposit of $5 is required to establish your membership. This $5 refundable deposit represents your “share” in Georgia’s Own and is held on deposit as long as you are a member. Click the button below to get started.
+APPLY NOW
+Partners_pic
+4. FAMILY MEMBER
+Be a family member of a current Georgia’s Own Credit Union member. Anyone related by blood, adoption or marriage is eligible.
+5. PREMIER PARTNER EMPLOYEE / RETIREE
+Be an employee or retiree of one of our Premier Partners. For a list of all of our Premier Partners, click here. https://www.georgiasown.org/premier-partner-list/",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,93028038,76558365,37865814,8088,"1732 WALKER AVE SW, Atlanta, GA 30324-3300",-84.4329284,33.7115498
+67505,42735,1ST CHOICE,Corporate Office,Yes,115 Perimeter Center Pl NE Ste 187,Atlanta,GA,30303-2603,Fulton,Employment,"1st Choice Credit Union provides all the benefits of a member-owned financial institution to employees, retirees and former employees of the groups listed below (members of an employee's immediate family or household members are also eligible to join). 
+1 - 1st Choice Credit Union Contract
+2 - Aid Atlanta, Inc.
+3 - Archive America
+4 - Atlanta Business League
+5 - Atlanta Life Insurance Company
+6 - Emory School of Medicine
+7 - Foreverfamily, Inc. 
+8 - Grady Health System
+9 - Jackson Securities 
+10 - Kidz 4 Money
+11 - Kimberly & Cameron Interior
+12 - Morehouse School of Medicine
+13 - Sattiewhite Training Productions, Inc.
+14 - The Algenius Group, LLC
+15 - The Atlanta Metropolitan Bank Chamber of Commerce
+16 - The Concern Black Clergy
+17 - The Getting Ahead Association
+18 - The Historical District Development Corporation
+19 - The Joseph Consortium
+20 - This Is It Restaurant",State chartered natural person credit union,1,1,,1,,,1,1,,,1,1,,,1,1,1,1,11368187,9809249,2762099,4152,"115 Perimeter Center Pl NE Ste 187, Atlanta, GA 30303-2603",-84.339867,33.9284823
+67538,42735,MEMBERSFIRST,Branch Office,No,605 Asbury Circle,Atlanta,GA,30312-1212,Fulton,Employment,"https://www.membersfirstga.com/membership/eligibility
+If you or a family member works for or is a member of one of these groups, you are eligible to join MembersFirst Credit Union.
+
+WellStar Health System and affiliated groups
+Douglas County Board of Education who work in Douglas County, Georgia
+Paulding County Board of Education who work in Paulding County, Georgia
+Employees, doctors, medical staff, technicians and volunteers of DeKalb Medical Center and its subsidiaries who work in DeKalb County, Georgia
+Employees, doctors, medical staff and technicians of Tenet- Atlanta Medical Center (Main and South Campuses) who work in Fulton County, Georgia
+Residents of DeKalb General Nursing Home headquartered at DeKalb Medical Center in Decatur, Georgia
+Cartersville Medical Center
+Presbyterian Village- Austell location
+Georgia Hospital Association
+Atherton Place
+The following Golden Living Centers (formerly Beverly Healthcare facilities):
+-Glenwood in Decatur, Georgia 
+-Briarwood in Tucker, Georgia 
+-Northside in Atlanta, Georgia 
+-Decatur, in Decatur, Georgia 
+-Southeast Billing Office in Conyers, Georgia
+
+Oakhurst Community Health Center who work in Decatur, Georgia
+Terminaltech Inc. who work in Decatur, Georgia
+Haven House Hospice who work in Atlanta, Georgia
+Atlanta South Nephrology who work in Atlanta, Georgia
+Atlanta Medicine and Cardiology Center who are paid from East Point, Georgia
+Bellevue Electrical, Inc., who work in Tucker, Georgia
+Franklin’s Memorial Drive, Inc., who work in or are paid from Covington, Georgia
+Atlanta’s Best Home Nursing Center who are paid from Lilburn, Georgia
+SpectraCare who are headquartered in Atlanta, Georgia
+Members of the Crusselle Freeman Church of the Deaf located in Atlanta, Georgia
+Tell-A-Friend Auto Brokers, Inc. who work in Decatur, Georgia
+North DeKalb Mall Management who work in, or are paid from or are supervised from Decatur, GA
+Regency Hospital of South Atlanta, who work in Atlanta, Georgia
+Members of Eastside Elementary School PTA located in Douglasville, Georgia
+Members of Hiram Elementary School PTA located in Hiram, Georgia
+Members of Poole Elementary PTA located in Hiram , GA
+Members of Nebo Elementary PTA located in Hiram, GA
+InCompass Health Inc. & 24On Physicians who work or are headquartered in Alpharetta, Georgia
+The Respiratory Agency/Agency Personnel who work in, or are paid or supervised from Stone Mountain, Georgia
+Inner Harbour for Families and Children
+LTT Stone Corporation
+The City of Hiram
+Specialty Care of Marietta
+Members of the Getting Ahead Association located in Duluth, GA who qualify for membership in accordance with its charter and bylaws.
+Staff physicians of DeKalb Medical Center
+Contractors and contractors working under a long-term contract representing a strong dependency relationship with and under the supervision of DeKalb Regional Healthcare System
+Grace Baptist Christian School
+Residents of Paulding County, Georgia
+Residents of Sandy Springs, Georgia
+Residents of Chatham County, Georgia
+Mitsubishi-Hitachi Power System employees (Pooler, GA)
+TICO employees
+St. Joseph’s/Candler Health Care Systems employees
+MacAljon employees
+Erickson Associates employees
+Savannah Christian Day School employees
+Calvary Day School employees
+Azalealand Nursing Home employees
+Alloyed Industrial employees
+Schulze Eye Center employees
+Oceanside Nursing Home employees
+Memorial Day School employees
+Residents of Effingham County, GA
+Residents of Bryan County, GA
+Employees and Students of Calvary Day Shoool
+Dorsey Tire Company
+National Gypsum (employees in Garden City, GA)
+Employees and Students of Armstrong State University",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,18272922,15994865,5935411,2680,"605 Asbury Circle, Atlanta, GA 30312-1212",-84.3233711,33.7935595
+67632,42735,PINNACLE,Corporate Office,Yes,478 Peachtree St NE Ste 101A,Atlanta,GA,30308-2713,Fulton,Employment,https://www.pinnaclecu.org/membership/,State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,35608488,32992260,5324878,4959,"478 Peachtree St NE Ste 101A, Atlanta, GA 30308-2713",-84.3856775,33.7675521
+67706,42735,FORT MCPHERSON,Corporate Office,Yes,600 W Peachtree St NW Ste 401,Atlanta,GA,30310,Fulton,Military,"FMCU provides all the benefits of a member-owned financial institution to all employees and persons related by blood, adoption, or marriage with a person within the common bond, and to the surviving spouses of deceased members. Members of an employee's immediate family or household members are also eligible to join. We proudly serve employees of the following groups:
+
+
+Citizens and Military Personnel assigned to and employed by the Department of Defense, Installations, Garrisons, Organizations, and Activities of a permanent classification which are located in the Atlanta Metro Area and paid from military appropriated funds (and also to include non-appropriated fund personnel located at Ft. McPherson, GA) and Ft. Gillem
+
+Employees of the City of East Point, including the Mayor and Council members.
+
+Marta Personnel
+
+Harmon Brothers
+
+
+Invest Company
+
+
+All American Quality Foods - Food Depot
+
+Residents of East Point
+
+Residents of Henry County",State chartered natural person credit union,,,,,,,,,,,,1,,,1,1,1,,23690870,21597669,5536425,4638,"600 W Peachtree St NW Ste 401, Atlanta, GA 30310",-84.3878395,33.7708082
+68215,42735,CORPORATE AMERICA FAMILY,Branch Office,No,2 Martin Luther King JR DR SE Ste 460,Atlanta,GA,30346-1238,Dekalb,Employment/Geographic,"https://www.cafcu.org/?Cabinet=Main&Drawer=Home&Folder=About+Us&SubFolder=Join+Today
+Membership with CAFCU is available to anyone who is:
+
+Employed by a Sponsor Company. Find out if your employer qualifies by calling our Member Center at 1-800-359-1939.
+A family member of a current CAFCU member, whether a spouse, parent, child, grandparent, grandchild, sibling, aunt, uncle, cousin, niece, nephew, in-law, step-child or domestic partner.
+Residing or working within a 25-mile radius of a CAFCU branch.
+A member of The Hope Group.*",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,30756241,25610308,4754597,3431,"2 Martin Luther King JR DR SE Ste 460, Atlanta, GA 30346-1238",-84.3867777,33.7489745
+68573,42735,EMORY ALLIANCE,Branch Office,No,4448 Tilly Mill Rd,Atlanta,GA,30322,Dekalb,Employment/Geographic,"https://www.emoryacu.com/becomeamember.php
+",State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,49338651,44948780,12257853,6200,"4448 Tilly Mill Rd, Atlanta, GA 30322",-84.28294,33.9251529
+68573,42735,EMORY ALLIANCE,Branch Office,No,400 Whitehall St SW,Atlanta,GA,30308,Fulton,Employment/Geographic,https://www.emoryacu.com/becomeamember.php,State chartered natural person credit union,,,,,,,,,,,1,1,,1,1,1,1,1,49338651,44948780,12257853,6200,"400 Whitehall St SW, Atlanta, GA 30308",-84.3999225,33.7451654
+68607,42735,GEORGIA UNITED,Branch Office,No,6303 Barfield Rd,Atlanta,GA,30308,Fulton,Employment/Geographic,"You’re eligible for membership if you belong to any one of the following member groups:
+Catholic Community (Members and employees)
+Georgia Tech (Faculty and staff)
+Employees and retirees of Select Employee Groups, and Georgia State Agencies (including all state agencies, colleges, and universities)
+UGA Community (Faculty, staff, students, and alumni)
+Immediate family members of a Georgia United member or an eligible non-member
+Persons residing in the same household as a Georgia United member or eligible non-member
+Volunteers of any school, church, parish, hospital or association within Georgia United’s field of membership
+County Employees of Association County Commissioners of Georgia (ACCG)
+Individuals who live and work in the following areas are also welcomed to join us:
+Barrow County
+Bartow County
+Chatham County
+Clarke County
+City of Cumming
+City of Norcross
+DeKalb County
+Forsyth County
+Fulton County
+Gwinnett County
+Henry County
+Laurens County
+Murray County
+Oconee County
+Rockdale County
+Walton County
+Whitfield County
+https://gucu.org/membership/eligibility",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,66709747,56427762,20694291,8700,"6303 Barfield Rd, Atlanta, GA 30308",-84.3593553,33.927992
+68607,42735,GEORGIA UNITED,Branch Office,No,3200 Windy Hill Rd SE,Atlanta,GA,30334,Fulton,Employment/Geographic,"You’re eligible for membership if you belong to any one of the following member groups:
+Catholic Community (Members and employees)
+Georgia Tech (Faculty and staff)
+Employees and retirees of Select Employee Groups, and Georgia State Agencies (including all state agencies, colleges, and universities)
+UGA Community (Faculty, staff, students, and alumni)
+Immediate family members of a Georgia United member or an eligible non-member
+Persons residing in the same household as a Georgia United member or eligible non-member
+Volunteers of any school, church, parish, hospital or association within Georgia United’s field of membership
+County Employees of Association County Commissioners of Georgia (ACCG)
+Individuals who live and work in the following areas are also welcomed to join us:
+Barrow County
+Bartow County
+Chatham County
+Clarke County
+City of Cumming
+City of Norcross
+DeKalb County
+Forsyth County
+Fulton County
+Gwinnett County
+Henry County
+Laurens County
+Murray County
+Oconee County
+Rockdale County
+Walton County
+Whitfield County
+https://gucu.org/membership/eligibility",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,66709747,56427762,20694291,8700,"3200 Windy Hill Rd SE, Atlanta, GA 30334",-84.4611194,33.9137231
+68607,42735,GEORGIA UNITED,Branch Office,No,61 Forsyth St SW STE 8B-45,Atlanta,GA,30360-2165,Dekalb,Employment/Geographic,"You’re eligible for membership if you belong to any one of the following member groups:
+Catholic Community (Members and employees)
+Georgia Tech (Faculty and staff)
+Employees and retirees of Select Employee Groups, and Georgia State Agencies (including all state agencies, colleges, and universities)
+UGA Community (Faculty, staff, students, and alumni)
+Immediate family members of a Georgia United member or an eligible non-member
+Persons residing in the same household as a Georgia United member or eligible non-member
+Volunteers of any school, church, parish, hospital or association within Georgia United’s field of membership
+County Employees of Association County Commissioners of Georgia (ACCG)
+Individuals who live and work in the following areas are also welcomed to join us:
+Barrow County
+Bartow County
+Chatham County
+Clarke County
+City of Cumming
+City of Norcross
+DeKalb County
+Forsyth County
+Fulton County
+Gwinnett County
+Henry County
+Laurens County
+Murray County
+Oconee County
+Rockdale County
+Walton County
+Whitfield County
+https://gucu.org/membership/eligibility",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,66709747,56427762,20694291,8700,"61 Forsyth St SW STE 8B-45, Atlanta, GA 30360-2165",-84.3932062,33.7534949
+68607,42735,GEORGIA UNITED,Branch Office,No,206 Auburn Ave NE,Atlanta,GA,30303,Fulton,Employment/Geographic,"You’re eligible for membership if you belong to any one of the following member groups:
+Catholic Community (Members and employees)
+Georgia Tech (Faculty and staff)
+Employees and retirees of Select Employee Groups, and Georgia State Agencies (including all state agencies, colleges, and universities)
+UGA Community (Faculty, staff, students, and alumni)
+Immediate family members of a Georgia United member or an eligible non-member
+Persons residing in the same household as a Georgia United member or eligible non-member
+Volunteers of any school, church, parish, hospital or association within Georgia United’s field of membership
+County Employees of Association County Commissioners of Georgia (ACCG)
+Individuals who live and work in the following areas are also welcomed to join us:
+Barrow County
+Bartow County
+Chatham County
+Clarke County
+City of Cumming
+City of Norcross
+DeKalb County
+Forsyth County
+Fulton County
+Gwinnett County
+Henry County
+Laurens County
+Murray County
+Oconee County
+Rockdale County
+Walton County
+Whitfield County
+https://gucu.org/membership/eligibility",State chartered natural person credit union,,,,,,,,,,,1,1,,,1,1,1,1,66709747,56427762,20694291,8700,"206 Auburn Ave NE, Atlanta, GA 30303",-84.3810542,33.7556379
+68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,245 Pryor St SW,Atlanta,GA,30328-4233,Fulton,Employment/Geographic,"To be eligible for Membership, you must work for or be retired from a Member Company, live in an approved county, worship or attend school in an approved county, or be an immediate family member of/live in the same household as an existing Member.",State chartered natural person credit union,1,,,,,,,,,,1,1,,,1,1,1,1,62684737,54847632,20616266,4955,"245 Pryor St SW, Atlanta, GA 30328-4233",-84.393607,33.7483156
+68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,670 Metropolitan Pkwy SW,Atlanta,GA,30339-5640,Cobb,Employment/Geographic,"To be eligible for Membership, you must work for or be retired from a Member Company, live in an approved county, worship or attend school in an approved county, or be an immediate family member of/live in the same household as an existing Member.",State chartered natural person credit union,1,,,,,,,,,,1,1,,,1,1,1,1,62684737,54847632,20616266,4955,"670 Metropolitan Pkwy SW, Atlanta, GA 30339-5640",-84.4078033,33.7376493
+68663,42735,IBM SOUTHEAST EMPLOYEES,Branch Office,No,315 Auburn Ave NE,Atlanta,GA,30303-8931,Fulton,Employment/Geographic,"To be eligible for Membership, you must work for or be retired from a Member Company, live in an approved county, worship or attend school in an approved county, or be an immediate family member of/live in the same household as an existing Member.",State chartered natural person credit union,1,,,,,,,,,,1,1,,,1,1,1,1,62684737,54847632,20616266,4955,"315 Auburn Ave NE, Atlanta, GA 30303-8931",-84.3773379,33.755307
