@@ -47,8 +47,6 @@ hh_inc_layer <- tm_shape(atl_tract) +
   ) +
   tm_borders(col = "dark grey")
 
-
-
 hh_inc_layer +  
 tm_shape(fdic) +
   tm_dots(col = "green") +

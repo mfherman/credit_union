@@ -8,10 +8,15 @@ library(ggmap)
 atl_payday <- read_csv("https://github.com/efrank12/Payday_Lenders/raw/master/Payday_Lenders_geocoded.csv") %>%
   clean_names() %>%
   select(-(latitude:longitude)) %>%
-  mutate_geocode(address) %>%
+  mutate_geocode(address)
 
 atl_payday_clean <- atl_payday %>%
-  mutate(name = str_to_title(name))
+  mutate(
+    name = str_to_title(name),
+    name = if_else(str_detect(name, "Ace"), "ACE Cash Express", name),
+    id = seq.int(nrow(.))
+    ) %>%
+  select(-(address:lat))
 
 # make it into a sf
 atl_payday_sf <- atl_payday_clean %>%

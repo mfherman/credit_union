@@ -40,7 +40,9 @@ fdic_clean_sf <- fdic_clean %>%
     stringsAsFactors = TRUE,
     remove = FALSE,
     na.fail = TRUE
-    )
+    ) %>%
+  select(-(sims_latitude:sims_projection), -(addr_long:lat)) %>%
+  mutate_at(vars(charter, specdesc), str_to_title) 
 
 # check out a map
 mapview(fdic_clean_sf)
