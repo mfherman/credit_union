@@ -2,6 +2,7 @@ library(tidyverse)
 library(tidycensus)
 library(sf)
 library(tmap)
+library(mapview)
 
 options(tigris_use_cache = TRUE)
 
@@ -70,7 +71,7 @@ atl_tract_stat <- atlanta_tract %>%
 # check out a simple map
 tm_shape(atl_tract_stat) +
   tm_fill(
-    col = "black_pct",
+    col = "pov_pct",
     n = 5,
     style = "jenks"
     )
