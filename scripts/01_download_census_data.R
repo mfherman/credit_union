@@ -63,16 +63,18 @@ atlanta_bg <- get_acs(
 # percentage and select variables, reproject to wgs84
 atl_tract_stat <- atlanta_tract %>%
   mutate(
+    pop_other = B01001_001E - pmap_dbl(list(B03002_003E, B03002_004E, B03002_012E, B03002_006E), sum),
     white_pct = B03002_003E / B01001_001E * 100,
     black_pct = B03002_004E / B01001_001E * 100,
     hisp_pct = B03002_012E / B01001_001E * 100,
     asian_pct = B03002_006E / B01001_001E * 100,
+    other_pct = 100 - pmap_dbl(list(white_pct, black_pct, hisp_pct, asian_pct), sum),
     pov_pct = B06012_002E / B06012_001E * 100,
     pub_as_pct = B19058_002E / B19058_001E * 100,
     own_pct = B07013_002E / B07013_001E * 100,
     rent_pct = B07013_003E / B07013_001E * 100
   ) %>%
-  mutate_at(vars(ends_with("pct")), funs(signif(., 3))) %>%
+  mutate_at(vars(ends_with("pct")), funs(round(., 1))) %>%
   select(
     geoid = GEOID,
     name = NAME,
@@ -81,6 +83,11 @@ atl_tract_stat <- atlanta_tract %>%
     med_hhinc = B19013_001E,
     gini = B19083_001E,
     med_rburd = B25071_001E,
+    pop_white = B03002_003E,
+    pop_black = B03002_004E,
+    pop_hisp = B03002_012E,
+    pop_asian = B03002_006E,
+    pop_other,
     white_pct:rent_pct
   ) %>%
   st_transform(4326)
@@ -88,12 +95,14 @@ atl_tract_stat <- atlanta_tract %>%
 # percentage and select variables, reproject to wgs84 
 atl_bg_stat <- atlanta_bg %>%
   mutate(
+    pop_other = B01001_001E - pmap_dbl(list(B03002_003E, B03002_004E, B03002_012E, B03002_006E), sum),
     white_pct = B03002_003E / B01001_001E * 100,
     black_pct = B03002_004E / B01001_001E * 100,
     hisp_pct = B03002_012E / B01001_001E * 100,
-    asian_pct = B03002_006E / B01001_001E * 100
+    asian_pct = B03002_006E / B01001_001E * 100,
+    other_pct = 100 - pmap_dbl(list(white_pct, black_pct, hisp_pct, asian_pct), sum)
   ) %>%
-  mutate_at(vars(ends_with("pct")), funs(signif(., 3))) %>%
+  mutate_at(vars(ends_with("pct")), funs(round(., 1))) %>%
   select(
     geoid = GEOID,
     name = NAME,
@@ -101,7 +110,12 @@ atl_bg_stat <- atlanta_bg %>%
     med_age = B01002_001E,
     med_hhinc = B19013_001E,
     med_rburd = B25071_001E,
-    white_pct:asian_pct
+    pop_white = B03002_003E,
+    pop_black = B03002_004E,
+    pop_hisp = B03002_012E,
+    pop_asian = B03002_006E,
+    pop_other,
+    white_pct:other_pct
   ) %>%
   st_transform(4326)
 
