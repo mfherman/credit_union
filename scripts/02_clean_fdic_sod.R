@@ -48,6 +48,4 @@ fdic_clean_sf <- fdic_clean %>%
 mapview(fdic_clean_sf)
 
 # write geojson and csv
-st_write(fdic_clean_sf, "./output/fdic_clean.geojson", delete_dsn = TRUE)
-st_write(fdic_clean_sf, "./output/fdic_clean.csv", delete_dsn = TRUE)
-
+st_write(fdic_clean_sf, "./output/atl_fdic.geojson", delete_dsn = TRUE)

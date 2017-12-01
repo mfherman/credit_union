@@ -9,9 +9,10 @@ options(tigris_use_cache = TRUE)
 # total population B01001_001
 # % non hispanic white B03002_003
 # % non hispanic black B03002_004
+# % non hispanic asian B03002_0
 # % hispanic B03002_012
 # median age B01002_001
-# median hh income B19013_001y
+# median hh income B19013_001
 # below 100% poverty level B06012_002
 # poverty level denom B06012_001
 # gini index B19083_001
@@ -27,22 +28,37 @@ atlanta_msa <- c("Fulton", "DeKalb", "Gwinnett", "Cobb", "Clayton",
                  "Coweta", "Douglas", "Fayette", "Henry")
 
 # select variables
-variables <- c("B01001_001", "B03002_003", "B03002_004", "B03002_012",
-               "B01002_001", "B19013_001", "B06012_002", "B06012_001",
-               "B19083_001", "B19058_002", "B19058_001", "B25071_001",
-               "B07013_002", "B07013_003", "B07013_001")
+tract_variables <- c("B01001_001", "B03002_003", "B03002_004", "B03002_006",
+                     "B03002_012","B01002_001", "B19013_001", "B06012_002",
+                     "B06012_001", "B19083_001", "B19058_002", "B19058_001",
+                     "B25071_001", "B07013_002", "B07013_003", "B07013_001")
+
+bg_variables <- c("B01001_001", "B03002_003", "B03002_004", "B03002_006",
+                  "B03002_012","B01002_001", "B19013_001", "B19058_002", "B25071_001")
                
-# download acs 5 year estimates
+# download acs 5 year estimates tract
 atlanta_tract <- get_acs(
   state = "GA",
   county = atlanta_msa,
   geography = "tract",
-  variables = variables,
+  variables = tract_variables,
   survey = "acs5",
   year = 2015,
   geometry = TRUE,
   output = "wide"
   )
+
+# download acs 5 year estimates block group
+atlanta_bg <- get_acs(
+  state = "GA",
+  county = atlanta_msa,
+  geography = "block group",
+  variables = bg_variables,
+  survey = "acs5",
+  year = 2015,
+  geometry = TRUE,
+  output = "wide"
+)
 
 # percentage and select variables, reproject to wgs84
 atl_tract_stat <- atlanta_tract %>%
@@ -50,6 +66,7 @@ atl_tract_stat <- atlanta_tract %>%
     white_pct = B03002_003E / B01001_001E * 100,
     black_pct = B03002_004E / B01001_001E * 100,
     hisp_pct = B03002_012E / B01001_001E * 100,
+    asian_pct = B03002_006E / B01001_001E * 100,
     pov_pct = B06012_002E / B06012_001E * 100,
     pub_as_pct = B19058_002E / B19058_001E * 100,
     own_pct = B07013_002E / B07013_001E * 100,
@@ -68,22 +85,34 @@ atl_tract_stat <- atlanta_tract %>%
   ) %>%
   st_transform(4326)
 
+# percentage and select variables, reproject to wgs84 
+atl_bg_stat <- atlanta_bg %>%
+  mutate(
+    white_pct = B03002_003E / B01001_001E * 100,
+    black_pct = B03002_004E / B01001_001E * 100,
+    hisp_pct = B03002_012E / B01001_001E * 100,
+    asian_pct = B03002_006E / B01001_001E * 100
+  ) %>%
+  mutate_at(vars(ends_with("pct")), funs(signif(., 3))) %>%
+  select(
+    geoid = GEOID,
+    name = NAME,
+    pop_tot = B01001_001E,
+    med_age = B01002_001E,
+    med_hhinc = B19013_001E,
+    med_rburd = B25071_001E,
+    white_pct:asian_pct
+  ) %>%
+  st_transform(4326)
+
 # check out a simple map
-tm_shape(atl_tract_stat) +
+tm_shape(atl_bg_stat) +
   tm_fill(
-    col = "pov_pct",
+    col = "med_hhinc",
     n = 5,
     style = "jenks"
     )
 
 # write to geojson
 st_write(atl_tract_stat, "./output/atl_tract.geojson", delete_dsn = TRUE)
-
-# write to shp
-dir.create("./output/atl_tract")
-st_write(atl_tract_stat, "./output/atl_tract/atl_tract.shp")
-
-# zip up shp files
-atl_shp <- dir("./output/atl_tract", full.names = TRUE)
-zip(zipfile = "./output/atl_tract.zip", files = atl_shp)
-unlink("./output/atl_tract", recursive = TRUE)
+st_write(atl_bg_stat,  "./output/atl_bg.geojson", delete_dsn = TRUE)

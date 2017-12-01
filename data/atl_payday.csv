@@ -1,0 +1,175 @@
+ID,Name,Street,City,State,Zip,Address,latitude,longitude
+0,A D R Financial Service,1260 Glenwood Ave Se,Atlanta,GA,30316,"1260 Glenwood Ave Se,Atlanta,GA,30316 ",33.7403172,-84.3460701
+1,A Payday Advance,1260 Glenwood Ave Se,Atlanta,GA,30316,"1260 Glenwood Ave Se,Atlanta,GA,30316 ",33.7403172,-84.3460701
+2,Abc Check Cashing Inc,3253 Buford Highway Northeast Suite 760,Atlanta,GA,30329,"3253 Buford Highway Northeast Suite 760,Atlanta,GA,30329 ",33.8412563,-84.3290047
+3,Ace America's Cash Express,6635 Highway 85,Atlanta,GA,30303,"6635 Highway 85,Atlanta,GA,30303 ",33.7490944,-84.3858376
+4,Ace America's Cash Express,863 Oak St Sw,Atlanta,GA,30310,"863 Oak St Sw,Atlanta,GA,30310 ",33.7409954,-84.4160766
+5,Ace America's Cash Express,8763 Dunwoody Place,Atlanta,GA,30350,"8763 Dunwoody Place,Atlanta,GA,30350 ",33.9966266,-84.3494333
+6,Ace America's Cash Express,5659 Riverdale Road,Atlanta,GA,30349,"5659 Riverdale Road,Atlanta,GA,30349 ",33.6005761,-84.4295712
+7,"Ace America's Cash Express - Store Locations, Alpharetta",233 Peachtree Street Northeast,Atlanta,GA,30303,"233 Peachtree Street Northeast,Atlanta,GA,30303 ",33.7604599,-84.3870953
+8,"Ace America's Cash Express - Store Locations, Atlanta",2841 Greenbriar Parkway Southwest,Atlanta,GA,30331,"2841 Greenbriar Parkway Southwest,Atlanta,GA,30331 ",33.6877868,-84.4934528
+9,"Ace America's Cash Express - Store Locations, Atlanta",4058 Peachtree Road Northeast,Atlanta,GA,30319,"4058 Peachtree Road Northeast,Atlanta,GA,30319 ",33.8614009,-84.3399074
+10,"Ace America's Cash Express - Store Locations, Atlanta",3714 Roswell Road Northeast,Atlanta,GA,30342,"3714 Roswell Road Northeast,Atlanta,GA,30342 ",33.8567894,-84.3824264
+11,"Ace America's Cash Express - Store Locations, Atlanta",2581 Piedmont Road Northeast Suite A800,Atlanta,GA,30324,"2581 Piedmont Road Northeast Suite A800,Atlanta,GA,30324 ",33.8256045,-84.3645915
+12,"Ace America's Cash Express - Store Locations, Atlanta",461 Ponce De Leon Avenue Northeast,Atlanta,GA,30308,"461 Ponce De Leon Avenue Northeast,Atlanta,GA,30308 ",33.7730187,-84.3718892
+13,"Ace America's Cash Express - Store Locations, Atlanta",2261 Cheshire Bridge Road Northeast,Atlanta,GA,30324,"2261 Cheshire Bridge Road Northeast,Atlanta,GA,30324 ",33.8168803,-84.3517947
+14,"Ace America's Cash Express - Store Locations, Atlanta",381 Moreland Avenue Southeast,Atlanta,GA,30316,"381 Moreland Avenue Southeast,Atlanta,GA,30316 ",33.743596,-84.3495651
+15,"Ace America's Cash Express - Store Locations, Atlanta",495 Whitehall Street Southwest Suite C,Atlanta,GA,30303,"495 Whitehall Street Southwest Suite C,Atlanta,GA,30303 ",33.744082,-84.4038249
+16,"Ace America's Cash Express - Store Locations, Atlanta",3583 Mrtn Lthr Kng Jr Drive,Atlanta,GA,30331,"3583 Mrtn Lthr Kng Jr Drive,Atlanta,GA,30331 ",33.7601668,-84.5042537
+17,"Ace America's Cash Express - Store Locations, Atlanta",3583 Mlk B,Atlanta,GA,30303,"3583 Mlk B,Atlanta,GA,30303 ",33.7601668,-84.5042537
+18,"Ace America's Cash Express - Store Locations, Chamblee",5513 Pechtre Indstrl Boulevard # B,Atlanta,GA,30341,"5513 Pechtre Indstrl Boulevard # B,Atlanta,GA,30341 ",33.9589225,-84.212795
+19,"Ace America's Cash Express - Store Locations, College Park",5659 Riverdale Road,Atlanta,GA,30349,"5659 Riverdale Road,Atlanta,GA,30349 ",33.6005761,-84.4295712
+20,"Ace America's Cash Express - Store Locations, College Park",5190 Old National Highway Suite A,Atlanta,GA,30349,"5190 Old National Highway Suite A,Atlanta,GA,30349 ",33.613906,-84.4719447
+21,"Ace America's Cash Express - Store Locations, College Park",2798 Camp Creek Parkway,Atlanta,GA,30337,"2798 Camp Creek Parkway,Atlanta,GA,30337 ",33.6519038,-84.4839113
+22,"Ace America's Cash Express - Store Locations, Decatur",4801 Memorial Drive,Atlanta,GA,30303,"4801 Memorial Drive,Atlanta,GA,30303 ",33.7470193,-84.2836817
+23,"Ace America's Cash Express - Store Locations, Decatur",4065 Memorial Drive,Atlanta,GA,30303,"4065 Memorial Drive,Atlanta,GA,30303 ",33.766754,-84.2526544
+24,"Ace America's Cash Express - Store Locations, Decatur",3570 Memorial Drive,Atlanta,GA,30303,"3570 Memorial Drive,Atlanta,GA,30303 ",33.7555753,-84.2681135
+25,"Ace America's Cash Express - Store Locations, East Point",1618 Willingham Drive,Atlanta,GA,30344,"1618 Willingham Drive,Atlanta,GA,30344 ",33.6695677,-84.4419576
+26,"Ace America's Cash Express - Store Locations, Forest Park",4703 Jonesboro Road,Atlanta,GA,30303,"4703 Jonesboro Road,Atlanta,GA,30303 ",33.6250018,-84.3557676
+27,"Ace America's Cash Express - Store Locations, Lithia Springs",904 Thornton Road,Atlanta,GA,30303,"904 Thornton Road,Atlanta,GA,30303 ",33.7797973,-84.6065441
+28,"Ace America's Cash Express - Store Locations, Marietta",277 Marietta Street Northwest # A,Atlanta,GA,30313,"277 Marietta Street Northwest # A,Atlanta,GA,30313 ",33.7612266,-84.3959085
+29,"Ace America's Cash Express - Store Locations, Riverdale",6635 Highway 85,Atlanta,GA,30303,"6635 Highway 85,Atlanta,GA,30303 ",33.7490944,-84.3858376
+30,"Ace America's Cash Express - Store Locations, Riverdale",7512 Georgia Highway 85,Atlanta,GA,30303,"7512 Georgia Highway 85,Atlanta,GA,30303 ",33.5499537,-84.4141569
+31,"Ace America's Cash Express - Store Locations, Smyrna",2697 Spring Road,Atlanta,GA,30303,"2697 Spring Road,Atlanta,GA,30303 ",33.8843565,-84.4752456
+32,"Ace America's Cash Express - Store Locations, Smyrna",1030-3 Windy Hill Road,Atlanta,GA,30303,"1030-3 Windy Hill Road,Atlanta,GA,30303 ",33.8990191,-84.457955
+33,ACE AMERICAS CASH EXPRESS,3714 Roswell Rd Ne,Atlanta,GA,30342,"3714 Roswell Rd Ne,Atlanta,GA,30342 ",33.8567894,-84.3824264
+34,ACE AMERICAS CASH EXPRESS,5659 Riverdale Rd,Atlanta,GA,30349,"5659 Riverdale Rd,Atlanta,GA,30349 ",33.6005761,-84.4295712
+35,ACE CASH EXPRESS,4058 Peachtree Rd Ne,Atlanta,GA,30319,"4058 Peachtree Rd Ne,Atlanta,GA,30319 ",33.8614009,-84.3399074
+36,ACE CASH EXPRESS,2841 Greenbriar Pkwy Sw,Atlanta,GA,30331,"2841 Greenbriar Pkwy Sw,Atlanta,GA,30331 ",33.6877868,-84.4934528
+37,ACE CASH EXPRESS,3583 Martin Luther King Jr Dr,Atlanta,GA,30331,"3583 Martin Luther King Jr Dr,Atlanta,GA,30331 ",33.7601668,-84.5042537
+38,ACE CASH EXPRESS,2798 Camp Creek Pkwy,Atlanta,GA,30337,"2798 Camp Creek Pkwy,Atlanta,GA,30337 ",33.651754,-84.4808001
+39,Ace Cash Express Inc,3714 Roswell Rd Ne Ste A,Atlanta,GA,30342,"3714 Roswell Rd Ne Ste A,Atlanta,GA,30342 ",33.8567894,-84.3824264
+40,Ace Cash Express Inc,1618 Willingham Dr,Atlanta,GA,30344,"1618 Willingham Dr,Atlanta,GA,30344 ",33.6695677,-84.4419576
+41,Ace Cash Express Inc,381 Moreland Ave Se,Atlanta,GA,30316,"381 Moreland Ave Se,Atlanta,GA,30316 ",33.743596,-84.3495651
+42,Ace Cash Express Inc,5190 Old National Hwy,Atlanta,GA,30349,"5190 Old National Hwy,Atlanta,GA,30349 ",33.613906,-84.4719447
+43,Ace Cash Express Inc,8763 Dunwoody Pl,Atlanta,GA,30350,"8763 Dunwoody Pl,Atlanta,GA,30350 ",33.9966266,-84.3494333
+44,Ach Inc,Atlanta,Atlanta,GA,30303,"Atlanta,Atlanta,GA,30303 ",33.755711,-84.3883717
+45,Advance America,6085 Old National Highway,Atlanta,GA,30349,"6085 Old National Highway,Atlanta,GA,30349 ",33.588499,-84.4694885
+46,ADVANCE AMERICA,56 Marietta St Nw,Atlanta,GA,30303,"56 Marietta St Nw,Atlanta,GA,30303 ",33.7554561,-84.3915303
+47,Advanced Payment Technologies,4470 Chamblee Dunwoody Road Suite 255,Atlanta,GA,30338,"4470 Chamblee Dunwoody Road Suite 255,Atlanta,GA,30338 ",33.921101,-84.3172069
+48,Alabama Checkcashers Inc,3304 Buford Hwy Ne Ste A,Atlanta,GA,30329,"3304 Buford Hwy Ne Ste A,Atlanta,GA,30329 ",33.8430869,-84.3292107
+49,All Checks Cashed,801 Jackson Pkwy Nw,Atlanta,GA,30318,"801 Jackson Pkwy Nw,Atlanta,GA,30318 ",33.7767133,-84.4735012
+50,All Checks Cashed,495 Moreland Avenue,Atlanta,GA,30316,"495 Moreland Avenue,Atlanta,GA,30316 ",33.7406191,-84.3496675
+51,ALL CHECKS CASHED,12 Peachtree St # 2,Atlanta,GA,30303,"12 Peachtree St # 2,Atlanta,GA,30303 ",36.1190954,-86.7317897
+52,ALL CHECKS CASHED,801 James Jackson Pkwy Nw,Atlanta,GA,30318,"801 James Jackson Pkwy Nw,Atlanta,GA,30318 ",33.7767133,-84.4735012
+53,ALL CHECKS CASHED,876 Cleveland Ave,Atlanta,GA,30344,"876 Cleveland Ave,Atlanta,GA,30344 ",33.6808931,-84.4179185
+54,All Checks Cashed - Store 01,585 Memorial Drive Southeast,Atlanta,GA,30312,"585 Memorial Drive Southeast,Atlanta,GA,30312 ",33.7464853,-84.3683892
+55,All Checks Cashed 2,10 Northside Dr Nw,Atlanta,GA,30314,"10 Northside Dr Nw,Atlanta,GA,30314 ",33.7549566,-84.4032809
+56,All Checks Cashed 6,495 Moreland Ave Se,Atlanta,GA,30316,"495 Moreland Ave Se,Atlanta,GA,30316 ",33.7406191,-84.3496675
+57,All Checks Cashed 6,495 Moreland Avenue Southeast,Atlanta,GA,30316,"495 Moreland Avenue Southeast,Atlanta,GA,30316 ",33.7406191,-84.3496675
+58,Alliance Business Leasing,2879 North Druid Hills Road Northeast,Atlanta,GA,30329,"2879 North Druid Hills Road Northeast,Atlanta,GA,30329 ",33.8166344,-84.3111576
+59,Alliance Merchant Services,Atlanta,Atlanta,GA,30303,"Atlanta,Atlanta,GA,30303 ",33.755711,-84.3883717
+60,American Check Cashing,12 Peachtree Street Northwest,Atlanta,GA,30303,"12 Peachtree Street Northwest,Atlanta,GA,30303 ",33.7536678,-84.3903326
+61,American Check Cashing,906 Cleveland Avenue,Atlanta,GA,30344,"906 Cleveland Avenue,Atlanta,GA,30344 ",33.6811367,-84.4189623
+62,American Check Cashing Inc,906 Cleveland Ave,Atlanta,GA,30344,"906 Cleveland Ave,Atlanta,GA,30344 ",33.6811367,-84.4189623
+63,American Check Cashing Inc,801 James Jackson Parkway Nortrhwest,Atlanta,GA,30318,"801 James Jackson Parkway Nortrhwest,Atlanta,GA,30318 ",33.7767133,-84.4735012
+64,Atlanta Authorized Paymaster Sales & Service,1075 Robin Lane Northeast,Atlanta,GA,30306,"1075 Robin Lane Northeast,Atlanta,GA,30306 ",33.8044158,-84.3525249
+65,Atlanta Cash It Here Inc,2100 Campbellton Rd Sw,Atlanta,GA,30311,"2100 Campbellton Rd Sw,Atlanta,GA,30311 ",33.7064186,-84.4568946
+66,Atlanta Check Cashers,215 Northwood Drive Northeast,Atlanta,GA,30342,"215 Northwood Drive Northeast,Atlanta,GA,30342 ",33.9105915,-84.3798845
+67,ATLANTA CHECK CASHERS,215 Northwood Dr Ne,Atlanta,GA,30342,"215 Northwood Dr Ne,Atlanta,GA,30342 ",33.9105915,-84.3798845
+68,Atlanta Check Cashers Inc,2435 Martin Luther Dr,Atlanta,GA,30311,"2435 Martin Luther Dr,Atlanta,GA,30311 ",33.7518295,-84.4672214
+69,Atlanta Check Cashers Inc,3123 Main St,Atlanta,GA,30344,"3123 Main St,Atlanta,GA,30344 ",33.6702066,-84.4437899
+70,Atlanta Check Cashers Inc,6135 Roswell Rd Ne,Atlanta,GA,30328,"6135 Roswell Rd Ne,Atlanta,GA,30328 ",33.9226444,-84.3788669
+71,Atlanta Check Cashers Inc,20 Forsyth St Nw,Atlanta,GA,30303,"20 Forsyth St Nw,Atlanta,GA,30303 ",33.7552233,-84.3915072
+72,Atlanta Check Cashers Inc,4905 Buford Hwy,Atlanta,GA,30341,"4905 Buford Hwy,Atlanta,GA,30341 ",33.885316,-84.288014
+73,ATLANTA CHECK CASHERS INC,2435 Martin Luther King Jr Dr,Atlanta,GA,30311,"2435 Martin Luther King Jr Dr,Atlanta,GA,30311 ",33.7518295,-84.4672214
+74,Best Rates Check Cashing,4881 Old National Hwy,Atlanta,GA,30337,"4881 Old National Hwy,Atlanta,GA,30337 ",33.6221492,-84.4747648
+75,Budgetime Cash Advance,400 Galleria Pkwy Se,Atlanta,GA,30339,"400 Galleria Pkwy Se,Atlanta,GA,30339 ",33.8865683,-84.461344
+76,Business Center Etc,Po Box 44372,Atlanta,GA,30336,"Po Box 44372,Atlanta,GA,30336 ",33.7489465,-84.5484275
+77,Business Center Etc,3480 Greenbriar Parkway Southwest,Atlanta,GA,30331,"3480 Greenbriar Parkway Southwest,Atlanta,GA,30331 ",33.6828859,-84.5026391
+78,Business Center Etc Inc,3480 Greenbriar Pkwy Sw,Atlanta,GA,30331,"3480 Greenbriar Pkwy Sw,Atlanta,GA,30331 ",33.6828859,-84.5026391
+79,Cash America Pawn,126 Cleveland Avenue Southwest,Atlanta,GA,30315,"126 Cleveland Avenue Southwest,Atlanta,GA,30315 ",33.6808273,-84.3932426
+80,Cash America Pawn Regional Office,3850 Jonesboro Road Southeast,Atlanta,GA,30354,"3850 Jonesboro Road Southeast,Atlanta,GA,30354 ",33.6509256,-84.3635377
+81,Cash Depot Inc,569 Joseph E Lowery Blvd,Atlanta,GA,30310,"569 Joseph E Lowery Blvd,Atlanta,GA,30310 ",33.7395932,-84.4180988
+82,Cash Depot Inc,569 Josph E Lwry Boulevard Southwest,Atlanta,GA,30310,"569 Josph E Lwry Boulevard Southwest,Atlanta,GA,30310 ",33.7395932,-84.4180988
+83,Cash Mart,3843 Jonesboro Road Southeast,Atlanta,GA,30354,"3843 Jonesboro Road Southeast,Atlanta,GA,30354 ",33.6492595,-84.3664223
+84,Cco Consulting Inc,5600 Buford Hwy Ne,Atlanta,GA,30340,"5600 Buford Hwy Ne,Atlanta,GA,30340 ",33.9057595,-84.2742391
+85,Check Cash Plus,221 Cleveland Avenue Southwest,Atlanta,GA,30315,"221 Cleveland Avenue Southwest,Atlanta,GA,30315 ",33.6816975,-84.3965607
+86,Check Cashers Inc,486 Decatur St Se Ste 4,Atlanta,GA,30312,"486 Decatur St Se Ste 4,Atlanta,GA,30312 ",33.7515956,-84.371843
+87,Check Cashers Inc No 1,486 Decatur Street Southeast Suite 4,Atlanta,GA,30312,"486 Decatur Street Southeast Suite 4,Atlanta,GA,30312 ",33.7515956,-84.371843
+88,Check Cashing,6776 Highway 85,Atlanta,GA,30303,"6776 Highway 85,Atlanta,GA,30303 ",33.7490944,-84.3858376
+89,Check Cashing Protection Systems,5775 Peachtre Dnwdy Road Northeast,Atlanta,GA,30342,"5775 Peachtre Dnwdy Road Northeast,Atlanta,GA,30342 ",33.9117462,-84.3505783
+90,Checks Cashed,3461 Roosevelt Highway,Atlanta,GA,30349,"3461 Roosevelt Highway,Atlanta,GA,30349 ",33.6220049,-84.5020037
+91,Checks No Problem,335 Cascade Rise Court Southwest,Atlanta,GA,30331,"335 Cascade Rise Court Southwest,Atlanta,GA,30331 ",33.7278898,-84.5648894
+92,Clayton County Investigator,Atlanta,Atlanta,GA,30303,"Atlanta,Atlanta,GA,30303 ",33.755711,-84.3883717
+93,COMMISSION EXPRESS,5784 Lake Forrest Dr Nw Ste 23,Atlanta,GA,30328,"5784 Lake Forrest Dr Nw Ste 23,Atlanta,GA,30328 ",33.9133757,-84.3888218
+94,Community Fincl Svc Ctr Corp,585 Memorial Dr Se,Atlanta,GA,30312,"585 Memorial Dr Se,Atlanta,GA,30312 ",33.7464853,-84.3683892
+95,County Bank Of Rehoboth Beach De Dba Xtra Cash,Atlanta,Atlanta,GA,30303,"Atlanta,Atlanta,GA,30303 ",33.755711,-84.3883717
+96,Discount Check Cashers,3208 Mrtn Lthr Kng Jr Drive,Atlanta,GA,30311,"3208 Mrtn Lthr Kng Jr Drive,Atlanta,GA,30311 ",33.7518953,-84.4924469
+97,Discount Check Cashers,3208 Mlk J,Atlanta,GA,30311,"3208 Mlk J,Atlanta,GA,30311 ",33.7518953,-84.4924469
+98,Discount Check Cashing,3599 Mrtn Lthr Kng Jr Drive,Atlanta,GA,30331,"3599 Mrtn Lthr Kng Jr Drive,Atlanta,GA,30331 ",33.759454,-84.5048395
+99,Discount Check Cashing,3599 Mlk J,Atlanta,GA,30331,"3599 Mlk J,Atlanta,GA,30331 ",33.759454,-84.5048395
+100,DISCOUNT CHECK CASHING AND GRO,3208 Martin Luther King Jr Dr,Atlanta,GA,30311,"3208 Martin Luther King Jr Dr,Atlanta,GA,30311 ",33.7518953,-84.4924469
+101,Discount Check Cashing Llc,97 Peachtree Street Southwest,Atlanta,GA,30303,"97 Peachtree Street Southwest,Atlanta,GA,30303 ",33.752103,-84.392579
+102,Dye Keith,486 Decatur Street Southeast,Atlanta,GA,30312,"486 Decatur Street Southeast,Atlanta,GA,30312 ",33.7515956,-84.371843
+103,E U FINANCIAL SERVICES,20 Broad St Sw,Atlanta,GA,30303,"20 Broad St Sw,Atlanta,GA,30303 ",33.7542567,-84.3913508
+104,El Valu Check Cashing,4949 Buford Hwy,Atlanta,GA,30341,"4949 Buford Hwy,Atlanta,GA,30341 ",33.8866124,-84.2863273
+105,El Valu Check Cashing,4949 Buford Highway,Atlanta,GA,30341,"4949 Buford Highway,Atlanta,GA,30341 ",33.8866124,-84.2863273
+106,Electronic Payment Processing,Atlanta,Atlanta,GA,30303,"Atlanta,Atlanta,GA,30303 ",33.755711,-84.3883717
+107,Envios Azteca,5750 Buford Highway Northeast,Atlanta,GA,30340,"5750 Buford Highway Northeast,Atlanta,GA,30340 ",33.9091609,-84.2688826
+108,Ethio Check Cashing,2151 Godby Road,Atlanta,GA,30349,"2151 Godby Road,Atlanta,GA,30349 ",33.6167259,-84.4601594
+109,Ethio Check Cashing Inc,2151 Godby Rd Ste 13,Atlanta,GA,30349,"2151 Godby Rd Ste 13,Atlanta,GA,30349 ",33.6167259,-84.4601594
+110,Friendly Check Cashing,876 Cleveland Avenue,Atlanta,GA,30344,"876 Cleveland Avenue,Atlanta,GA,30344 ",33.6808931,-84.4179185
+111,Georgia Catalog Sales,945 East Paces Ferry Road Northeast,Atlanta,GA,30326,"945 East Paces Ferry Road Northeast,Atlanta,GA,30326 ",33.8465077,-84.3560978
+112,Georgia Catalog Sales,945 East Paces Ferry Road Northeast # B,Atlanta,GA,30326,"945 East Paces Ferry Road Northeast # B,Atlanta,GA,30326 ",33.8465077,-84.3560978
+113,Georgia Catalog Sales 14,945 East Paces Ferry Road Northeast,Atlanta,GA,30326,"945 East Paces Ferry Road Northeast,Atlanta,GA,30326 ",33.8465077,-84.3560978
+114,Globalx,270 Peachtree Street Northwest,Atlanta,GA,30303,"270 Peachtree Street Northwest,Atlanta,GA,30303 ",33.7619055,-84.3879567
+115,Greenbriar Check Cashiers,2975 Headland Drive Southwest,Atlanta,GA,30311,"2975 Headland Drive Southwest,Atlanta,GA,30311 ",33.6917093,-84.4873661
+116,IMM CHECK CASHERS,2975 Headland Dr Sw,Atlanta,GA,30311,"2975 Headland Dr Sw,Atlanta,GA,30311 ",33.6917093,-84.4873661
+117,Interlink Financial Services,233 Mitchell Street Southwest,Atlanta,GA,30303,"233 Mitchell Street Southwest,Atlanta,GA,30303 ",33.752312,-84.3952708
+118,International Check Cashing,5600 Buford Hwy,Atlanta,GA,30340,"5600 Buford Hwy,Atlanta,GA,30340 ",33.9057595,-84.2742391
+119,International Check Cashing Services,5193 Pechtre Indstrl Boulevard,Atlanta,GA,30341,"5193 Pechtre Indstrl Boulevard,Atlanta,GA,30341 ",33.889743,-84.309654
+120,JOY FINANCIAL SERVICES INC,2609 Shallowford Rd Ne,Atlanta,GA,30345,"2609 Shallowford Rd Ne,Atlanta,GA,30345 ",33.8634602,-84.2871625
+121,Lakewood Check Cashing,1959 Lakewood Avenue Southeast,Atlanta,GA,30315,"1959 Lakewood Avenue Southeast,Atlanta,GA,30315 ",33.7026126,-84.384852
+122,LAKEWOOD CHECK CASHING,1959 Lakewood Ave Se,Atlanta,GA,30315,"1959 Lakewood Ave Se,Atlanta,GA,30315 ",33.7026126,-84.384852
+123,LATINO SERVICES,1799 Lakewood Ter Se,Atlanta,GA,30315,"1799 Lakewood Ter Se,Atlanta,GA,30315 ",33.7051301,-84.3792808
+124,M & G Check Cashing,1292 Donnelly Ave Sw,Atlanta,GA,30310,"1292 Donnelly Ave Sw,Atlanta,GA,30310 ",33.734643,-84.4297339
+125,Magic Check Cashing,5195 Old National Hwy,Atlanta,GA,30349,"5195 Old National Hwy,Atlanta,GA,30349 ",33.6135767,-84.4733312
+126,Merchant Data Services Inc,3300 Buckeye Road Suite 700,Atlanta,GA,30341,"3300 Buckeye Road Suite 700,Atlanta,GA,30341 ",33.8858994,-84.2583494
+127,Merchant Services,4470 Chamblee Dunwoody Road Suite 255,Atlanta,GA,30338,"4470 Chamblee Dunwoody Road Suite 255,Atlanta,GA,30338 ",33.921101,-84.3172069
+128,MONEY MARKET,8725 Roswell Rd Ste 5,Atlanta,GA,30350,"8725 Roswell Rd Ste 5,Atlanta,GA,30350 ",33.9947921,-84.3500775
+129,Money Market Of Atlanta,209 Edgewood Avenue Southeast,Atlanta,GA,30303,"209 Edgewood Avenue Southeast,Atlanta,GA,30303 ",33.7539261,-84.3799603
+130,MONEY WORLD,55 Moreland Ave Se,Atlanta,GA,30316,"55 Moreland Ave Se,Atlanta,GA,30316 ",33.7521164,-84.3496945
+131,Money World No 3 Inc,1195 Wylie St Se,Atlanta,GA,30316,"1195 Wylie St Se,Atlanta,GA,30316 ",33.7520696,-84.3496077
+132,Moss Pawn,6382 Old Dixie Highway,Atlanta,GA,30303,"6382 Old Dixie Highway,Atlanta,GA,30303 ",33.5806303,-84.3744194
+133,MR PAYROLL,689 Boulevard Ne,Atlanta,GA,30308,"689 Boulevard Ne,Atlanta,GA,30308 ",33.7735118,-84.3704815
+134,Myong H Lee Inc,3253 Buford Hwy Ne,Atlanta,GA,30329,"3253 Buford Hwy Ne,Atlanta,GA,30329 ",33.8412563,-84.3290047
+135,N Go Cash Inc,5441 Riverdale Rd,Atlanta,GA,30349,"5441 Riverdale Rd,Atlanta,GA,30349 ",33.6071333,-84.4359745
+136,N R M C Financial Services,1955 Campbellton Rd Sw,Atlanta,GA,30311,"1955 Campbellton Rd Sw,Atlanta,GA,30311 ",33.7086287,-84.4531748
+137,Nice Check Cashing,1153 Rlph Dvd Abrnthy,Atlanta,GA,30310,"1153 Rlph Dvd Abrnthy,Atlanta,GA,30310 ",33.7385863,-84.4255127
+138,Nice Check Cashing Inc,4891 Roosevelt Hwy,Atlanta,GA,30349,"4891 Roosevelt Hwy,Atlanta,GA,30349 ",33.5983307,-84.5481864
+139,Nice Check Cashing Inc,4891 Roosevelt Highway,Atlanta,GA,30349,"4891 Roosevelt Highway,Atlanta,GA,30349 ",33.5983307,-84.5481864
+140,Nice Check Cashing Inc,5195 Old National Highway,Atlanta,GA,30349,"5195 Old National Highway,Atlanta,GA,30349 ",33.6135767,-84.4733312
+141,Nice Check Cashing Inc,2636 Mrtn Lthr Kng Jr Drive Suite 26,Atlanta,GA,30311,"2636 Mrtn Lthr Kng Jr Drive Suite 26,Atlanta,GA,30311 ",33.7530965,-84.4740456
+142,Nice Check Cashing Inc,2636 Mrtn Lthr Kng Jr Drive Suite 26,Atlanta,GA,30311,"2636 Mrtn Lthr Kng Jr Drive Suite 26,Atlanta,GA,30311 ",33.7530965,-84.4740456
+143,Nice Check Cashing Inc,2636 Mlk J,Atlanta,GA,30311,"2636 Mlk J,Atlanta,GA,30311 ",33.7530965,-84.4740456
+144,Nice Check Cashing Inc,31-B Forsyth St Nw,Atlanta,GA,30303,"31-B Forsyth St Nw,Atlanta,GA,30303 ",33.7554829,-84.3908154
+145,NICE FINANCIAL SERVICES,31 Forsyth St Sw,Atlanta,GA,30303,"31 Forsyth St Sw,Atlanta,GA,30303 ",33.7536377,-84.3930109
+146,NICE FINANCIAL SERVICES,1153 Ralph David Abernathy Blv,Atlanta,GA,30310,"1153 Ralph David Abernathy Blv,Atlanta,GA,30310 ",,
+147,NICE FINANCIAL SERVICES,4395 Fulton Industrial Blvd Sw,Atlanta,GA,30336,"4395 Fulton Industrial Blvd Sw,Atlanta,GA,30336 ",33.765416,-84.5312242
+148,North River Check Cashing,8805 Roswell Rd,Atlanta,GA,30350,"8805 Roswell Rd,Atlanta,GA,30350 ",33.9987651,-84.3492425
+149,Now Check Cashing Inc,1352 Lakewood Ave Se,Atlanta,GA,30315,"1352 Lakewood Ave Se,Atlanta,GA,30315 ",33.7174821,-84.3815959
+150,P And C Check Cashers,Taco Super Market,Atlanta,GA,30303,"Taco Super Market,Atlanta,GA,30303 ",33.843321,-84.328905
+151,Paras Check Cashing,5674 Roswell Road Northeast,Atlanta,GA,30342,"5674 Roswell Road Northeast,Atlanta,GA,30342 ",33.9096267,-84.3791451
+152,Recheck Corporation,4470 Chamblee Dunwoody Road Suite 255,Atlanta,GA,30338,"4470 Chamblee Dunwoody Road Suite 255,Atlanta,GA,30338 ",33.921101,-84.3172069
+153,Salandy Associates,2895 Laurel Lane,Atlanta,GA,30344,"2895 Laurel Lane,Atlanta,GA,30344 ",33.676556,-84.459134
+154,Secondi Inc,1954 Airport Rd Ste 209,Atlanta,GA,30341,"1954 Airport Rd Ste 209,Atlanta,GA,30341 ",33.8772492,-84.3081686
+155,Security Check,2255 Cumberland Parkway Southeast,Atlanta,GA,30339,"2255 Cumberland Parkway Southeast,Atlanta,GA,30339 ",33.8568668,-84.4813316
+156,Super Check Cash,3330 Buford Hwy Ne,Atlanta,GA,30329,"3330 Buford Hwy Ne,Atlanta,GA,30329 ",33.8430015,-84.3292825
+157,Taco Market,3304 Buford Highway Northeast,Atlanta,GA,30329,"3304 Buford Highway Northeast,Atlanta,GA,30329 ",33.8430869,-84.3292107
+158,Taurino Store Inc,2726 Shallowford Rd Ne,Atlanta,GA,30341,"2726 Shallowford Rd Ne,Atlanta,GA,30341 ",33.8667808,-84.2901929
+159,Telecheck,5775 Peachtre Dnwdy Road Northeast,Atlanta,GA,30342,"5775 Peachtre Dnwdy Road Northeast,Atlanta,GA,30342 ",33.9117462,-84.3505783
+160,Termnet Merchant Services Inc,2030 Powers Ferry Road Southeast Suite 134,Atlanta,GA,30339,"2030 Powers Ferry Road Southeast Suite 134,Atlanta,GA,30339 ",33.9008151,-84.4525145
+161,Tower Beer Wine Spirits,2161 Piedmont Road Northeast,Atlanta,GA,30324,"2161 Piedmont Road Northeast,Atlanta,GA,30324 ",33.8155829,-84.3658698
+162,TOWER PACKAGE STORE,2161 Piedmont Rd Ne,Atlanta,GA,30324,"2161 Piedmont Rd Ne,Atlanta,GA,30324 ",33.8155829,-84.3658698
+163,Tower Package Stores,5877 Buford Highway Northeast,Atlanta,GA,30340,"5877 Buford Highway Northeast,Atlanta,GA,30340 ",33.9101897,-84.2648608
+164,TRIMAX FINANCIAL,2740 Greenbriar Pkwy Sw Ste B1,Atlanta,GA,30331,"2740 Greenbriar Pkwy Sw Ste B1,Atlanta,GA,30331 ",33.6885136,-84.4887038
+165,Twenty Four Hour Check Cashing,2636 Martin Luther Dr,Atlanta,GA,30311,"2636 Martin Luther Dr,Atlanta,GA,30311 ",,
+166,Two Guys Package,5420 Pechtre Indstrl Boulevard,Atlanta,GA,30341,"5420 Pechtre Indstrl Boulevard,Atlanta,GA,30341 ",33.8969707,-84.3039805
+167,Universal Check Cashiers,211 Peachtree St Sw,Atlanta,GA,30303,"211 Peachtree St Sw,Atlanta,GA,30303 ",33.7490687,-84.3950284
+168,Universal Express Inc,3666 Shallowford Rd Ne,Atlanta,GA,30340,"3666 Shallowford Rd Ne,Atlanta,GA,30340 ",33.8975715,-84.2844679
+169,XTRABUCKS,2685 Metropolitan Pkwy Sw,Atlanta,GA,30315,"2685 Metropolitan Pkwy Sw,Atlanta,GA,30315 ",33.682517,-84.4091253
+170,XTRABUCKS,5855 Buford Hwy Ne,Atlanta,GA,30340,"5855 Buford Hwy Ne,Atlanta,GA,30340 ",33.9095129,-84.2655783
+171,Y & T CHECK CASHING,1391 Moreland Ave Se,Atlanta,GA,30316,"1391 Moreland Ave Se,Atlanta,GA,30316 ",33.7169001,-84.3499124
+172,Your Check Cashing Store,2555 Bolton Road Northwest Suite 7,Atlanta,GA,30318,"2555 Bolton Road Northwest Suite 7,Atlanta,GA,30318 ",33.8203605,-84.4518426
+173,Your Check Cashing Store Inc,2555 Bolton Rd Nw Ste 7,Atlanta,GA,30318,"2555 Bolton Rd Nw Ste 7,Atlanta,GA,30318 ",33.8203605,-84.4518426

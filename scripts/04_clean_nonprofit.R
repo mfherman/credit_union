@@ -2,7 +2,6 @@ library(tidyverse)
 library(sf)
 library(mapview)
 library(janitor)
-library(ggmap)
 
 # read in nonprofit data and 
 all_nonprofit <- read_csv(
@@ -47,8 +46,8 @@ atl_nonprofit_sf <- ga_nonprofit_sf %>%
   mutate(category = str_to_title(str_replace_all(category, "_", " "))) %>%
   select(-(lat:long))
 
+# check out a map
 mapview(atl_nonprofit_sf)
 
 # write geojson and csv
 st_write(atl_nonprofit_sf, "./output/atl_nonprofit.geojson", delete_dsn = TRUE)
-st_write(atl_nonprofit_sf, "./output/atl_nonprofit.csv", delete_dsn = TRUE)
