@@ -31,8 +31,9 @@ ga_nonprofit_sf <- ga_nonprofit_clean %>%
     na.fail = TRUE
   )
 
-# read in atl limits polygon
-atl_limits <- read_sf("./output/atl_limits.geojson")
+# read in atl msa tracts and dissolve boundaries
+atl_msa <- read_sf("./output/atl_tract.geojson") %>%
+  st_union()
 
 # define selected nonprofit categories
 nonprofit_select <- c("civil_rights", "community_capacity_bldg", "employment",
@@ -42,7 +43,7 @@ nonprofit_select <- c("civil_rights", "community_capacity_bldg", "employment",
 # filter nonprofits in atl msa and selected categories
 atl_nonprofit_sf <- ga_nonprofit_sf %>%
   filter(category %in% nonprofit_select) %>%
-  filter(lengths(st_within(., atl_limits)) > 0) %>%
+  filter(lengths(st_within(., atl_msa)) > 0) %>%
   mutate(category = str_to_title(str_replace_all(category, "_", " "))) %>%
   select(-(lat:long))
 

@@ -6,6 +6,10 @@ library(mapview)
 atl_neighborhood <- read_sf("./data/atl_neighborhood.geojson") %>%
   select(neighborhood = NEIGHBORHO, pop2010 = POP2010)
 
+atl_npu <- read_sf("https://opendata.arcgis.com/datasets/8c1d863e9b584b67ace764489e64a530_1.geojson") %>%
+  select(npu = NPU)
+
+
 # create atl city limits polygon
 atl_limits <- st_union(atl_neighborhood)
 
