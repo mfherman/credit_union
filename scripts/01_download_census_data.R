@@ -63,12 +63,12 @@ atlanta_bg <- get_acs(
 # percentage and select variables, reproject to wgs84
 atl_tract_stat <- atlanta_tract %>%
   mutate(
-    pop_other = B01001_001E - pmap_dbl(list(B03002_003E, B03002_004E, B03002_012E, B03002_006E), sum),
+    pop_other = B01001_001E - (B03002_003E + B03002_004E + B03002_012E + B03002_006E),
     white_pct = B03002_003E / B01001_001E * 100,
     black_pct = B03002_004E / B01001_001E * 100,
     hisp_pct = B03002_012E / B01001_001E * 100,
     asian_pct = B03002_006E / B01001_001E * 100,
-    other_pct = 100 - pmap_dbl(list(white_pct, black_pct, hisp_pct, asian_pct), sum),
+    other_pct = 100 - (white_pct + black_pct + hisp_pct + asian_pct),
     pov_pct = B06012_002E / B06012_001E * 100,
     pub_as_pct = B19058_002E / B19058_001E * 100,
     own_pct = B07013_002E / B07013_001E * 100,
@@ -120,6 +120,7 @@ atl_bg_stat <- atlanta_bg %>%
   st_transform(4326)
 
 # check out a simple map
+tmap_mode("view")
 tm_shape(atl_bg_stat) +
   tm_fill(
     col = "med_hhinc",

@@ -31,9 +31,28 @@ atl_cu_sf <- atl_cu_clean %>%
     na.fail = TRUE
   )
 
+# rename vars and clean up
+atl_cu_sf <- atl_cu_sf %>%
+  select(
+    cu_number,
+    name = cu_name,
+    site_type = site_type_name,
+    main_office,
+    address = physical_address_line_1,
+    city = physical_address_city,
+    state = physical_address_state_code,
+    county = physical_address_county_name,
+    fom_category = x_1,
+    fom_detail = x_2,
+    fom_type = type_of_membership,
+    avg_assets_branch:avg_loans_branch,
+    low_income_designated:juntos_avanzamos,
+    unsecured_credit_card_loans:other_real_estate_loans_lines_of_credit
+  ) %>%
+  mutate(name = str_to_title(name))
+
 # check out a map
 mapview(atl_cu_sf)
 
 # write geojson and csv
 st_write(atl_cu_sf, "./output/atl_cu.geojson", delete_dsn = TRUE)
-st_write(atl_cu_sf, "./output/atl_cu.csv", delete_dsn = TRUE)
