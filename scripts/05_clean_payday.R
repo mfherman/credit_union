@@ -15,7 +15,7 @@ atl_payday_clean <- atl_payday %>%
     name = str_to_title(name),
     name = if_else(str_detect(name, "Ace"), "ACE Cash Express", name),
     id = seq.int(nrow(.))
-    ) %>%
+  ) %>%
   distinct(lat, lon, .keep_all = TRUE) %>%
   select(-address)
 
