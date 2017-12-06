@@ -117,3 +117,4 @@ mapview(atl_msa_sf)
 
 # write geojson and csv
 st_write(atl_msa_sf, "./output/atl_msa_cu.geojson", delete_dsn = TRUE)
+st_write(ga_cu_sf, "./data/cu_geocoded.geojson", delete_dsn = TRUE)

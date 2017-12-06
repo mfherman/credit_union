@@ -2,7 +2,6 @@ library(tidyverse)
 library(sf)
 library(mapview)
 library(janitor)
-library(ggmap)
 
 # read in payday lender data
 atl_payday <- read_sf("./data/financial/SubPrimeLending.shp") %>%

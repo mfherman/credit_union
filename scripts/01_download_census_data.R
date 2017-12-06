@@ -24,8 +24,36 @@ options(tigris_use_cache = TRUE)
 # total housesholds for owner/rent B07013_001
 
 # select counties
-atlanta_msa <- c("Fulton", "DeKalb", "Gwinnett", "Cobb", "Clayton",
-                 "Coweta", "Douglas", "Fayette", "Henry")
+atlanta_msa <- c(
+  "013",
+  "015",
+  "035",
+  "045",
+  "057",
+  "063",
+  "067",
+  "077",
+  "085",
+  "089",
+  "097",
+  "113",
+  "117",
+  "121",
+  "135",
+  "143",
+  "149",
+  "151",
+  "159",
+  "171",
+  "199",
+  "211",
+  "217",
+  "223",
+  "227",
+  "231",
+  "247",
+  "255",
+  "297")
 
 # select variables
 tract_variables <- c("B01001_001", "B03002_003", "B03002_004", "B03002_006",

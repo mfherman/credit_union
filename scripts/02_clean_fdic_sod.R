@@ -15,8 +15,36 @@ file.remove("./data/fdic_sod.zip")
 fdic_sod <- read_csv("./data/fdic_sod_2017.csv", col_types = cols(.default = "c"))
 
 # define atlanta counties
-atlanta_msa <- c("Fulton", "DeKalb", "Gwinnett", "Cobb", "Clayton",
-                 "Coweta", "Douglas", "Fayette", "Henry")
+atlanta_msa <- c(
+  "Barrow",
+  "Bartow",
+  "Butts",
+  "Carroll",
+  "Cherokee",
+  "Clayton",
+  "Cobb",
+  "Coweta",
+  "Dawson",
+  "DeKalb",
+  "Douglas",
+  "Fayette",
+  "Forsyth",
+  "Fulton",
+  "Gwinnett",
+  "Haralson",
+  "Heard",
+  "Henry",
+  "Jasper",
+  "Lamar",
+  "Meriwether",
+  "Morgan",
+  "Newton",
+  "Paulding",
+  "Pickens",
+  "Pike",
+  "Rockdale",
+  "Spalding",
+  "Walton")
 
 # clean up names, filter atl banks, select vars, geocode banks
 # this will take a while to geocode
