@@ -72,7 +72,7 @@ atlanta_tract <- get_acs(
   geography = "tract",
   variables = tract_variables,
   survey = "acs5",
-  year = 2016,
+  year = 2015,
   geometry = TRUE,
   output = "wide"
   )
@@ -84,7 +84,7 @@ atlanta_bg <- get_acs(
   geography = "block group",
   variables = bg_variables,
   survey = "acs5",
-  year = 2016,
+  year = 2015,
   geometry = TRUE,
   output = "wide"
 )
