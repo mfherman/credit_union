@@ -47,12 +47,13 @@ bg_buffer_calc <- function(x) {
     ) %>%
     mutate_at(vars(contains("pop")), funs(adj = (. * area_bg_prop))) %>%
     select(id, geoid, area_bg_buffer:area_buffer_prop,
-           med_age:med_rburd, pop_tot_adj:pop_other_adj, pop_pov:pop_pov_denom)
+           med_age:med_rburd, pop_tot_adj:pop_other_adj)
   
   pop_sum <- cu_bg %>%
     group_by(id) %>%
     summarize_at(vars(contains("pop")), funs(sum(., na.rm = TRUE))) %>%
     mutate_at(vars(pop_white_adj:pop_other_adj), funs(pct = (. / pop_tot_adj) * 100)) %>%
+    mutate_at(vars(pop_pov_adj), funs(pop_pov_pct = (. / pop_pov_denom_adj) * 100)) %>%
     st_set_geometry(NULL)
   
   med_sum <- cu_bg %>%
@@ -61,13 +62,11 @@ bg_buffer_calc <- function(x) {
     st_set_geometry(NULL)
   
   cu_bg_summary <- left_join(pop_sum, med_sum, by = "id")
-  
-  return(cu_bg_summary)
 }
 
 sum_bg <- function(x) {
-  summary <- summarise_at(x, vars(pop_black_adj_pct, pop_white_adj_pct, med_hhinc),
-                          funs(mean(., na.rm = TRUE)))
+  summary <- summarise_at(x, vars(med_hhinc, pop_pov_pct, pop_black_adj_pct),
+                          funs(mean(., na.rm = TRUE), sd(., na.rm = TRUE)))
   return(summary)
 }
 
@@ -85,25 +84,37 @@ hi3 <- map_dfr(list("Credit Union" = atl_cu, "FDIC Bank" = atl_fdic, "Predatory 
 library(RColorBrewer)  
 library(scales)
 
-hi4 <- 
-
-hi3 %>%
-  ggplot() +
-  geom_density(aes(x = med_hhinc, y = ..density.. * 1e4, fill = Type), alpha = 0.6) +
+tract_plot <- hi3 %>%
+  mutate(Type = fct_relevel(Type, "Predatory Lender", "FDIC Bank", "Credit Union")) %>%
+  ggplot((aes(x = med_hhinc, y = ..density.. * 1e4, fill = Type, colour = Type))) +
+  geom_density(alpha = 0.25, size = 1.75) +
   theme_bw() +
   scale_fill_brewer(palette = "Set2") +
+  scale_color_brewer(palette = "Set2") +
   scale_x_continuous(labels = dollar, limits = c(0, 1.75e5)) +
   labs(
     x = "Median Household Income",
     y = "Density",
-    title = "Income Distribution of Neighborhoods Near Financial Institutions",
-    subtitle = "Atlanta-Sandy Springs-Roswell, GA Metro Area",
-    fill = "Type of Financial\nInstitution"
+    title = "Distribution of Neighborhoods near\nFinancial Institutions by Income",
+    fill = "Type of Financial\nInstitution",
+    color = "Type of Financial\nInstitution"
   ) +
+  theme(plot.title = element_text(margin = margin(t = 20, b = 40))) +
   theme(
-    axis.title.x = element_text(size = 10, margin = margin(t = 10)),
-    axis.title.y = element_text(size = 10)
-  )
+    axis.title.x = element_text(size = 30, margin = margin(t = 25, b = 20)),
+    axis.title.y = element_text(size = 30, margin = margin(l = 20, r = 25)),
+    axis.text = element_text(size = 26),
+    plot.title = element_text(size = 38, face = "bold", margin = margin(t = 20, b = 20)),
+    legend.title = element_text(size = 30),
+    legend.text = element_text(size = 26),
+    legend.key.size = unit(36, "points"),
+    legend.box.margin	= margin(r = 25),
+    plot.background = element_rect(color = "black", size = 0.75)
+    )
+
+tract_plot
+ggsave("./plots/tract_plot.png", device = "png", width = 17, height = 12, dpi = 600)
+
 
 summary_stats <- map_dfr(
   list("Credit Union" = atl_cu, "FDIC Bank" = atl_fdic, "Payday" = atl_payday),
@@ -116,39 +127,13 @@ summarise_at(vars(pop_black_adj_pct, pop_white_adj_pct, med_hhinc), funs(mean(.,
 ## POOR BLACK vs. POOR WHITE??
 
 
+library(maptools)
+library(spatstat)
+
+sp2 <- as_Spatial(atl_fdic$geometry)
+sp_ppp <- as(sp2, "ppp")
+sp_owin <- as.owin(sp_ppp)
+
+plot(density(sp_ppp, sigma = 8000))
 
 
-
-
-
-cu_buffer <- atl_cu %>%
-  mutate(id = seq.int(nrow(.))) %>%
-  st_buffer(dist = set_units(0.25, "mi")) %>%
-  st_intersection(atl_msa) %>%
-  mutate(area_buffer = st_area(.))
-
-# intersect buffers with block groups
-# calculate prop of bg in buffer and prop of buffer of each bg
-# calculate adjusted population totals
-cu_bg <- st_intersection(cu_buffer, atl_bg) %>%
-  mutate(
-    area_bg_buffer = st_area(.),
-    area_bg_prop = as.numeric(area_bg_buffer / area_bg),
-    area_buffer_prop = as.numeric(area_bg_buffer / area_buffer)
-  ) %>%
-  mutate_at(vars(contains("pop")), funs(adj = (. * area_bg_prop))) %>%
-  select(id, geoid, area_bg_buffer:area_buffer_prop,
-         med_age:med_rburd, pop_tot_adj:pop_other_adj, pop_pov:pop_pov_denom)
-
-pop_sum <- cu_bg %>%
-  group_by(id) %>%
-  summarize_at(vars(contains("pop")), funs(sum(., na.rm = TRUE))) %>%
-  mutate_at(vars(pop_white_adj:pop_other_adj), funs(pct = (. / pop_tot_adj) * 100)) %>%
-  st_set_geometry(NULL)
-
-med_sum <- cu_bg %>%
-  group_by(id) %>%
-  summarize_at(vars(contains("med")), funs(weighted.mean(., pop_tot_adj, na.rm = TRUE))) %>%
-  st_set_geometry(NULL)
-
-cu_bg_summary <- left_join(pop_sum, med_sum, by = "id")
